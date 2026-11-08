@@ -53,3 +53,13 @@ curl and were captured as rendered page text. Two Radio Paradise files collided 
 the lost URL table was re-saved separately. ASR captures carry heavy HTML residue and most
 numbers are chart images. Not measured anywhere: Yamaha RX-A4A, Anthem MRX 540, Arcam AVA,
 Sony STR-AN1000, NAD T758 V3i, Marantz Series 2, Denon X2900H.
+
+## [2026-11-08] plan | round 1 page plan drafted (checkpoint)
+
+plans/round-1-page-plan.md: 45 pages (7 hubs, 5 concepts, 10 systems, 12 products, 2 seed
+comparisons, 3 decision pages, 4 reference pages, requirements page, index). Owner decisions: assume one subwoofer;
+an external streamer is acceptable for Radio Paradise FLAC; the 11 receivers approved as listed;
+WiiM Amp Ultra added for the future stereo rooms, and the WiiM streamers added as the external
+Radio Paradise streamer option alongside Bluesound NODE. Dropped: multiple-subwoofers concept (folded into
+bass-management). Batch 2 sources needed: WiiM official pages and any Amp Ultra measurement.
+Awaiting approval to seed MANIFEST and build the skeleton.
