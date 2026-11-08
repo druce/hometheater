@@ -82,3 +82,15 @@ Gates: linkcheck 0 broken, 0 orphans. wiki_lint 51 judgment findings, all expect
 accepted until drafting: WORDS-LOW ×39 (no prose yet) and FM-PRODUCT ×12 (specs stay '?' until
 verified). Draft claims carry survey numbers (e.g. X3900H SINAD 102) that are unverified until
 stage 6.
+
+## [2026-11-08] ingest | batch 2: WiiM (13 files)
+
+Registered 13 WiiM sources plus 7 ASR chart images in raw/assets/. Contradictions with the
+skeleton, corrected in draft claims: WiiM's own pages say the Amp Ultra and WiiM Ultra do NOT
+support AirPlay 2 (Mini, Pro, Pro Plus do), and no WiiM device lists native Apple Music, so
+streaming-protocols' "every candidate supports AirPlay 2" and the WiiM page's claim were wrong.
+WiiM documents Radio Paradise as an integrated service only for its PC app; mobile-app lossless
+is forum-reported only. Amp Ultra: $549, HDMI ARC only (no eARC), no DTS, sub out 2 Vrms;
+ASR (2025-12-29) recommended, SINAD ~99.9 dB optical at 5 W, ~97 W/ch 8 Ω and ~168 W/ch 4 Ω both
+channels driven. WiiM Ultra ASR line-out SINAD ~115 dB. WiiM Sound speaker "Coming Soon", no
+IP rating found. Raises an owner decision: the Apple Music requirement vs WiiM for stereo rooms.

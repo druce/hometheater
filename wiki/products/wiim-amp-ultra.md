@@ -21,7 +21,7 @@ successor_of: ?
 
 # WiiM Amp Ultra
 
-**A candidate for the two future stereo rooms only, judged on streaming, multiroom fit and value rather than against the 5.1 receivers.**
+**A well-measured stereo streaming amp (ASR recommended) for the future stereo rooms, whose lack of AirPlay 2 and native Apple Music conflicts with an owner requirement.**
 
 *Skeleton (round 1). Each section below states what it will argue; no prose yet.*
 

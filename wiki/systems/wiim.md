@@ -11,7 +11,7 @@ sources: []
 
 # WiiM (WiiM Home, RoomFit)
 
-**WiiM streamers are the low-cost alternative to a Bluesound NODE for feeding a receiver, and the Amp Ultra fits the future stereo rooms, pending WiiM's own confirmation of native Radio Paradise lossless.**
+**WiiM streamers are the low-cost alternative to a Bluesound NODE for feeding a receiver, but the Ultra and Amp Ultra lack AirPlay 2 and native Apple Music, and WiiM documents Radio Paradise as integrated only in its PC app.**
 
 *Skeleton (round 1). Each section below states what it will argue; no prose yet.*
 

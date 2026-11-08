@@ -51,8 +51,8 @@ Read this page first on every query. Each line is a page and its draft claim.
 - [HEOS (Denon, Marantz)](systems/heos.md): HEOS covers Spotify, TIDAL, Qobuz, AirPlay 2 and Roon Ready, but its internet radio is lossy-only and Apple Music arrives only via AirPlay, so Radio Paradise FLAC needs an external streamer.
 - [Yamaha MusicCast](systems/musiccast.md): MusicCast is a broad multiroom system, but it has no documented lossless Radio Paradise path and down-converts linked rooms to 48 kHz.
 - [BluOS (Bluesound, NAD)](systems/bluos.md): BluOS is the one platform with native Radio Paradise lossless and, since 2026-10-20, native Apple Music, which makes a NODE or NODE NANO the reference external streamer.
-- [WiiM (WiiM Home, RoomFit)](systems/wiim.md): WiiM streamers are the low-cost alternative to a Bluesound NODE for feeding a receiver, and the Amp Ultra fits the future stereo rooms, pending WiiM's own confirmation of native Radio Paradise lossless.
-- [Streaming protocols (AirPlay 2, Google Cast, Connect, Roon Ready)](systems/streaming-protocols.md): Every candidate supports Spotify Connect and AirPlay 2, so the protocols differentiate receivers less than the native platform and its radio and multiroom support do.
+- [WiiM (WiiM Home, RoomFit)](systems/wiim.md): WiiM streamers are the low-cost alternative to a Bluesound NODE for feeding a receiver, but the Ultra and Amp Ultra lack AirPlay 2 and native Apple Music, and WiiM documents Radio Paradise as integrated only in its PC app.
+- [Streaming protocols (AirPlay 2, Google Cast, Connect, Roon Ready)](systems/streaming-protocols.md): Spotify Connect is universal among the candidates, but AirPlay 2 is not: WiiM's Amp Ultra and Ultra lack it, which removes the Apple Music path on those devices.
 - [Radio Paradise](systems/radio-paradise.md): Radio Paradise's lossless FLAC is native only on BluOS (and Sonos), with WiiM reported but unconfirmed, so for every other receiver the requirement is met by the external streamer.
 
 ## Products
@@ -68,7 +68,7 @@ Read this page first on every query. Each line is a page and its draft claim.
 - [Anthem MRX 540 8K](products/anthem-mrx-540-8k.md): An exact fit for 5.1 with two sub outputs and ARC Genesis, but unmeasured itself, with the larger MRX models as the only proxies.
 - [NAD T 758 V3i](products/nad-t-758-v3i.md): The only receiver with BluOS built in, which no longer matters much now that an external streamer is acceptable; its V3 predecessor measured worst of all candidates.
 - [Arcam AVA15](products/arcam-ava15.md): Full Dirac included with Bass Control and ART available, at $4,499.95 and with no measurements yet, so it has to justify a premium of more than double the X3900H.
-- [WiiM Amp Ultra](products/wiim-amp-ultra.md): A candidate for the two future stereo rooms only, judged on streaming, multiroom fit and value rather than against the 5.1 receivers.
+- [WiiM Amp Ultra](products/wiim-amp-ultra.md): A well-measured stereo streaming amp (ASR recommended) for the future stereo rooms, whose lack of AirPlay 2 and native Apple Music conflicts with an owner requirement.
 
 ## Comparisons
 

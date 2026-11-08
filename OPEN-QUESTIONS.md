@@ -14,3 +14,5 @@ Reader-facing unknowns go in `wiki/reference/open-questions.md` instead.
 | 7 | How does the NAD T 758 V3i measure (V3 was SINAD 53)? | products/nad-t-758-v3i | Any independent bench test of the V3i | 2026-11-08 |
 | 8 | Does ARC Genesis on MRX do multi-sub optimisation comparable to Dirac Bass Control? | systems/arc-genesis | Anthem MRX manual / ARC Genesis docs, expanded sections | 2026-11-08 |
 | 9 | Can a HEOS or MusicCast receiver play RP FLAC via Roon or an RP app cast/AirPlay (ALAC)? | criteria/streaming-and-multiroom | Device test or platform docs | 2026-11-08 |
+| 10 | Does the WiiM mobile app's Radio Paradise service stream lossless FLAC? | systems/wiim, comparisons/radio-paradise-flac-* | WiiM official statement or a device test of the stream bitrate | 2026-11-08 |
+| 11 | Which digital outputs does the WiiM Ultra have (coax, optical)? | systems/wiim | WiiM Ultra manual (faq 72000631636) | 2026-11-08 |

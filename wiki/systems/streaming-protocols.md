@@ -11,7 +11,7 @@ sources: []
 
 # Streaming protocols (AirPlay 2, Google Cast, Connect, Roon Ready)
 
-**Every candidate supports Spotify Connect and AirPlay 2, so the protocols differentiate receivers less than the native platform and its radio and multiroom support do.**
+**Spotify Connect is universal among the candidates, but AirPlay 2 is not: WiiM's Amp Ultra and Ultra lack it, which removes the Apple Music path on those devices.**
 
 *Skeleton (round 1). Each section below states what it will argue; no prose yet.*
 
