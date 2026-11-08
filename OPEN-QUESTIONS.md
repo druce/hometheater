@@ -16,3 +16,9 @@ Reader-facing unknowns go in `wiki/reference/open-questions.md` instead.
 | 9 | Can a HEOS or MusicCast receiver play RP FLAC via Roon or an RP app cast/AirPlay (ALAC)? | criteria/streaming-and-multiroom | Device test or platform docs | 2026-11-08 |
 | 10 | Does the WiiM mobile app's Radio Paradise service stream lossless FLAC? | systems/wiim, comparisons/radio-paradise-flac-* | WiiM official statement or a device test of the stream bitrate | 2026-11-08 |
 | 11 | Which digital outputs does the WiiM Ultra have (coax, optical)? | systems/wiim | WiiM Ultra manual (faq 72000631636) | 2026-11-08 |
+| 12 | Max sample rate on the X3900H coax/optical inputs (manual silent) | products/denon-avr-x3900h, comparisons/radio-paradise-flac-* | Denon spec/support statement or a test with a 96/192 kHz stream | 2026-11-08 |
+| 13 | Does a Bluesound NODE output plain FLAC (not MQA) from Radio Paradise over coax/optical? | systems/bluos, comparisons/radio-paradise-flac-* | BluOS support statement or device test | 2026-11-08 |
+| 14 | How often does Onkyo/Pioneer power limiting trigger in normal 5.1 use at small-room levels? | products/onkyo-tx-rz50, concepts/amplifier-power-ratings | ASR "Limp mode" threads (uncaptured); a controlled listening-level test | 2026-11-08 |
+| 15 | Does the Anthem MRX 540 8K have two independent sub outputs, and its conditioned power rating? | products/anthem-mrx-540-8k | MRX 540 owner's manual | 2026-11-08 |
+| 16 | Does Yamaha airable NET RADIO carry Radio Paradise FLAC? | systems/musiccast | Device test or airable station listing | 2026-11-08 |
+| 17 | Which Dirac tier ships on the Arcam AVA15, and does the NAD V3 licence apply to the V3i? | products/arcam-ava15, products/nad-t-758-v3i | Arcam manual v1.5; Dirac/NAD support | 2026-11-08 |

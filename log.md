@@ -94,3 +94,44 @@ is forum-reported only. Amp Ultra: $549, HDMI ARC only (no eARC), no DTS, sub ou
 ASR (2025-12-29) recommended, SINAD ~99.9 dB optical at 5 W, ~97 W/ch 8 Ω and ~168 W/ch 4 Ω both
 channels driven. WiiM Ultra ASR line-out SINAD ~115 dB. WiiM Sound speaker "Coming Soon", no
 IP rating found. Raises an owner decision: the Apple Music requirement vs WiiM for stereo rooms.
+
+## [2026-11-08] ingest | round 1 extraction (stage 4) and regroup
+
+12 parallel Sonnet extraction agents, grouped by brand/source type (8 sources each on average,
+one extract file per source) rather than one agent per source, for cost. Every source read in
+full except three long manuals read partially with page ranges recorded (X3900H 337 pp, RX-A4A
+415 pp, Sony help guide 361 pp). Orchestrator wrote extracts/extractor-reports.md from the agents'
+reports. Fixes: an empty stray extract (iim-mini-product-page.md) removed; two entries retargeted
+from a non-existent criteria/measurements-and-audibility.md to concepts/. Result: 94 sources,
+94 extracts, 1,771 entries, 39 page bundles; source_manifest.py 0 NEW/GONE/UNEXTRACTED; regroup
+0 unknown targets. 39 MANIFEST rows → extracted; the 5 empty bundles (my-system, shortlist,
+recommendation, matrix, bibliography) are expected, since those pages are written from the rest.
+
+Extract-quality caveats for stage 6: the Yamaha group condensed some spec-table rows (A4A spec
+page and user guide pp.394, 400-408) rather than quoting strictly; Onkyo spec-sheet quotes were
+reassembled from two-column PDF text; ASR AVR numbers are mostly in uncaptured chart images.
+
+Contradictions found (to triage and verify):
+- WiiM Amp Ultra has no S/PDIF or line output (manual), so it cannot be the external streamer;
+  only WiiM Pro/Pro Plus (optical + coax, AirPlay 2) can feed a receiver. Product-page "analog
+  line out or bit-perfect digital output" is template copy.
+- BluOS Radio Paradise MQA unfolds only in the BluOS player and cannot pass to an external DAC;
+  whether a NODE sends plain FLAC from RP over its digital out is unconfirmed.
+- Onkyo/Pioneer power limiting: confirmed on RZ50, LX505 (2023 and 2026) and RZ30; latched
+  until AC removed; no firmware note addresses it. Exposure in a 5.1 small room is unquantified.
+- Manufacturer Dirac pages are stale (Denon omits X3900H/X2900H; Marantz lists only Series 1);
+  dirac.com is current. Dirac price depends on device context; NAD's included Dirac is limited.
+- Denon X3900H internet radio is MP3/WMA/AAC only (manual), confirming the external-streamer plan.
+- Anthem MRX 540: no conditioned power rating, and dual sub outs listed only for the 1140 (2022
+  sheet); MRX 1140 loses ~10 dB SINAD with the sub output disabled.
+- Yamaha: two sub outputs carry the same signal; "YPAO: Low Frequency" leaves Q and gain manual.
+- Every manufacturer power rating found is 1–2 channels driven; no source gives a five-channel
+  figure, so "70% to five channels" (Denon) is unmeasured.
+
+NO-HOME (77 entries): Sony product specs (out of scope by plan); Marantz siblings' prices
+(CINEMA 60 S2 $2,000, 60 $1,399, 40 $3,800, 30 $4,800); ownership/corporate background; ASR
+methodology and limp-mode discussion; WiiM and Bluesound speakers for kitchen/bathroom (Sound
+Lite $229, Pulse Flex $429); Zone 2 from internal amps; AVR Bluetooth transmit (SBC). Candidate
+additions to argue at the next plan checkpoint, not created: products for the external streamer
+(WiiM Pro Plus, Bluesound NODE), a kitchen/bathroom speaker comparison, CINEMA 60 Series 2,
+decision/setup-and-calibration (home verification of correction).
