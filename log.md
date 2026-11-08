@@ -70,3 +70,15 @@ my-system.md: Radio Paradise findings moved from forum reports to primary source
 support, X3900H manual internet-radio formats). Added the one-sub and external-streamer decisions,
 BluOS Apple Music, and the WiiM role. CLAUDE.md layout: Sony DCAC and Google Cast are no longer
 standalone system pages; WiiM and Radio Paradise added.
+
+## [2026-11-08] write | round 1 skeleton (45 pages, checkpoint 2)
+
+Generated all planned pages from plans/round-1-page-plan.md with a one-shot generator: front matter
+(status unverified, confidence low, product spec keys '?'), a draft bold claim, required section
+headers each with a one-line note, and the link graph (index → hubs → concepts/systems/products;
+products ↔ systems; every page ≥2 inbound). MANIFEST seeded, 45 rows at state skeleton;
+manifest_stats.py and gen_matrix.py run.
+Gates: linkcheck 0 broken, 0 orphans. wiki_lint 51 judgment findings, all expected at skeleton and
+accepted until drafting: WORDS-LOW ×39 (no prose yet) and FM-PRODUCT ×12 (specs stay '?' until
+verified). Draft claims carry survey numbers (e.g. X3900H SINAD 102) that are unverified until
+stage 6.
