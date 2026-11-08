@@ -3,7 +3,9 @@
 ## What this repo is
 
 An LLM-maintained wiki for one decision: which AV receiver to buy for a **5.1/5.2** system, with
-**room correction** and **music & streaming** as the top priorities and no fixed budget. The method
+**room correction** and **music & streaming** as the top priorities and no fixed budget. One
+subwoofer is assumed, and Radio Paradise FLAC may come from an external streamer (owner decisions,
+2026-11-08). The method
 is Karpathy's "LLM Wiki" pattern (gist, April 2026): sources are compiled once into a persistent,
 cross-linked markdown wiki that the LLM maintains and the owner reads, instead of being
 re-searched on every question. The rigor (source manifest, verbatim extracts, verification,
@@ -46,8 +48,10 @@ criteria/                   the spine: 7 hubs (see §Spine). Navigational plus t
 concepts/                   how things work: bass management, crossovers, room modes, target
                             curves, pre-outs, amplifier power ratings, why 5.1 skips height.
 systems/                    one page per platform: room-correction systems (Audyssey, Dirac Live,
-                            ARC Genesis, YPAO, ...) and streaming/multiroom platforms (HEOS,
-                            MusicCast, BluOS, Google Cast, AirPlay 2, Spotify Connect, Roon Ready).
+                            ARC Genesis, YPAO) and streaming/multiroom platforms (HEOS, MusicCast,
+                            BluOS, WiiM, Radio Paradise). AirPlay 2, Google Cast, the Connect
+                            family and Roon Ready share one page, streaming-protocols. Sony DCAC
+                            is a paragraph in the room-correction hub.
 products/                   one page per receiver model. The decision unit.
 comparisons/                filed-back query answers: head-to-heads, shortlist tables.
 decision/                   shortlist.md, recommendation.md, buying-checklist.md,

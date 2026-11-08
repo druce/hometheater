@@ -63,3 +63,10 @@ WiiM Amp Ultra added for the future stereo rooms, and the WiiM streamers added a
 Radio Paradise streamer option alongside Bluesound NODE. Dropped: multiple-subwoofers concept (folded into
 bass-management). Batch 2 sources needed: WiiM official pages and any Amp Ultra measurement.
 Awaiting approval to seed MANIFEST and build the skeleton.
+
+## [2026-11-08] write | corrections before skeleton
+
+my-system.md: Radio Paradise findings moved from forum reports to primary sources (RP pages, BluOS
+support, X3900H manual internet-radio formats). Added the one-sub and external-streamer decisions,
+BluOS Apple Music, and the WiiM role. CLAUDE.md layout: Sony DCAC and Google Cast are no longer
+standalone system pages; WiiM and Radio Paradise added.
