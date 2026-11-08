@@ -11,7 +11,7 @@ sources: []
 
 # The map
 
-**No pages yet: the wiki is scaffolded and waiting for requirements and sources.**
+**Requirements are captured. Sources and the rest of the pages come next.**
 
 Read this page first on every query. Each page gets one line here with a hook, grouped by
 section, as pages are created.
@@ -19,7 +19,11 @@ section, as pages are created.
 ## Reading paths
 
 - **What to buy:** decision/recommendation → decision/shortlist → reference/matrix.
-- **Understand the tradeoffs:** start-here/my-system → criteria hubs → systems → products.
+- **Understand the tradeoffs:** [my system](start-here/my-system.md) → criteria hubs → systems → products.
+
+## Start here
+
+- [My system: requirements](start-here/my-system.md): the room, sources and priorities every ranking is measured against.
 
 ## Sections
 

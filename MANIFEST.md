@@ -6,4 +6,5 @@ Criteria: 1 Room correction, 2 Music, 3 Streaming, 4 Amplification, 5 Connectivi
 
 | Path | Title | Kind | Criteria | State | Words | In | Out |
 |---|---|---|---|---|---|---|---|
-| `wiki/index.md` | The map | reference | — | skeleton | 80 | 0 | 0 |
+| `wiki/index.md` | The map | reference | — | skeleton | 97 | 0 | 1 |
+| `wiki/start-here/my-system.md` | My system: requirements | reference | 1,2,3,4,7 | drafted | 570 | 1 | 0 |
