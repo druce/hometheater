@@ -24,3 +24,32 @@ requirement; first-pass web findings (BluOS native, HEOS via TuneIn without FLAC
 fallback reports) recorded as unverified and logged as OPEN-QUESTIONS #2–4.
 Accepted: ORPHAN on my-system.md (1 inbound, from index) until the skeleton creates the
 criteria hubs that will link it.
+
+## [2026-11-08] ingest | batch 1 source gathering (81 files)
+
+Four parallel capture agents saved 81 sources to raw/ (manufacturer pages, spec sheets and
+manuals; Dirac, Audyssey, ARC, BluOS, MusicCast, HEOS and Radio Paradise docs; ASR, Audioholics,
+Sound & Vision and Winer measurements; one AVS anecdote thread). Rows written to
+raw/manifest.txt in one serialized pass; source_manifest.py: 81 files, 81 rows, 0 NEW, 0 GONE,
+81 UNEXTRACTED (extraction follows the page-plan checkpoint).
+
+Survey findings that change the candidate list (unverified until stage 6):
+- Successors: Denon AVR-X3900H/X2900H (2026-05) replace X3800H/X2800H; Marantz CINEMA Series 2
+  (2026-08); Arcam Radia AVA15/25/35 replace AVR5/11/21/31; Yamaha AVENTAGE unchanged (new RX500A
+  /RX300A below it); Onkyo RZ30/50/70 current, next generation teased for 2027; Pioneer US home AV
+  appears to be winding down.
+- Ownership: HARMAN (Samsung) owns Denon/Marantz/HEOS/Arcam since 2025-09-23; Gentex owns
+  Onkyo/Integra (PAC) since 2025-04-01.
+- Dirac is a paid add-on on Denon/Marantz ($259–$799); built in (full bandwidth) on Onkyo with
+  Bass Control $299; NAD offers Room Correction only, no Bass Control or ART.
+- ASR measures power limiting on Onkyo RZ50, RZ30 and Pioneer LX505 (persisting on Feb 2026
+  firmware); Denon X3900H SINAD 102, recommended; NAD T758 V3 SINAD 53.
+- Radio Paradise FLAC: native only on BluOS (and Sonos) per RP's and BluOS's own pages; HEOS
+  internet radio is MP3/AAC/WMA only; MusicCast and Onkyo have no documented native path.
+- BluOS added native Apple Music on 2026-10-20.
+
+Capture defects: dirac.com, support.bluos.net, Sony, Audioholics and radioparadise.com blocked
+curl and were captured as rendered page text. Two Radio Paradise files collided between agents;
+the lost URL table was re-saved separately. ASR captures carry heavy HTML residue and most
+numbers are chart images. Not measured anywhere: Yamaha RX-A4A, Anthem MRX 540, Arcam AVA,
+Sony STR-AN1000, NAD T758 V3i, Marantz Series 2, Denon X2900H.
