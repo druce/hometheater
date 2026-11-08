@@ -1,0 +1,7 @@
+# copyrighted source material and verbatim scratch: never committed
+raw/
+extracts/
+.DS_Store
+.obsidian/workspace*
+.obsidian/cache
+__pycache__/
