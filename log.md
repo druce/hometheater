@@ -204,3 +204,7 @@ since the Marantz 70s S2 manual (already in raw/) shows the same LFE / LFE + Mai
 agent had marked it unverified; two pages trimmed back under 1,500 after source lines were added.
 Two WiiM forum threads remain uncaptured (bot check) and are labelled anecdote on the pages.
 Index lines for the 15 pages now carry the drafted claims (first 45 words). MANIFEST: 16 drafted.
+Accepted exception: WORDS-HIGH on wiki/index.md (1,604 words). The index is the catalog read first
+on every query; its length tracks page count × hook length, and full-claim hooks carry the "but"
+clause that a shorter hook drops (tested: a split at ", but" removed the conclusion of
+room-modes). Revisit if it passes the 2,000 ceiling, by shortening hooks rather than splitting.
