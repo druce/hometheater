@@ -1,24 +1,41 @@
 # OPEN-QUESTIONS.md — build register
 
 Claims needing verification before a page can rely on them, each with what would settle it.
-Reader-facing unknowns go in `wiki/reference/open-questions.md` instead.
+Reader-facing unknowns go in `wiki/reference/open-questions.md` instead. Settled rows stay, marked,
+with the source; they are not deleted. Status as of the round 1 verification (2026-11-08); evidence in
+`extracts/verification-r1.md`.
 
-| # | Question | Blocks | What would settle it | Opened |
-|---|---|---|---|---|
-| 1 | Which models in the initial candidate list have been superseded by late-2026 successors? | products/, decision/shortlist.md | Manufacturer current-lineup pages, dated | 2026-11-08 |
-| 2 | Which receiver streaming platforms play Radio Paradise lossless FLAC natively (BluOS, HEOS, MusicCast, Onkyo/Pioneer, Google Cast, Roon)? | criteria/streaming-and-multiroom.md, every product page | Radio Paradise's stream-links/device page; each platform's service list; a test on the device | 2026-11-08 |
-| 3 | Must RP FLAC be native on the receiver, or is an external streamer acceptable? | ranking weights | Owner decision | 2026-11-08 |
-| 4 | Speaker models, sensitivity, impedance; room dimensions | criteria/amplification-and-preouts.md | Owner | 2026-11-08 |
-| 5 | Does Audyssey MultEQ-X support the 2026 models (X3900H, X2900H, CINEMA S2)? | systems/audyssey-multeq | Audyssey/Denon support statement; MultEQ-X release notes | 2026-11-08 |
-| 6 | Is the Onkyo/Pioneer power-limiting behaviour fixed by any 2026 firmware on the RZ50/RZ30? | products/onkyo-* | A post-2026-03 ASR or Audioholics remeasurement | 2026-11-08 |
-| 7 | How does the NAD T 758 V3i measure (V3 was SINAD 53)? | products/nad-t-758-v3i | Any independent bench test of the V3i | 2026-11-08 |
-| 8 | Does ARC Genesis on MRX do multi-sub optimisation comparable to Dirac Bass Control? | systems/arc-genesis | Anthem MRX manual / ARC Genesis docs, expanded sections | 2026-11-08 |
-| 9 | Can a HEOS or MusicCast receiver play RP FLAC via Roon or an RP app cast/AirPlay (ALAC)? | criteria/streaming-and-multiroom | Device test or platform docs | 2026-11-08 |
-| 10 | Does the WiiM mobile app's Radio Paradise service stream lossless FLAC? | systems/wiim, comparisons/radio-paradise-flac-* | WiiM official statement or a device test of the stream bitrate | 2026-11-08 |
-| 11 | Which digital outputs does the WiiM Ultra have (coax, optical)? | systems/wiim | WiiM Ultra manual (faq 72000631636) | 2026-11-08 |
-| 12 | Max sample rate on the X3900H coax/optical inputs (manual silent) | products/denon-avr-x3900h, comparisons/radio-paradise-flac-* | Denon spec/support statement or a test with a 96/192 kHz stream | 2026-11-08 |
-| 13 | Does a Bluesound NODE output plain FLAC (not MQA) from Radio Paradise over coax/optical? | systems/bluos, comparisons/radio-paradise-flac-* | BluOS support statement or device test | 2026-11-08 |
-| 14 | How often does Onkyo/Pioneer power limiting trigger in normal 5.1 use at small-room levels? | products/onkyo-tx-rz50, concepts/amplifier-power-ratings | ASR "Limp mode" threads (uncaptured); a controlled listening-level test | 2026-11-08 |
-| 15 | Does the Anthem MRX 540 8K have two independent sub outputs, and its conditioned power rating? | products/anthem-mrx-540-8k | MRX 540 owner's manual | 2026-11-08 |
-| 16 | Does Yamaha airable NET RADIO carry Radio Paradise FLAC? | systems/musiccast | Device test or airable station listing | 2026-11-08 |
-| 17 | Which Dirac tier ships on the Arcam AVA15, and does the NAD V3 licence apply to the V3i? | products/arcam-ava15, products/nad-t-758-v3i | Arcam manual v1.5; Dirac/NAD support | 2026-11-08 |
+| # | Question | Status | Blocks | What would settle it | Opened |
+|---|---|---|---|---|---|
+| 1 | Which candidate models have late-2026 successors? | **Settled** 2026-11-08: Denon X3900H/X2900H (2026-05, X3800H still sold); Marantz CINEMA S2 (2026-08); Arcam Radia AVA (2026); Onkyo next gen concept for 2027; Yamaha AVENTAGE and Anthem MRX unchanged | products/, shortlist | — | 2026-11-08 |
+| 2 | Which platforms play Radio Paradise FLAC natively? | **Mostly settled**: BluOS and Sonos native per RP; HEOS and Marantz internet radio lossy-only per manuals; WiiM app reported lossless (see #10); MusicCast see #16 | streaming hub, products | — | 2026-11-08 |
+| 3 | RP FLAC native on receiver, or external streamer OK? | **Settled**: owner decision 2026-11-08, external streamer OK | ranking weights | — | 2026-11-08 |
+| 4 | Speaker models, sensitivity, impedance; room dimensions | Open | amplification hub; whether the Onkyo limiter is reachable | Owner | 2026-11-08 |
+| 5 | Does MultEQ-X support the 2026 models (X3900H, X2900H, CINEMA S2)? | Partly: the iOS MultEQ Editor app ($19.99) lists X3900H/X2900H; the MultEQ-X list (2026-05-09) omits them but lags generally | systems/audyssey-multeq | Audyssey/Denon statement or an owner calibration report | 2026-11-08 |
+| 6 | Is Onkyo/Pioneer power limiting fixed by 2026 firmware? | Open: LX505 still limits on Feb 2026 firmware; RZ30 limits (May 2026); RZ50 firmware notes to 2026-03-03 silent | products/onkyo-tx-rz50 | ASR/Audioholics RZ50 sweep on current firmware | 2026-11-08 |
+| 7 | How does the NAD T 758 V3i measure? | Open: no bench test of the V3i found anywhere | products/nad-t-758-v3i | Any independent V3i measurement | 2026-11-08 |
+| 8 | Does ARC Genesis on MRX match Dirac Bass Control for multiple subs? | **Settled (moot for one sub)**: MRX 540/740 sub outputs are paralleled; per-output delay/level/filter only | systems/arc-genesis | — | 2026-11-08 |
+| 9 | Can HEOS/MusicCast receivers play RP FLAC via Roon or an app over AirPlay? | Partly: X3900H is Roon Ready and AirPlay 2; RP iOS app offers ALAC; HEOS URL play only via CLI or third-party app; none device-tested | streaming hub | Device test | 2026-11-08 |
+| 10 | Does the WiiM app's RP service stream lossless FLAC? | Open, leaning yes: owner reports only; WiiM publishes nothing | systems/wiim, RP comparison | Device test reading format/bitrate | 2026-11-08 |
+| 11 | WiiM Ultra digital outputs? | **Settled**: line, optical, coax, USB out (WiiM FAQ 72000631695); Amp Ultra has none of optical/coax/line (manual) | systems/wiim | — | 2026-11-08 |
+| 12 | Max sample rate on receiver coax/optical inputs (X3900H, CINEMA S2, RZ50, MRX 540)? | Open: manuals silent; Yamaha A4A stated (coax 192 kHz, optical 96 kHz). Does not bind RP FLAC (44.1 kHz) | RP comparison, products | Manufacturer support or a 96/192 kHz test | 2026-11-08 |
+| 13 | Does a Bluesound NODE send RP as plain FLAC over coax/optical? | Open, narrowed: RP on BluOS is MQA, unfolded only in the player; Digital Passthrough caps 24/96; no document says what reaches the digital out | systems/bluos, RP comparison | BluOS support reply or device test | 2026-11-08 |
+| 14 | How often does Onkyo/Pioneer limiting trigger in normal 5.1 use? | Open: owner anecdotes both ways; no threshold measured | products/onkyo-tx-rz50, power concept | Fixed-level 5-channel bench test, or an owner log with a power meter | 2026-11-08 |
+| 15 | MRX 540 sub outputs and conditioned power? | **Settled**: 2 paralleled sub outs; 100 W x 5, 20–20k, 1% THD, 2 ch driven, 8 Ω (Anthem manual 2024; spec page 2026-11-08) | products/anthem-mrx-540-8k | — | 2026-11-08 |
+| 16 | Does Yamaha airable NET RADIO carry RP FLAC? | Open: one 2024 forum claim only. Avoidable with an external streamer on coax | systems/musiccast | Device test | 2026-11-08 |
+| 17 | Dirac tier on Arcam AVA15; does NAD's V3 licence apply to the V3i? | Partly: AVA15 Room Correction included, Bass Control/ART $299 each, bandwidth unstated; V3i still open (no Dirac/NAD listing) | products/arcam-ava15, products/nad-t-758-v3i | NAD/Dirac support or V3i manual | 2026-11-08 |
+| 18 | Dirac Room Correction tiers (Limited/Full) and price on CINEMA 70s S2 and 50 S2 | Open: grid shows $259–$349 range, tiers shown only for 60 S2 and X3900H | Marantz products, Dirac comparison | Dirac device page with licence cards expanded | 2026-11-08 |
+| 19 | Does the $299 Bass Control licence cover any number of subs, and is the Dirac mic supplied with Denon/Marantz upgrades? | Open | Dirac comparison, total cost | Dirac licence terms; Denon/Marantz Dirac setup docs | 2026-11-08 |
+| 20 | Which Dirac tier gates custom target curves and third-party mics? | Open | room-correction hub (NAD Limited vs others) | Dirac RC technical requirements | 2026-11-08 |
+| 21 | X3800H spec capture (processing channels, pre-outs, Audyssey tier) and X2900H Zone 2 HDMI / "Pre-out 2.2" | Open | products/denon-avr-x3800h, -x2900h | Denon X3800H info sheet/manual; X2900H manual | 2026-11-08 |
+| 22 | Does a HEOS receiver play the RP FLAC URL via `play_stream`? | Open | RP comparison | Local test with the HEOS CLI | 2026-11-08 |
+| 23 | Does the RP /flac URL play via Open Network Stream on WiiM Pro/Pro Plus and hold 16/44.1 bit-perfect out coax? | Open: 2023 user posts only | RP comparison, systems/wiim | Device test | 2026-11-08 |
+| 24 | Apple primary source for the AirPlay 2 audio format ceiling | Open: WiiM FAQ says 44.1/16 over AirPlay | lossless-streaming-paths, protocols | Apple documentation | 2026-11-08 |
+| 25 | Does native Apple Music on BluOS (2026-10-20) reach the NAD T 758 V3i? | Open: release notes show nothing after 4.16.22 (2026-08-25) | products/nad-t-758-v3i | BluOS release notes or NAD support | 2026-11-08 |
+| 26 | Does the Series 2 CINEMA 70s show the Series 1 warm-up distortion at 4 Ω? | Open: no S2 measurement exists | products/marantz-cinema-70s-series-2 | Any S2 bench test | 2026-11-08 |
+| 27 | RZ50 sub pre-out independence, AirPlay version, warranty capture; RZ70 limiter status | Open: Onkyo warranty 3 yr per onkyo.com (fetched, not saved); Audioholics RZ70 bench test blocked automated fetch | products/onkyo-tx-rz50 | RZ50 owner's manual; owner opens Audioholics RZ70 review | 2026-11-08 |
+| 28 | Is the MRX 540 Roon Ready now, and does it lose ~10 dB SINAD with the sub disabled like the 1140? | Open | products/anthem-mrx-540-8k | Roon partner list; a 540 measurement | 2026-11-08 |
+| 29 | Current list prices: RX-A4A (retail $1,399.95–$1,599.95), RZ50 ($1,399.99 vs $1,699.99), Amp Ultra MSRP ($529 vs $549) and security-support end date | Open | product front matter | Manufacturer pages or press releases | 2026-11-08 |
+| 30 | Arcam AVA15 US availability, and Sub 2/3 independence | Open | products/arcam-ava15 | Dealer call; Arcam support | 2026-11-08 |
+| 31 | Does Toole (Sound Reproduction) support the seat-to-seat EQ finding? Does ASR publish SINAD band cut-offs? | Open: cite Welti & Devantier 2006 meanwhile; ASR explainer gives no thresholds | concepts/room-modes, concepts/measurements | Read Toole ch. on LF/EQ; ASR methodology page | 2026-11-08 |
+| 32 | Denon/Marantz spare-parts policy for HDMI boards after warranty | Open: AVS anecdotes only | criteria/value-and-reliability | Denon service policy or authorised service centre | 2026-11-08 |

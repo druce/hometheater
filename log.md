@@ -135,3 +135,49 @@ Lite $229, Pulse Flex $429); Zone 2 from internal amps; AVR Bluetooth transmit (
 additions to argue at the next plan checkpoint, not created: products for the external streamer
 (WiiM Pro Plus, Bluesound NODE), a kitchen/bathroom speaker comparison, CINEMA 60 Series 2,
 decision/setup-and-calibration (home verification of correction).
+
+## [2026-11-08] ingest | round 1 verification (stage 6)
+
+Eight parallel Sonnet verification agents (groups A–H by page cluster) checked prioritised claims,
+covering every front-matter value, every flagged contradiction, and secondary-sourced numbers. Each
+claim got two checks: extract fidelity against raw/, and primary confirmation. Evidence:
+extracts/verification-r1.md (merged from verification-r1-A…H.md), 163 claim blocks: 112
+confirms, 35 partial, 24 unverifiable, 2 contradicts (some blocks carry more than one verdict).
+Extract fidelity: no misquotes; the
+Yamaha "condensed" rows match raw/ value-for-value (flattened HTML), and string-match misses were
+markup or two-column PDF artefacts. 25 new primary captures (v- prefix) registered as batch 3 in
+raw/manifest.txt; they are verification evidence, not extraction targets, so source_manifest.py
+lists them as UNEXTRACTED by design. Fixed source_manifest.py to stop counting verification-*.md
+as extracts (regroup.py already skipped them).
+
+Contradictions and corrections that change drafting:
+- FTC 16 CFR 432 (eCFR 2026-10-01; final rule 89 FR 49801, effective 2024-08-12) does NOT require
+  all-channels-driven ratings: the floor is the two front channels at 8 Ω, 20 Hz–20 kHz, ≤1% THD.
+  Every "FTC" rating in the wiki says nothing about five channels. Contradicts the skeleton's
+  assumption in concepts/amplifier-power-ratings.
+- Anthem MRX 540: two sub outputs are paralleled (same signal), not independent; power 100 W x 5 at
+  1% THD, 2 ch driven, 8 Ω; $1,899.99 in stock; no Roon in current docs.
+- Marantz CINEMA 70s S2: Dirac Room Correction only; its two sub outputs carry the same signal;
+  internet radio WMA/MP3/AAC ≤48 kHz on both Series 2 models.
+- Dirac reconciled from dirac.com (2026-11-08): X3900H/X3800H/CINEMA 50/50 S2 all three products
+  paid (RC $259 Limited / $349 Full, BC $299, ART $299); X2900H and 70s S2 RC only; RZ50 and AVA15
+  RC included (RZ50 BC $299, no ART; AVA15 BC and ART $299 each). Bass Control works with one sub
+  (Dirac), but no source quantifies the single-sub gain.
+- X3900H HDMI outputs settled at 3 (2 main + Zone 2). X3800H is a 2022 model, $1,699 launch MSRP.
+- Onkyo RZ50: $1,399.99, temporarily out of stock / backorder (rendered onkyo.com 2026-11-08);
+  limiter persists across platform, no manufacturer statement or fix; LX505 test load ambiguous
+  (post edited from "4 ohm" to "8 ohm"), so the wiki must not claim limiting at 8 Ω from it.
+- BluOS: RP on BluOS is MQA, unfolded only in the player; whether a NODE's digital out carries
+  plain FLAC is undocumented, which weakens the NODE as the external streamer. WiiM Pro/Pro Plus
+  (optical + coax, AirPlay 2) is the better-documented route; RP FLAC by URL on WiiM is
+  user-reported only.
+- Welti & Devantier (J. AES 2006) independently support Winer: with one sub, seat-to-seat bass
+  variation cannot be equalised away; multiple subs are their remedy.
+- ASR states SINAD is not perceptually correlated; no audibility threshold comes from ASR.
+- Warranties: Denon AVR-X 3 yr; Marantz CINEMA (incl. S2) 5 yr; Onkyo RZ 3 yr (fetched, not saved).
+
+States: 31 pages → verified. Still extracted (sampled, not verified block by block): streaming hub,
+connectivity, usability, lossless-streaming-paths, RP comparison, buying-checklist, glossary,
+reference/open-questions. OPEN-QUESTIONS.md rewritten with a status column: settled #1, #3, #8,
+#11, #15; mostly or partly settled #2, #5, #9, #17; new #18–#32. Several questions can only be
+settled by a device test (RP FLAC on WiiM, HEOS play_stream, NODE digital out).

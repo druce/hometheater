@@ -61,7 +61,8 @@ def extract_owners():
     if not os.path.isdir(EXTRACTS):
         return owners, slugs
     for fn in sorted(os.listdir(EXTRACTS)):
-        if not fn.endswith(".md") or fn == "extractor-reports.md":
+        # extractor-reports and verification-<round> files are round scratch, not extracts
+        if not fn.endswith(".md") or fn == "extractor-reports.md" or fn.startswith("verification"):
             continue
         s = fn[:-3]
         slugs.append(s)
