@@ -6,7 +6,7 @@ criteria: [3]
 status: contested
 confidence: medium
 last_verified: 2026-11-08
-sources: [denon-avr-x3900h-owners-manual-na.pdf, v-marantz-cinema-50-series-2-owners-manual-selected.md, v-marantz-cinema-70s-series-2-owners-manual-selected.md, marantz-cinema-50-series-2-info-sheet-na.pdf, yamaha-rx-a4a-user-guide.pdf, yamaha-musiccast-faqs.md, v-arcam-ava15-spec-sheet-v1.2.pdf, onkyo-tx-rz50-spec-sheet.pdf, onkyo-tx-rz50-firmware-update-2026-03.pdf, wiim-pro-plus-product-page.md, wiim-pro-product-page.md, wiim-ultra-product-page.md, wiim-amp-ultra-user-manual.pdf, wiimforum-radio-paradise-lossless.md, bluos-support-radio-paradise-articles.md, v-bluos-digital-passthrough-bluesound-players.md, bluesound-node-product-page.md, radioparadise-stream-links-url-table.md, radioparadise-faqs-and-info.md, asr-anthem-mrx1140-review.md, asr-wiim-amp-ultra-review.md, v-wiim-faq-apple-music.md]
+sources: [denon-avr-x3900h-owners-manual-na.pdf, v-marantz-cinema-50-series-2-owners-manual-selected.md, v-marantz-cinema-70s-series-2-owners-manual-selected.md, marantz-cinema-50-series-2-info-sheet-na.pdf, yamaha-rx-a4a-user-guide.pdf, yamaha-musiccast-faqs.md, v-arcam-ava15-spec-sheet-v1.2.pdf, onkyo-tx-rz50-spec-sheet.pdf, onkyo-tx-rz50-firmware-update-2026-03.pdf, wiim-pro-plus-product-page.md, wiim-pro-product-page.md, wiim-ultra-product-page.md, wiim-amp-ultra-user-manual.pdf, wiimforum-radio-paradise-lossless.md, bluos-support-radio-paradise-articles.md, v-bluos-digital-passthrough-bluesound-players.md, bluesound-node-product-page.md, radioparadise-stream-links-url-table.md, radioparadise-faqs-and-info.md, asr-anthem-mrx1140-review.md, asr-wiim-amp-ultra-review.md, v-wiim-faq-apple-music.md, r4-onkyo-tx-rz50-owners-manual-selected.md]
 ---
 
 # Lossless streaming paths
@@ -41,7 +41,7 @@ Playing the Radio Paradise FLAC URL on a WiiM is owner-reported, not documented.
 
 A Bluesound NODE is a weaker fit for this purpose. BluOS states that Radio Paradise's MQA stream is unfolded only by the BluOS player and cannot be passed to an external DAC, and that Digital Passthrough to an external DAC is capped at 24-bit/96 kHz on NODE and VAULT. No BluOS document says what format the native Radio Paradise service sends to the NODE's coax or optical output.
 
-Receiver input limits, where published, do not bind a 44.1 kHz stream: the RX-A4A takes up to 96 kHz on optical and 192 kHz on coax (user guide p.400), and the Arcam AVA15 the same split (spec sheet v1.2). The X3900H, TX-RZ50 and MRX 540 do not state coax or optical rates.
+Receiver input limits, where published, do not bind a 44.1 kHz stream: the RX-A4A takes up to 96 kHz on optical and 192 kHz on coax (user guide p.400), and the Arcam AVA15 the same split (spec sheet v1.2). The TX-RZ50 manual states PCM to 96 kHz on coax and optical (p.209); the X3900H and MRX 540 do not state coax or optical rates.
 
 Digital beats analog into the receiver on the evidence available. ASR measured the Anthem MRX 1140's Toslink input cleaner than its analog input at 5 W (2025-11-04), and the WiiM Amp Ultra at about 99.9 dB SINAD on Toslink against about 87 dB on its analog input (2025-12-29).
 
@@ -63,6 +63,7 @@ Digital beats analog into the receiver on the evidence available. ASR measured t
 - Yamaha, RX-A4A user guide; MusicCast FAQs — `yamaha-rx-a4a-user-guide.pdf`, `yamaha-musiccast-faqs.md`
 - Arcam, AVA15 spec sheet v1.2 — `v-arcam-ava15-spec-sheet-v1.2.pdf`
 - Onkyo, TX-RZ50 spec sheet, Dec 2020; firmware history to 2026-03-03 — `onkyo-tx-rz50-spec-sheet.pdf`, `onkyo-tx-rz50-firmware-update-2026-03.pdf`
+- Onkyo, TX-RZ50 Instruction Manual (SN29404020B), selected pages, captured 2026-11-09 — `r4-onkyo-tx-rz50-owners-manual-selected.md`
 - WiiM, Pro Plus, Pro and Ultra product pages, 2026-11-08; Amp Ultra user manual v1.0.5 — `wiim-pro-plus-product-page.md`, `wiim-pro-product-page.md`, `wiim-ultra-product-page.md`, `wiim-amp-ultra-user-manual.pdf`
 - WiiM Help Center, "Is Apple Music Supported?", modified 2025-09-11, captured 2026-11-08 — `v-wiim-faq-apple-music.md`
 - WiiM forum, Radio Paradise lossless thread, 2025-10-26 (anecdote) — `wiimforum-radio-paradise-lossless.md`

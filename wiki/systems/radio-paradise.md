@@ -6,7 +6,7 @@ criteria: [3]
 status: unverified
 confidence: medium
 last_verified: 2026-11-08
-sources: [radioparadise-ways-to-listen.md, radioparadise-faqs-and-info.md, radioparadise-stream-links.md, radioparadise-stream-links-url-table.md, bluos-support-radio-paradise-articles.md, denon-avr-x3900h-owners-manual-na.pdf, v-marantz-cinema-70s-series-2-owners-manual-selected.md, v-marantz-cinema-50-series-2-owners-manual-selected.md, marantz-cinema-70s-series-2-info-sheet-na.pdf, marantz-cinema-50-series-2-info-sheet-na.pdf, onkyo-tx-rz50-spec-sheet.pdf, yamaha-rx-a4a-user-guide.pdf, yamaha-musiccast-supported-services.md, arcam-ava15-product-page.md, wiim-home-pc-app-help.md, wiimforum-radio-paradise-lossless.md, r2-sonos-music-service-pages.md]
+sources: [radioparadise-ways-to-listen.md, radioparadise-faqs-and-info.md, radioparadise-stream-links.md, radioparadise-stream-links-url-table.md, bluos-support-radio-paradise-articles.md, denon-avr-x3900h-owners-manual-na.pdf, v-marantz-cinema-70s-series-2-owners-manual-selected.md, v-marantz-cinema-50-series-2-owners-manual-selected.md, marantz-cinema-70s-series-2-info-sheet-na.pdf, marantz-cinema-50-series-2-info-sheet-na.pdf, onkyo-tx-rz50-spec-sheet.pdf, yamaha-rx-a4a-user-guide.pdf, yamaha-musiccast-supported-services.md, arcam-ava15-product-page.md, wiim-home-pc-app-help.md, wiimforum-radio-paradise-lossless.md, r2-sonos-music-service-pages.md, r4-wiim-http-api-for-wiim-products.pdf]
 ---
 
 # Radio Paradise
@@ -81,7 +81,7 @@ Three possible workarounds on HEOS receivers are documented but untested: the RP
 ## Limits
 
 - **Directory routes are the lossy default.** A receiver's TuneIn, vTuner or airable entry for RP states no codec; RP's Sonos guidance and WiiM owner reports both treat directories as lower quality, without skip, and TuneIn adds pre-roll ads.
-- **The URL route needs a player that accepts a custom http FLAC URL.** HEOS offers URL play only through its CLI or a third-party app (#9); on WiiM it is user-reported (#23).
+- **The URL route needs a player that accepts a custom http FLAC URL.** HEOS offers URL play only through its CLI or a third-party app (#9); on WiiM, the HTTP API v1.2 documents URL playback and uses RP's `flacm` URL in a preset example, but whether a Pro plays RP's FLAC lossless that way and holds 16/44.1 out the coax is untested (#10, #23).
 - **BluOS MQA stays in the BluOS device.** It cannot be unfolded by an external DAC or receiver (BluOS support), which matters for a NODE feeding a receiver.
 - **`flacbg` is processed** in an undocumented way; avoid it in the main room.
 
@@ -108,4 +108,5 @@ Full list: [bibliography](../reference/bibliography.md).
 - Arcam, AVA15 product page — `arcam-ava15-product-page.md`
 - WiiM Help Center, Introducing the WiiM Home App for PC, 2026-09-24 — `wiim-home-pc-app-help.md`
 - WiiM forum, "radio paradise losless flac ?", 2025-10-26 to 2025-10-29 [anecdote] — `wiimforum-radio-paradise-lossless.md`
+- WiiM (Linkplay), HTTP API for WiiM Products v1.2, 2024-07-10 — `r4-wiim-http-api-for-wiim-products.pdf`
 - Sonos Support, Radio Paradise on Sonos service page and quality-label definitions, captured 2026-11-09 — `r2-sonos-music-service-pages.md`

@@ -6,12 +6,12 @@ criteria: [3, 6, 7]
 status: contested
 confidence: medium
 last_verified: 2026-11-08
-sources: [wiim-mini-product-page.md, wiim-pro-product-page.md, wiim-pro-plus-product-page.md, wiim-ultra-product-page.md, wiim-amp-ultra-product-page.md, wiim-amp-ultra-user-manual.pdf, wiim-home-pc-app-help.md, wiim-roomfit-help.md, wiim-roomfit-settings-help.md, wiim-sound-product-page.md, asr-wiim-ultra-review.md, asr-wiim-amp-ultra-review.md, wiimforum-radio-paradise-lossless.md, v-wiim-faq-apple-music.md, v-wiim-faq-wiim-ultra-setup.md, r2-wiim-sound-product-page.md, r2-wiim-sound-lite-product-page.md, r2-wiim-amp-pro-product-page.md, r2-wiim-amp-product-page.md, r2-wiim-help-multiroom-limitations.md, r2-wiim-edition-a10-mkii-product-page.md, r2-wiim-edition-c10-mkii-product-page.md, r2-wiim-help-mrm-system.md, r2-wiim-help-multiroom-music.md, r2-wiim-help-google-cast-speaker-group.md, r2-wiim-help-pro-input-ports.md, r2-wiim-help-multiroom-audio-delay-sync.md]
+sources: [wiim-mini-product-page.md, wiim-pro-product-page.md, wiim-pro-plus-product-page.md, wiim-ultra-product-page.md, wiim-amp-ultra-product-page.md, wiim-amp-ultra-user-manual.pdf, wiim-home-pc-app-help.md, wiim-roomfit-help.md, wiim-roomfit-settings-help.md, wiim-sound-product-page.md, asr-wiim-ultra-review.md, asr-wiim-amp-ultra-review.md, wiimforum-radio-paradise-lossless.md, v-wiim-faq-apple-music.md, v-wiim-faq-wiim-ultra-setup.md, r2-wiim-sound-product-page.md, r2-wiim-sound-lite-product-page.md, r2-wiim-amp-pro-product-page.md, r2-wiim-amp-product-page.md, r2-wiim-help-multiroom-limitations.md, r2-wiim-edition-a10-mkii-product-page.md, r2-wiim-edition-c10-mkii-product-page.md, r2-wiim-help-mrm-system.md, r2-wiim-help-multiroom-music.md, r2-wiim-help-google-cast-speaker-group.md, r2-wiim-help-pro-input-ports.md, r2-wiim-help-multiroom-audio-delay-sync.md, r4-wiim-http-api-for-wiim-products.pdf, r4-wiim-help-pro-pro-plus-roadmap.md]
 ---
 
 # WiiM (WiiM Home, RoomFit)
 
-**The WiiM Pro ($169) and Pro Plus ($219, wiimhome.com, 2026-11-08) are the WiiM models to use as the receiver's external streamer, because they combine optical and coax out with AirPlay 2, Google Cast and Roon Ready; the Ultra, Amp Ultra, Amp Pro and WiiM Sound speakers lack AirPlay 2, no WiiM plays Apple Music natively, and WiiM documents Radio Paradise as built in only for its PC app.**
+**The WiiM Pro ($169) and Pro Plus ($219, wiimhome.com, 2026-11-08) are the WiiM models to use as the receiver's external streamer, because they combine optical and coax out with AirPlay 2, Google Cast and Roon Ready; the Ultra, Amp Ultra, Amp Pro and WiiM Sound speakers lack AirPlay 2, no WiiM plays Apple Music natively, and WiiM names Radio Paradise only in PC-app help, a 2024 roadmap and an API example.**
 
 Used by: [Streaming & multiroom](../criteria/streaming-and-multiroom.md) · [Usability, app & firmware support](../criteria/usability-and-support.md) · [Value, reliability & resale](../criteria/value-and-reliability.md).
 
@@ -25,7 +25,7 @@ Receivers carrying it: [WiiM Amp Ultra](../products/wiim-amp-ultra.md).
 
 **Streaming.** Protocol support differs by model (see the table, and [streaming protocols](streaming-protocols.md)); Spotify Connect, TIDAL Connect and DLNA are on every model in it, and Alexa Cast on all but the two Edition speakers, whose pages do not list it. Apple Music is not integrated in WiiM Home, and over AirPlay or Bluetooth it arrives at 44.1 kHz/16-bit (WiiM FAQ, modified 2025-09-11). On the Ultra and Amp Ultra, which lack AirPlay 2, Apple Music therefore needs Bluetooth (SBC or AAC only), Google Cast from a supporting app, or a wired source.
 
-**Radio Paradise.** WiiM's PC-app help article (2026-09-24) lists Radio Paradise as an integrated service and states no codec. Lossless playback is owner-reported (open question #10) and the custom-URL route user-reported (#23); see [Measured and observed results](#measured-and-observed-results).
+**Radio Paradise.** WiiM's PC-app help article (2026-09-24) lists Radio Paradise as an integrated service and states no codec. WiiM also names it on the 2024 Pro roadmap (under consideration) and in an HTTP API preset example. Lossless playback is owner-reported (open question #10) and the custom-URL route untested (#23); see [Measured and observed results](#measured-and-observed-results).
 
 **Room correction (RoomFit).** RoomFit measures the response at the listening position with the phone's microphone, or an external mic with a calibration file, and applies parametric EQ toward a target curve (RoomFit help, modified 2026-11-04). It corrects magnitude only; no phase or time-domain correction is described. Targets include B&K, Harman, Flat, Music and Auto, and Max Gain, Max Q, frequency range and a cut-only Non-Boost Mode are adjustable (RoomFit settings help, 2026-10-23). Multi-position averaging (Moving Mic Measurement) is Beta; phone-mic compensation is iOS-only. The profile applies to every input, with per-input EQ layered on top. Comparison with receiver-grade correction: [room modes and correction limits](../concepts/room-modes-and-correction-limits.md).
 
@@ -69,7 +69,7 @@ The Amp Ultra (100 W/ch into 8 Ω, two channels driven, THD 0.08%, manual p.8) b
 
 **Radio Paradise, owner reports.** A WiiM forum user labelled Community Curator (2025-10-26, Amp Pro thread) says RP inside the WiiM app is always lossless CD-quality FLAC and the vTuner and TuneIn routes are not. Other users (2024-09, 2025-03) put it at 16/44.1, though one saw the app show 24-bit/44.1 kHz and 320 kbps, unanswered. Lossless is likely and unconfirmed by WiiM until a device test reads the format. Casting from the RP app over Google Cast is reported lossless when the app is set to FLAC.
 
-**Custom URL, user reports.** In 2023 users played station URLs on a WiiM Pro via Open Network Stream, one reporting 24/96 FLAC arriving as 16/96. Nobody reports RP's `/flac` URL on a Pro or Pro Plus, and WiiM documents no such feature.
+**Custom URL, user reports.** In 2023 users played station URLs on a WiiM Pro via Open Network Stream, one reporting 24/96 FLAC arriving as 16/96. WiiM's HTTP API v1.2 documents URL playback (`setPlayerCmd:play:url`), but nobody reports RP's `/flac` URL on a Pro or Pro Plus, so lossless 16/44.1 out the coax by that route is untested.
 
 **App, anecdote.** The ASR reviewer's app would not add the Amp Ultra on first try; owners in the thread and the Ultra review report no such trouble.
 
@@ -110,4 +110,6 @@ Full list: [bibliography](../reference/bibliography.md).
 - WiiM Help Center, "Limitations and Considerations of WiiM Multi-room Music", modified 2025-05-19, captured 2026-11-09 — `r2-wiim-help-multiroom-limitations.md`
 - WiiM, Edition A10 MKII and Edition C10 MKII product pages, captured 2026-11-09 — `r2-wiim-edition-a10-mkii-product-page.md`, `r2-wiim-edition-c10-mkii-product-page.md`
 - WiiM Help Center, multiroom articles: MRM system (2026-05-15), multiroom music (2026-07-23), Google Cast speaker group (2026-05-06), Pro input ports (2026-06-04), multiroom audio delay (2025-06-12), captured 2026-11-09 — `r2-wiim-help-mrm-system.md`, `r2-wiim-help-multiroom-music.md`, `r2-wiim-help-google-cast-speaker-group.md`, `r2-wiim-help-pro-input-ports.md`, `r2-wiim-help-multiroom-audio-delay-sync.md`
+- WiiM, HTTP API v1.2, 2024-07-10 — `r4-wiim-http-api-for-wiim-products.pdf`
+- WiiM Help Center, Pro and Pro Plus Roadmap, 2024-10-17 — `r4-wiim-help-pro-pro-plus-roadmap.md`
 - Not captured (forum bot check; anecdote only): WiiM forum threads "WiiM ultra radio paradise" (2024–2025) and "Adding internet radio stations to Open Network Stream" (2023).

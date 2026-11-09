@@ -6,7 +6,7 @@ criteria: [3, 4, 7]
 status: unverified
 confidence: medium
 last_verified: 2026-11-09
-sources: [denon-avr-x3900h-owners-manual-na.pdf, onkyo-tx-rz50-spec-sheet.pdf, yamaha-rx-a4a-user-guide.pdf, r2-wiim-amp-product-page.md, r2-wiim-amp-pro-product-page.md, r2-wiim-help-amp-amp-pro-tech-spec.md, r2-wiim-amp-user-manual.pdf, wiim-amp-ultra-product-page.md, wiim-amp-ultra-user-manual.pdf, r2-wiim-sound-product-page.md, r2-wiim-sound-lite-product-page.md, r2-wiim-edition-a10-mkii-product-page.md, r2-wiim-edition-c10-mkii-product-page.md, r2-wiim-help-mrm-system.md, r2-wiim-help-multiroom-music.md, r2-wiim-help-multiroom-limitations.md, r2-wiim-help-pro-input-ports.md, r2-wiim-help-multiroom-audio-delay-sync.md, v-wiim-faq-apple-music.md, wiimforum-radio-paradise-lossless.md, r2-sonos-port-product-page.md, r2-sonos-port-setup-support.md, r2-sonos-amp-product-page.md, r2-sonos-wireless-speakers-product-pages.md, r2-sonos-music-service-pages.md, r2-sonos-supported-audio-formats.md, r2-sonos-trueplay-support-articles.md, r2-sonos-speaker-location-humidity-support.md, r2-sonos-airplay-support.md, r2-sonos-line-in-support-articles.md, r2-sonos-ceo-letter-app-update-2024-07-25.md, r2-denon-home-150-product-page-us.md, r2-denon-wireless-speakers-category-us.md, r2-denon-heos-1-archived-product-page-us.md, v-heos-cli-protocol-specification-v1.10.pdf]
+sources: [denon-avr-x3900h-owners-manual-na.pdf, onkyo-tx-rz50-spec-sheet.pdf, yamaha-rx-a4a-user-guide.pdf, r2-wiim-amp-product-page.md, r2-wiim-amp-pro-product-page.md, r2-wiim-help-amp-amp-pro-tech-spec.md, r2-wiim-amp-user-manual.pdf, wiim-amp-ultra-product-page.md, wiim-amp-ultra-user-manual.pdf, r2-wiim-sound-product-page.md, r2-wiim-sound-lite-product-page.md, r2-wiim-edition-a10-mkii-product-page.md, r2-wiim-edition-c10-mkii-product-page.md, r2-wiim-help-mrm-system.md, r2-wiim-help-multiroom-music.md, r2-wiim-help-multiroom-limitations.md, r2-wiim-help-pro-input-ports.md, r2-wiim-help-multiroom-audio-delay-sync.md, v-wiim-faq-apple-music.md, wiimforum-radio-paradise-lossless.md, r2-sonos-port-product-page.md, r2-sonos-port-setup-support.md, r2-sonos-amp-product-page.md, r2-sonos-wireless-speakers-product-pages.md, r2-sonos-music-service-pages.md, r2-sonos-supported-audio-formats.md, r2-sonos-trueplay-support-articles.md, r2-sonos-speaker-location-humidity-support.md, r2-sonos-airplay-support.md, r2-sonos-line-in-support-articles.md, r2-sonos-ceo-letter-app-update-2024-07-25.md, r2-denon-home-150-product-page-us.md, r2-denon-wireless-speakers-category-us.md, r2-denon-heos-1-archived-product-page-us.md, v-heos-cli-protocol-specification-v1.10.pdf, r4-denon-heos-cli-protocol-specification-v1.17.pdf]
 ---
 
 # Multiroom: receiver Zone 2, WiiM or Sonos
@@ -53,7 +53,7 @@ What would change the verdict:
 
 ## Sources
 
-Full list: [bibliography](../reference/bibliography.md). Files are listed in front matter: the X3900H manual, Onkyo and Yamaha zone documents, WiiM and Sonos product pages and help articles (2026-11-09), Denon Home pages, the HEOS CLI spec v1.10, and one WiiM forum thread (anecdote).
+Full list: [bibliography](../reference/bibliography.md). Files are listed in front matter: the X3900H manual, Onkyo and Yamaha zone documents, WiiM and Sonos product pages and help articles (2026-11-09), Denon Home pages, the HEOS CLI spec v1.17 (2021-10-11), and one WiiM forum thread (anecdote).
 
 ## Related
 

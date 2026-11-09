@@ -6,7 +6,7 @@ criteria: []
 status: contested
 confidence: medium
 last_verified: 2026-11-09
-sources: []
+sources: [r4-onkyo-tx-rz50-owners-manual-selected.md]
 ---
 
 # Open questions
@@ -31,7 +31,7 @@ This is the reader-facing list. Each item gives its number in the build register
 - **The Radio Paradise `/flac` URL through the HEOS CLI `play_stream` command (#22).** The X3900H manual lists internet-radio formats as WMA, MP3 and AAC only, so the result is uncertain. A local test with the HEOS CLI settles it ([HEOS](../systems/heos.md)).
 - **One-app multiroom through Google Cast groups (#33).** Whether a receiver's Google Cast joins a Cast group with WiiM players decides how the main room and the two future stereo rooms are grouped. A Google Home group test settles it ([streaming and multiroom](../criteria/streaming-and-multiroom.md)).
 - **MultEQ-X support for the X3900H (#5).** The iOS MultEQ Editor app lists the X3900H and X2900H, while the 2026-05-09 MultEQ-X listing omits them. XT32 is the baseline calibration before Dirac, so this decides whether that baseline can be edited on a PC. An owner calibration attempt or an Audyssey statement settles it ([Audyssey MultEQ](../systems/audyssey-multeq.md)).
-- **Maximum sample rate on the coax and optical inputs (#12).** The X3900H, CINEMA Series 2, RZ50 and MRX 540 manuals are silent. Radio Paradise FLAC is 44.1 kHz, so this does not bind the recommended chain; a 96 or 192 kHz test file settles it ([lossless streaming paths](../concepts/lossless-streaming-paths.md)).
+- **Maximum sample rate on the coax and optical inputs (#12).** The X3900H, CINEMA Series 2 and MRX 540 manuals are silent. The RZ50 manual states PCM to 96 kHz at 16, 20 or 24 bits (p.209); ASR's 192 kHz sweep of the RZ50 ran over HDMI by its graph titles, and its S/PDIF test states no rate, so no bench result checks that limit. Radio Paradise FLAC is 44.1 kHz, so this does not bind the recommended chain; a 96 or 192 kHz test file settles it ([lossless streaming paths](../concepts/lossless-streaming-paths.md)).
 
 ### Would not change the choice
 
@@ -45,7 +45,7 @@ This is the reader-facing list. Each item gives its number in the build register
 - **#24** An Apple primary source for the AirPlay 2 format ceiling, which bears only on the AirPlay backup route ([streaming protocols](../systems/streaming-protocols.md)).
 - **#25** Whether native Apple Music on BluOS reaches the [NAD T 758 V3i](../products/nad-t-758-v3i.md).
 - **#26** Whether the [CINEMA 70s Series 2](../products/marantz-cinema-70s-series-2.md) repeats Series 1's 4 Ω warm-up distortion; it lacks Bass Control in any case.
-- **#27** [RZ50](../products/onkyo-tx-rz50.md) sub pre-out independence, AirPlay version and the RZ70's limiter status. With one sub, independence costs nothing.
+- **#27** [RZ50](../products/onkyo-tx-rz50.md) sub pre-out independence and the RZ70's limiter status; the manual settles the AirPlay version as AirPlay 2 (p.96). With one sub, independence costs nothing.
 - **#28** Whether the [Anthem MRX 540 8K](../products/anthem-mrx-540-8k.md) is Roon Ready and loses SINAD with the sub disabled as the 1140 does.
 - **#30** [Arcam AVA15](../products/arcam-ava15.md) US stock and sub-output independence; it sits $2,351 above the X3900H to target.
 - **#31** Whether Toole supports the seat-to-seat EQ finding and whether ASR publishes SINAD band cut-offs ([room modes](../concepts/room-modes-and-correction-limits.md); [measurements and audibility](../concepts/measurements-and-audibility.md)).

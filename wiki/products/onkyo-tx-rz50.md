@@ -6,7 +6,7 @@ criteria: [1, 2, 3, 4, 5, 6, 7]
 status: contested
 confidence: medium
 last_verified: 2026-11-08
-sources: [onkyo-tx-rz50-spec-sheet.pdf, v-onkyo-tx-rz50-product-page-rendered-2026-11-08.md, onkyo-tx-rz50-product-page.md, onkyo-tx-rz50-firmware-update-2026-03.pdf, pac-press-2024-11-firmware-dirac-bass-control.md, dirac-store-onkyo-tx-rz50.md, asr-onkyo-tx-rz50-review.md, asr-onkyo-tx-rz30-review.md, asr-pioneer-vsx-lx505-review.md, asr-pioneer-vsx-lx505-power-remeasurement.md, v-asr-onkyo-tx-nr7100-review-post1.md, v-asr-limp-mode-for-beginners.md, asr-avr-sinad-database.md, onkyo-av-receivers-lineup.md, onkyo-press-ces-2026-horizon.md, v-onkyo-us-warranty.md]
+sources: [onkyo-tx-rz50-spec-sheet.pdf, v-onkyo-tx-rz50-product-page-rendered-2026-11-08.md, onkyo-tx-rz50-product-page.md, onkyo-tx-rz50-firmware-update-2026-03.pdf, pac-press-2024-11-firmware-dirac-bass-control.md, dirac-store-onkyo-tx-rz50.md, asr-onkyo-tx-rz50-review.md, asr-onkyo-tx-rz30-review.md, asr-pioneer-vsx-lx505-review.md, asr-pioneer-vsx-lx505-power-remeasurement.md, v-asr-onkyo-tx-nr7100-review-post1.md, v-asr-limp-mode-for-beginners.md, asr-avr-sinad-database.md, onkyo-av-receivers-lineup.md, onkyo-press-ces-2026-horizon.md, v-onkyo-us-warranty.md, r4-onkyo-tx-rz50-owners-manual-selected.md]
 brand: Onkyo
 model: "TX-RZ50"
 model_year: 2020
@@ -38,7 +38,7 @@ Provisional. For [this room](../start-here/my-system.md) the RZ50 is one of thre
 | Headline (not comparable) | 250 W/ch: 6 Ω, 1 kHz, 10% THD, 1 ch driven | Spec sheet |
 | Sub outputs | 2 (the ".2"); whether independently delayed or levelled is not stated | Spec sheet |
 | Pre-outs | 11.2 RCA, variable; sub pre-out 1 V rms; Zone 2/B and Zone 3 line outs | Spec sheet |
-| Digital audio in | 1 coax, 1 optical; maximum sample rate not stated | Spec sheet |
+| Digital audio in | 1 coax, 1 optical; PCM 32–96 kHz at 16, 20 or 24 bits (the spec sheet states no rate) | Spec sheet; manual p.209 |
 | HDMI | 7 in (1 front) / 2 out (Main with eARC, Sub/Zone 2); 8K/60, 4K/120 | Spec sheet |
 | Network | 10/100 Ethernet, Wi-Fi 802.11ac 2×2, Bluetooth receive and transmit | Spec sheet |
 
@@ -52,9 +52,9 @@ Pure Audio mode bypasses bass management and with it Dirac, while bass managemen
 
 ## Streaming
 
-Onkyo lists Chromecast built-in, AirPlay 2, DTS Play-Fi, Spotify, TIDAL, Deezer, Pandora, TuneIn and Amazon Music HD (through Play-Fi), plus Works with Sonos through a Sonos Port (spec sheet; onkyo.com, 2026-11-08). The spec sheet says Roon Tested, a different designation from Roon Ready, and does not say whether Spotify and TIDAL are the Connect protocols; see [streaming protocols](../systems/streaming-protocols.md).
+Onkyo lists Chromecast built-in, AirPlay 2, DTS Play-Fi, Spotify, TIDAL, Deezer, Pandora, TuneIn and Amazon Music HD (through Play-Fi), plus Works with Sonos through a Sonos Connect or Port (spec sheet; onkyo.com, 2026-11-08; the manual names the Connect, pp.103–104). The manual states AirPlay 2 (p.96). The spec sheet says Roon Tested, a different designation from Roon Ready, and does not say whether Spotify and TIDAL are the Connect protocols; see [streaming protocols](../systems/streaming-protocols.md).
 
-- **Radio Paradise FLAC:** no native integration. The built-in TuneIn is a station-directory route, which Radio Paradise says gives lower quality than its own integrations. The plan of record is the external streamer on coax or optical; Onkyo states no input rate limit, but ASR fed S/PDIF at 192 kHz (open question #12). See [Radio Paradise](../systems/radio-paradise.md) and the [external-streamer comparison](../comparisons/radio-paradise-flac-native-vs-external-streamer.md).
+- **Radio Paradise FLAC:** no native integration. The built-in TuneIn is a station-directory route, which Radio Paradise says gives lower quality than its own integrations. The plan of record is the external streamer on coax or optical. The manual limits digital-input PCM to 96 kHz (p.209). ASR's 192 kHz bandwidth sweep ran over HDMI by its graph titles, and its S/PDIF test states no rate, so no bench result confirms or contradicts the manual's limit (open question #12). Radio Paradise at 44.1 kHz is inside it either way. See [Radio Paradise](../systems/radio-paradise.md) and the [external-streamer comparison](../comparisons/radio-paradise-flac-native-vs-external-streamer.md).
 - **Spotify:** built in; Spotify Lossless is listed under a July 2025 firmware heading annotated November 2025.
 - **Apple Music:** AirPlay 2 only.
 
@@ -99,4 +99,5 @@ Full list: [bibliography](../reference/bibliography.md).
 - Audio Science Review, platform proxies: TX-RZ30 (2026-05), VSX-LX505 (2023-01; remeasured 2026-02-08), TX-NR7100 (2024-08-13) — `asr-onkyo-tx-rz30-review.md`, `asr-pioneer-vsx-lx505-review.md`, `asr-pioneer-vsx-lx505-power-remeasurement.md`, `v-asr-onkyo-tx-nr7100-review-post1.md`
 - Audio Science Review forum, "Limp mode for beginners" thread, 2026-06 to 2026-11 — `v-asr-limp-mode-for-beginners.md`
 - Audio Science Review, AVR SINAD data table, captured 2026-11-08 — `asr-avr-sinad-database.md`
+- Onkyo, TX-RZ50 Instruction Manual (SN29404020B), selected pages, captured 2026-11-09 — `r4-onkyo-tx-rz50-owners-manual-selected.md`
 - Onkyo, AV receivers lineup, 2026-11-08, and CES 2026 press release — `onkyo-av-receivers-lineup.md`, `onkyo-press-ces-2026-horizon.md`
