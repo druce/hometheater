@@ -181,3 +181,26 @@ connectivity, usability, lossless-streaming-paths, RP comparison, buying-checkli
 reference/open-questions. OPEN-QUESTIONS.md rewritten with a status column: settled #1, #3, #8,
 #11, #15; mostly or partly settled #2, #5, #9, #17; new #18–#32. Several questions can only be
 settled by a device test (RP FLAC on WiiM, HEOS play_stream, NODE digital out).
+
+## [2026-11-08] write | batch 1 drafted: 5 concepts, 10 systems (calibration checkpoint)
+
+Five parallel drafting agents (default model) wrote the concept and system pages from their
+bundles and verification-r1 only, no web search, to a shared brief carrying the CLAUDE.md voice
+rules and a GOOD/BAD example. All 15 pass wiki_lint with zero findings; linkcheck 0 broken.
+Body lengths 968–1,499 words; five pages sit within 10 words of the 1,500 target after the agents
+cut to fit. Status: 1 settled, 10 contested, 4 unverified; confidence medium throughout.
+
+Claims revised from the skeleton on the evidence: removed an unsourced SINAD audibility
+threshold (measurements) and an unsourced "crossover beats correction brand" ranking (bass
+management); BluOS no longer the "reference external streamer" (NODE digital out undocumented,
+#13); WiiM now names Pro/Pro Plus as the receiver feed; Dirac now gives a priced purchase
+recommendation for one sub ($299 where RC is included, $558–$599 on Denon/Marantz); power ratings
+lead with the FTC two-channel finding and note that latched protection was also measured on the
+Series 1 CINEMA 70s, not only Onkyo/Pioneer; ARC Genesis does not set distances (MRX manual).
+
+Review fixes by the orchestrator: three WiiM Help Center articles that verification read but did
+not save were captured (raw batch 4) and the pages re-cited to them; bass-management corrected,
+since the Marantz 70s S2 manual (already in raw/) shows the same LFE / LFE + Main menu, and the
+agent had marked it unverified; two pages trimmed back under 1,500 after source lines were added.
+Two WiiM forum threads remain uncaptured (bot check) and are labelled anecdote on the pages.
+Index lines for the 15 pages now carry the drafted claims (first 45 words). MANIFEST: 16 drafted.

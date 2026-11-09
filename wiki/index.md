@@ -11,7 +11,7 @@ sources: []
 
 # The map
 
-**The skeleton is complete: 45 pages exist with draft claims and no prose yet, so nothing here is a finding.**
+**Concepts and systems are drafted from verified evidence; criteria, products, comparisons and decision pages are still skeletons with draft claims, so their lines are not findings yet.**
 
 Read this page first on every query. Each line is a page and its draft claim.
 
@@ -36,24 +36,24 @@ Read this page first on every query. Each line is a page and its draft claim.
 
 ## Concepts
 
-- [Bass management and crossovers](concepts/bass-management-and-crossovers.md): In a small room with one sub, the crossover setting and sub/main alignment decide bass quality more than the receiver's brand of room correction does.
-- [Room modes and the limits of correction](concepts/room-modes-and-correction-limits.md): Room correction can pull down bass peaks at the main seat but cannot fill deep nulls, and its benefit shrinks within a foot or two of the measurement position.
-- [Amplifier power ratings](concepts/amplifier-power-ratings.md): A receiver's rated watts say little until the load, the number of channels driven and the distortion threshold are stated, and protection modes can matter more than peak power.
-- [Measurements and audibility](concepts/measurements-and-audibility.md): SINAD and pre-out figures separate well-engineered receivers from careless ones, but above roughly the high-80s dB most differences are below audibility and room correction dominates.
-- [Lossless streaming paths](concepts/lossless-streaming-paths.md): Whether a stream arrives lossless depends on the path: a native service or URL keeps FLAC, AirPlay 2 carries ALAC at 44.1/16, and internet-radio directories often transcode.
+- [Bass management and crossovers](concepts/bass-management-and-crossovers.md): With one subwoofer, bass quality comes down to the per-speaker crossover, the sub's distance and level, and where the sub sits; on a Denon the listening mode chosen for stereo music also decides whether the sub plays at all and whether room correction stays on.
+- [Room modes and the limits of correction](concepts/room-modes-and-correction-limits.md): Room correction can flatten the bass at the seat where it was calibrated, but with one subwoofer the improvement fades within a foot or two and can turn into a worse response than no correction, so sub placement, a second sub and absorption are the…
+- [Amplifier power ratings](concepts/amplifier-power-ratings.md): The FTC rule only obliges a receiver's headline rating to hold for the two front channels into 8 ohms, 20 Hz–20 kHz, at no more than 1% THD+N, so no candidate's rating tells you what five channels get at once; on the Onkyo/Pioneer platform a…
+- [Measurements and audibility](concepts/measurements-and-audibility.md): SINAD and the other bench figures are good at exposing careless engineering in a receiver, but ASR, the main source of them, says SINAD is not a perceptual measure, its AVR figures come from the Toslink input at one configuration, and no source in this…
+- [Lossless streaming paths](concepts/lossless-streaming-paths.md): A stream stays lossless only if every hop carries it unchanged: Denon and Marantz internet radio is lossy by specification, AirPlay 2 is reported (by WiiM, not by Apple) to carry 44.1 kHz/16-bit, BluOS unfolds Radio Paradise's MQA only inside its own player, and a…
 
 ## Systems
 
-- [Audyssey MultEQ (XT, XT32, MultEQ-X)](systems/audyssey-multeq.md): XT32 is a capable included correction on Denon and Marantz's upper models, and MultEQ-X adds control for a one-time fee, but its support for the 2026 models is undocumented.
-- [Dirac Live (Room Correction, Bass Control, ART)](systems/dirac-live.md): Dirac Live is the most widely available third-party correction, but what an owner actually gets depends on the license tier bought, and Bass Control and ART are not offered on every Dirac-capable receiver.
-- [Anthem ARC Genesis](systems/arc-genesis.md): ARC Genesis gives detailed per-group control of correction and bass management on Anthem receivers, though its multi-sub handling and automatic phase alignment on the MRX are not documented as matching Dirac Bass Control.
-- [Yamaha YPAO](systems/ypao.md): YPAO is included and has no upgrade path; on the RX-A4A it adds multipoint and 64-bit EQ, but there is no independent comparison placing it against Dirac or XT32.
-- [HEOS (Denon, Marantz)](systems/heos.md): HEOS covers Spotify, TIDAL, Qobuz, AirPlay 2 and Roon Ready, but its internet radio is lossy-only and Apple Music arrives only via AirPlay, so Radio Paradise FLAC needs an external streamer.
-- [Yamaha MusicCast](systems/musiccast.md): MusicCast is a broad multiroom system, but it has no documented lossless Radio Paradise path and down-converts linked rooms to 48 kHz.
-- [BluOS (Bluesound, NAD)](systems/bluos.md): BluOS is the one platform with native Radio Paradise lossless and, since 2026-10-20, native Apple Music, which makes a NODE or NODE NANO the reference external streamer.
-- [WiiM (WiiM Home, RoomFit)](systems/wiim.md): WiiM streamers are the low-cost alternative to a Bluesound NODE for feeding a receiver, but the Ultra and Amp Ultra lack AirPlay 2 and native Apple Music, and WiiM documents Radio Paradise as integrated only in its PC app.
-- [Streaming protocols (AirPlay 2, Google Cast, Connect, Roon Ready)](systems/streaming-protocols.md): Spotify Connect is universal among the candidates, but AirPlay 2 is not: WiiM's Amp Ultra and Ultra lack it, which removes the Apple Music path on those devices.
-- [Radio Paradise](systems/radio-paradise.md): Radio Paradise's lossless FLAC is native only on BluOS (and Sonos), with WiiM reported but unconfirmed, so for every other receiver the requirement is met by the external streamer.
+- [Audyssey MultEQ (XT, XT32, MultEQ-X)](systems/audyssey-multeq.md): Audyssey comes free on every Denon and Marantz candidate, as XT32 on the X3900H and CINEMA 50 Series 2 and as the lower XT on the X2900H and CINEMA 70s Series 2, but its built-in menus offer only three fixed curves; editable targets need the…
+- [Dirac Live (Room Correction, Bass Control, ART)](systems/dirac-live.md): For a one-sub 5.1 room the useful Dirac purchase is Room Correction plus Bass Control, which costs $299 on the Arcam AVA15 and Onkyo TX-RZ50 (Room Correction included) and $558 to $599 on the Denon X3800H/X3900H and Marantz CINEMA 50 models (dirac.com, 2026-11-08), while the…
+- [Anthem ARC Genesis](systems/arc-genesis.md): ARC Genesis is free with the Anthem MRX 540 and exposes per-speaker-set target curves, crossovers and slopes with correction up to 20 kHz, but on the MRX 540 it does not set distances, both sub outputs carry the same signal, and Anthem names automatic speaker/sub…
+- [Yamaha YPAO](systems/ypao.md): YPAO on the RX-A4A is included, multipoint (up to 8 positions) and has no paid tier, but its automatic bass correction is incomplete by Yamaha's own description: the Low Frequency mode only detects problem frequencies and leaves Q and gain to be set by hand,…
+- [HEOS (Denon, Marantz)](systems/heos.md): HEOS covers Spotify, TIDAL and Qobuz through their Connect protocols, plus AirPlay 2 and Roon Ready, but its internet radio decodes only MP3, WMA and AAC and Apple Music arrives only over AirPlay, so Radio Paradise FLAC on a Denon or Marantz receiver needs an…
+- [Yamaha MusicCast](systems/musiccast.md): MusicCast gives the RX-A4A Spotify Connect, AirPlay 2, TIDAL, Qobuz and Amazon Music in one free app, but it has no documented lossless Radio Paradise path and down-converts every linked room to 48 kHz.
+- [BluOS (Bluesound, NAD)](systems/bluos.md): BluOS is the only platform in this wiki with Radio Paradise documented as a built-in service, and it announced native Apple Music on 2026-10-20, but its Radio Paradise stream is MQA that unfolds only inside the player, so what a NODE sends to a receiver's…
+- [WiiM (WiiM Home, RoomFit)](systems/wiim.md): The WiiM Pro ($169) and Pro Plus ($219, wiimhome.com, 2026-11-08) are the WiiM models to use as the receiver's external streamer, because they combine optical and coax out with AirPlay 2, Google Cast and Roon Ready; the Ultra and Amp Ultra drop AirPlay 2, no…
+- [Streaming protocols (AirPlay 2, Google Cast, Connect, Roon Ready)](systems/streaming-protocols.md): AirPlay is on every receiver candidate, but AirPlay 2 is missing from WiiM's Ultra and Amp Ultra, which leaves Apple Music on those devices to Bluetooth, Cast or a cable; Google Cast is not listed for Denon, Marantz or the Yamaha RX-A4A, and Roon Ready…
+- [Radio Paradise](systems/radio-paradise.md): Radio Paradise publishes a free FLAC stream for each of its eight channels, but among the candidate receivers only the NAD T 758 V3i (BluOS) carries the service natively, the HEOS manuals checked (Denon X3900H, Marantz CINEMA Series 2) list lossy internet-radio formats only, and…
 
 ## Products
 
