@@ -6,7 +6,7 @@ criteria: [3, 7]
 status: unverified
 confidence: medium
 last_verified: 2026-11-08
-sources: [radioparadise-ways-to-listen.md, radioparadise-faqs-and-info.md, radioparadise-stream-links-url-table.md, bluos-support-radio-paradise-articles.md, v-bluos-digital-passthrough-bluesound-players.md, bluesound-node-product-page.md, bluos-apple-music-support-2026-10-20.md, nad-t-758-v3i-data-sheet.pdf, wiim-pro-product-page.md, wiim-pro-plus-product-page.md, wiim-home-pc-app-help.md, v-wiim-faq-apple-music.md, wiimforum-radio-paradise-lossless.md, denon-avr-x3900h-owners-manual-na.pdf, dirac-pricing-and-device-pages.md]
+sources: [radioparadise-ways-to-listen.md, radioparadise-faqs-and-info.md, radioparadise-stream-links-url-table.md, bluos-support-radio-paradise-articles.md, v-bluos-digital-passthrough-bluesound-players.md, bluesound-node-product-page.md, bluos-apple-music-support-2026-10-20.md, nad-t-758-v3i-data-sheet.pdf, wiim-pro-product-page.md, wiim-pro-plus-product-page.md, wiim-home-pc-app-help.md, v-wiim-faq-apple-music.md, wiimforum-radio-paradise-lossless.md, denon-avr-x3900h-owners-manual-na.pdf, dirac-pricing-and-device-pages.md, r2-wiim-sound-product-page.md]
 ---
 
 # Radio Paradise FLAC: native receiver vs external streamer
@@ -42,7 +42,7 @@ Prices are list on the maker's site, 2026-11-08. "Extra cost" is what the route 
 | Spotify | Spotify Connect is a BluOS feature; V3i not named | Spotify Connect | Spotify Connect; Spotify Lossless listed | Spotify Connect on HEOS |
 | Apple Music | AirPlay 2; native BluOS Apple Music unconfirmed on the V3i (#25) | AirPlay 2, 44.1/16 per WiiM | Native (announced 2026-10-20) and AirPlay 2 | AirPlay 2 |
 | Room correction | Dirac Limited inferred, no Bass Control (#17) | Whatever the receiver has | Whatever the receiver has; NODE Dirac should stay off | Whatever the receiver has |
-| Multiroom fit | BluOS: Pulse Flex ($429) for the kitchen; a different app from the Amp Ultra | WiiM Home, same app as the Amp Ultra; WiiM Sound speaker "Coming Soon", unpriced | BluOS: Pulse Flex; a second app beside the Amp Ultra | HEOS: Denon Home speakers; a second app beside the Amp Ultra |
+| Multiroom fit | BluOS: Pulse Flex ($429) for the kitchen; a different app from the Amp Ultra | WiiM Home, same app as the Amp Ultra; WiiM Sound speaker unpriced on 2026-11-08, $299.00 on 2026-11-09 | BluOS: Pulse Flex; a second app beside the Amp Ultra | HEOS: Denon Home speakers; a second app beside the Amp Ultra |
 
 What would change the verdict: a device test reading the format a WiiM Pro sends out its coax for Radio Paradise (#10, #23) settles the WiiM column either way. If it showed lossy output, BluOS's answer to #13 would decide whether a NODE or the AirPlay route takes its place. Native Apple Music on the V3i (#25) does not move the NAD, whose problem is room correction.
 
@@ -59,6 +59,7 @@ Full list: [bibliography](../reference/bibliography.md). Per-receiver evidence: 
 - WiiM, Pro and Pro Plus product pages, 2026-11-08 — `wiim-pro-product-page.md`, `wiim-pro-plus-product-page.md`
 - WiiM Help Center, WiiM Home App for PC, 2026-09-24; "Is Apple Music Supported?", 2025-09-11 — `wiim-home-pc-app-help.md`, `v-wiim-faq-apple-music.md`
 - WiiM forum, Radio Paradise lossless thread, 2025-10 (anecdote) — `wiimforum-radio-paradise-lossless.md`
+- WiiM, WiiM Sound product page, captured 2026-11-09 — `r2-wiim-sound-product-page.md`
 - Denon, AVR-X3900H owner's manual (NA) — `denon-avr-x3900h-owners-manual-na.pdf`
 
 ## Related

@@ -6,12 +6,12 @@ criteria: [3, 6, 7]
 status: contested
 confidence: medium
 last_verified: 2026-11-08
-sources: [wiim-mini-product-page.md, wiim-pro-product-page.md, wiim-pro-plus-product-page.md, wiim-ultra-product-page.md, wiim-amp-ultra-product-page.md, wiim-amp-ultra-user-manual.pdf, wiim-home-pc-app-help.md, wiim-roomfit-help.md, wiim-roomfit-settings-help.md, wiim-sound-product-page.md, asr-wiim-ultra-review.md, asr-wiim-amp-ultra-review.md, wiimforum-radio-paradise-lossless.md, v-wiim-faq-apple-music.md, v-wiim-faq-wiim-ultra-setup.md]
+sources: [wiim-mini-product-page.md, wiim-pro-product-page.md, wiim-pro-plus-product-page.md, wiim-ultra-product-page.md, wiim-amp-ultra-product-page.md, wiim-amp-ultra-user-manual.pdf, wiim-home-pc-app-help.md, wiim-roomfit-help.md, wiim-roomfit-settings-help.md, wiim-sound-product-page.md, asr-wiim-ultra-review.md, asr-wiim-amp-ultra-review.md, wiimforum-radio-paradise-lossless.md, v-wiim-faq-apple-music.md, v-wiim-faq-wiim-ultra-setup.md, r2-wiim-sound-product-page.md, r2-wiim-sound-lite-product-page.md, r2-wiim-amp-pro-product-page.md, r2-wiim-amp-product-page.md, r2-wiim-help-multiroom-limitations.md]
 ---
 
 # WiiM (WiiM Home, RoomFit)
 
-**The WiiM Pro ($169) and Pro Plus ($219, wiimhome.com, 2026-11-08) are the WiiM models to use as the receiver's external streamer, because they combine optical and coax out with AirPlay 2, Google Cast and Roon Ready; the Ultra and Amp Ultra drop AirPlay 2, no WiiM plays Apple Music natively, and WiiM documents Radio Paradise as built in only for its PC app.**
+**The WiiM Pro ($169) and Pro Plus ($219, wiimhome.com, 2026-11-08) are the WiiM models to use as the receiver's external streamer, because they combine optical and coax out with AirPlay 2, Google Cast and Roon Ready; the Ultra, Amp Ultra, Amp Pro and WiiM Sound speakers lack AirPlay 2, no WiiM plays Apple Music natively, and WiiM documents Radio Paradise as built in only for its PC app.**
 
 Used by: [Streaming & multiroom](../criteria/streaming-and-multiroom.md) · [Usability, app & firmware support](../criteria/usability-and-support.md) · [Value, reliability & resale](../criteria/value-and-reliability.md).
 
@@ -45,7 +45,7 @@ RoomFit, the app and multiroom carry no licence fee on any model. Prices are wii
 
 WiiM's selection guide puts the Pro forward for use with an external DAC or receiver and the Pro Plus for buyers using its RCA line out (Pro Plus page). Over coax the two are equivalent, so the Pro Plus's extra $50 buys an analog stage this system would not use, plus the voice remote that costs extra on the Pro. Bit-perfect output needs Fixed Volume on and EQ off (Pro Plus FAQ; Amp Ultra manual p.18), so RoomFit stays off on a WiiM feeding a receiver. The Ultra's additions (HDMI ARC, phono, sub out, touchscreen) do nothing for a receiver feed.
 
-The Amp Ultra (100 W/ch into 8 Ω, two channels driven, THD 0.08%, manual p.8) belongs to the stereo rooms. The WiiM Sound powered speaker ("100W Peak", no RMS or load) showed "Coming Soon" with no price on 2026-11-08, and its page states no IP rating, which matters for the bathroom.
+The Amp Ultra (100 W/ch into 8 Ω, two channels driven, THD 0.08%, manual p.8) belongs to the stereo rooms. The WiiM Sound powered speaker ("100W Peak", no RMS or load) showed "Coming Soon" with no price on 2026-11-08 and $299.00 on 2026-11-09; its page states no IP rating, which matters for the bathroom.
 
 ## Measured and observed results
 
@@ -61,7 +61,7 @@ The Amp Ultra (100 W/ch into 8 Ω, two channels driven, THD 0.08%, manual p.8) b
 
 ## Limits
 
-- **AirPlay 2 is missing on the Ultra and Amp Ultra** (Ultra page footnote; Amp Ultra manual). An ASR member's claim that the Ultra has it is wrong.
+- **AirPlay 2 is missing on the Ultra, Amp Ultra and Amp Pro** (Ultra page footnote; Amp Ultra manual; Amp Pro page and multiroom help article, 2026-11-09), and neither WiiM Sound speaker offers it (product pages, 2026-11-09); the $329 Amp has it. An ASR member's claim that the Ultra has it is wrong.
 - **No native Apple Music** on any model; [BluOS](bluos.md) added it on 2026-10-20.
 - **The Amp Ultra cannot feed a receiver**: no optical, coax or line out (manual p.18).
 - **RoomFit is single-position magnitude EQ by default**, global, and off under bit-perfect settings.
@@ -89,4 +89,9 @@ Full list: [bibliography](../reference/bibliography.md).
 - WiiM forum, "radio paradise losless flac ?", 2025-10-26 to 2025-10-29 [anecdote] — `wiimforum-radio-paradise-lossless.md`
 - WiiM Help Center, "Is Apple Music Supported?", modified 2025-09-11, captured 2026-11-08 — `v-wiim-faq-apple-music.md`
 - WiiM Help Center, "How to Set Up Your WiiM Ultra", captured 2026-11-08 — `v-wiim-faq-wiim-ultra-setup.md`
+- WiiM, WiiM Sound product page, captured 2026-11-09 — `r2-wiim-sound-product-page.md`
+- WiiM, WiiM Sound Lite product page and FAQ, captured 2026-11-09 — `r2-wiim-sound-lite-product-page.md`
+- WiiM, WiiM Amp Pro product page, captured 2026-11-09 — `r2-wiim-amp-pro-product-page.md`
+- WiiM, WiiM Amp product page, captured 2026-11-09 — `r2-wiim-amp-product-page.md`
+- WiiM Help Center, "Limitations and Considerations of WiiM Multi-room Music", modified 2025-05-19, captured 2026-11-09 — `r2-wiim-help-multiroom-limitations.md`
 - Not captured (forum bot check; anecdote only): WiiM forum threads "WiiM ultra radio paradise" (2024–2025) and "Adding internet radio stations to Open Network Stream" (2023).

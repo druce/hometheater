@@ -26,7 +26,7 @@ Multiroom is the real separator, and it works against the receiver. The main-roo
 | Level | Threshold for this room | Cheapest candidate that reaches it (2026-11-08) |
 |---|---|---|
 | Minimum | Spotify and AirPlay 2 documented on the receiver, plus a coax or optical input for the WiiM | Denon AVR-X2900H, $1,349: HEOS with AirPlay 2 (AV Nirvana, 2026-05-14), Spotify badge, one coax |
-| Good | Adds TIDAL Connect, Qobuz Connect and Roon Ready, on a multiroom platform with stated group limits | Marantz CINEMA 70s Series 2, $1,500: full HEOS set per its info sheet; HEOS groups up to 32 products |
+| Good | Adds TIDAL Connect, Qobuz Connect and Roon Ready, on a multiroom platform with stated group limits | Marantz CINEMA 70s Series 2, $1,500: full HEOS set per its info sheet; HEOS systems up to 32 products, synchronized groups up to 16 (X3900H manual p.111) |
 | Best | Native lossless Radio Paradise and native Apple Music, in one app shared with the other four rooms | None confirmed. The NAD T 758 V3i ($2,299) has Radio Paradise on BluOS; Apple Music on it is unconfirmed (#25) |
 
 ## Systems and concepts

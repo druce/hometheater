@@ -6,7 +6,7 @@ criteria: [3]
 status: unverified
 confidence: medium
 last_verified: 2026-11-08
-sources: [radioparadise-ways-to-listen.md, radioparadise-faqs-and-info.md, radioparadise-stream-links.md, radioparadise-stream-links-url-table.md, bluos-support-radio-paradise-articles.md, denon-avr-x3900h-owners-manual-na.pdf, v-marantz-cinema-70s-series-2-owners-manual-selected.md, v-marantz-cinema-50-series-2-owners-manual-selected.md, marantz-cinema-70s-series-2-info-sheet-na.pdf, marantz-cinema-50-series-2-info-sheet-na.pdf, onkyo-tx-rz50-spec-sheet.pdf, yamaha-rx-a4a-user-guide.pdf, yamaha-musiccast-supported-services.md, arcam-ava15-product-page.md, wiim-home-pc-app-help.md, wiimforum-radio-paradise-lossless.md]
+sources: [radioparadise-ways-to-listen.md, radioparadise-faqs-and-info.md, radioparadise-stream-links.md, radioparadise-stream-links-url-table.md, bluos-support-radio-paradise-articles.md, denon-avr-x3900h-owners-manual-na.pdf, v-marantz-cinema-70s-series-2-owners-manual-selected.md, v-marantz-cinema-50-series-2-owners-manual-selected.md, marantz-cinema-70s-series-2-info-sheet-na.pdf, marantz-cinema-50-series-2-info-sheet-na.pdf, onkyo-tx-rz50-spec-sheet.pdf, yamaha-rx-a4a-user-guide.pdf, yamaha-musiccast-supported-services.md, arcam-ava15-product-page.md, wiim-home-pc-app-help.md, wiimforum-radio-paradise-lossless.md, r2-sonos-music-service-pages.md]
 ---
 
 # Radio Paradise
@@ -19,7 +19,7 @@ Used by: [Streaming & multiroom](../criteria/streaming-and-multiroom.md).
 
 Radio Paradise is a listener-supported internet station with no ads, subscription or degraded free tier (RP FAQ, 2026-11-08). It reaches a system three ways, of unequal quality:
 
-1. **A dedicated integration** in a player platform or app: BluOS, Sonos, the RP iOS and Android apps, Alexa, TV apps. These carry RP's higher-quality streams and, on Sonos and BluOS, skip and pause.
+1. **A dedicated integration** in a player platform or app: BluOS, Sonos, the RP iOS and Android apps, Alexa, TV apps. RP says these carry its higher-quality streams, though Sonos labels its RP service standard quality; on Sonos and BluOS they add skip and pause.
 2. **A station directory** (TuneIn, vTuner, airable) inside a receiver's internet-radio input. RP says that on Sonos the default TuneIn route works but misses skip and pause and the highest-quality audio, and that TuneIn has been inserting pre-roll ads RP does not want (RP FAQ). The directories do not state which RP codec they carry.
 3. **A stream URL** pasted into any player that accepts one, chosen on RP's stream-links page by channel and bitrate.
 
@@ -47,7 +47,7 @@ Every route is free; quality varies, and RP states it for only some platforms.
 | Platform | How it is added | Quality per RP's own pages (2026-11-08) |
 |---|---|---|
 | [BluOS](bluos.md) (Bluesound, NAD) | Built into the BluOS app | MQA, from 24-bit masters when available; RP calls it its best-sounding option. The MQA unfold happens only in the BluOS player and is not passed to an external DAC (BluOS support) |
-| Sonos | Phone app, Settings, Add a Service | Highest quality, codec unstated; the default TuneIn route is lower quality and cannot skip |
+| Sonos | Phone app, Settings, Add a Service | RP: highest quality, relative to the default TuneIn route, which cannot skip. Sonos: "standard quality", below its CD-quality (16/44.1) and hi-res labels (Sonos, 2026-11-09). Codec unstated by either |
 | RP iOS app | App Store | ALAC (lossless) or AAC, set in the app; AirPlay to AirPlay 2 devices |
 | RP Android app | Play Store or APK | Codec not stated; owner reports say casting is lossless when the app is set to FLAC (WiiM forum, 2025) |
 | Alexa skill | Voice | Five levels, low to lossless; does not work with multi-speaker groups |
@@ -108,3 +108,4 @@ Full list: [bibliography](../reference/bibliography.md).
 - Arcam, AVA15 product page — `arcam-ava15-product-page.md`
 - WiiM Help Center, Introducing the WiiM Home App for PC, 2026-09-24 — `wiim-home-pc-app-help.md`
 - WiiM forum, "radio paradise losless flac ?", 2025-10-26 to 2025-10-29 [anecdote] — `wiimforum-radio-paradise-lossless.md`
+- Sonos Support, Radio Paradise on Sonos service page and quality-label definitions, captured 2026-11-09 — `r2-sonos-music-service-pages.md`

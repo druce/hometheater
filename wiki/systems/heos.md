@@ -6,7 +6,7 @@ criteria: [3, 6]
 status: contested
 confidence: medium
 last_verified: 2026-11-08
-sources: [denon-heos-us.md, denon-avr-x3900h-owners-manual-na.pdf, denon-av-receivers-category-us.md, v-marantz-cinema-70s-series-2-owners-manual-selected.md, v-marantz-cinema-50-series-2-owners-manual-selected.md, marantz-cinema-50-series-2-info-sheet-na.pdf, marantz-cinema-70s-series-2-info-sheet-na.pdf, harman-marantz-cinema-series-2-press-release.md, asr-denon-avr-x3900h-review.md, v-heos-cli-protocol-specification-v1.10.pdf, v-apple-appstore-hark-stream-heos.md]
+sources: [denon-heos-us.md, denon-avr-x3900h-owners-manual-na.pdf, denon-av-receivers-category-us.md, v-marantz-cinema-70s-series-2-owners-manual-selected.md, v-marantz-cinema-50-series-2-owners-manual-selected.md, marantz-cinema-50-series-2-info-sheet-na.pdf, marantz-cinema-70s-series-2-info-sheet-na.pdf, harman-marantz-cinema-series-2-press-release.md, asr-denon-avr-x3900h-review.md, v-heos-cli-protocol-specification-v1.10.pdf, v-apple-appstore-hark-stream-heos.md, r2-denon-heos-buying-guide.md]
 ---
 
 # HEOS (Denon, Marantz)
@@ -33,7 +33,7 @@ Inside the HEOS app, Denon lists Amazon Music, Pandora, TuneIn, SiriusXM, Qobuz,
 
 Local playback covers DLNA servers and USB storage. The X3900H manual lists FLAC, WAV and ALAC up to 192 kHz and DSD 2.8/5.6 MHz for network and USB files, all two-channel, with bit depth not stated (X3900H manual p.17, p.300). The rear USB port on the X3900H supplies 5 V/1.5 A and cannot play files, which makes it useful for powering an external streamer. Denon's own page says HEOS handles DSD, FLAC, ALAC, WAV, WMA and MP3 but gives no rate limits; that is a vendor claim about files, not streams.
 
-Multiroom limits, per the X3900H manual: up to 32 HEOS products in one system, and up to 16 in a group playing the same track in sync (p.111). For the future plan of two stereo rooms plus a kitchen and a bathroom speaker, that is not a constraint.
+Multiroom limits, per the X3900H manual: up to 32 HEOS products in one system, and up to 16 in a group playing the same track in sync (p.111). Denon's undated HEOS buying guide instead claims up to 64 zones, without defining a zone (captured 2026-11-09); that is marketing copy against the dated manual, so the manual's figures stand. For the future plan of two stereo rooms plus a kitchen and a bathroom speaker, that is not a constraint.
 
 ## Versions and tiers
 
@@ -73,3 +73,4 @@ Full list: [bibliography](../reference/bibliography.md).
 - Audio Science Review, Denon AVR-X3900H review (amirm), 2026-09-17 — `asr-denon-avr-x3900h-review.md`
 - Sound United, HEOS CLI Protocol Specification v1.10 — `v-heos-cli-protocol-specification-v1.10.pdf`
 - Apple App Store, Hark Stream listing, captured 2026-11-08 — `v-apple-appstore-hark-stream-heos.md`
+- Denon, HEOS Buying Guide (Inside Denon), undated, captured 2026-11-09 — `r2-denon-heos-buying-guide.md`

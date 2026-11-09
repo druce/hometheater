@@ -6,12 +6,12 @@ criteria: [3, 5]
 status: unverified
 confidence: medium
 last_verified: 2026-11-08
-sources: [denon-avr-x3900h-owners-manual-na.pdf, marantz-cinema-50-series-2-info-sheet-na.pdf, marantz-cinema-70s-series-2-info-sheet-na.pdf, marantz-cinema-70s-series-2-product-page.md, yamaha-rx-a4a-user-guide.pdf, yamaha-rx-a4a-specifications.md, yamaha-musiccast-faqs.md, yamaha-musiccast-supported-services.md, onkyo-tx-rz50-spec-sheet.pdf, onkyo-tx-rz50-product-page.md, onkyo-tx-rz50-firmware-update-2026-03.pdf, pac-press-2024-11-firmware-dirac-bass-control.md, anthem-mrx-540-740-1140-8k-spec-sheet.pdf, v-anthem-mrx-540-8k-product-page.md, nad-t-758-v3i-data-sheet.pdf, bluos-apple-music-support-2026-10-20.md, bluesound-node-product-page.md, arcam-ava15-product-page.md, arcam-radia-av-launch-news-2026-02-03.md, v-arcam-ava15-spec-sheet-v1.2.pdf, wiim-pro-product-page.md, wiim-pro-plus-product-page.md, wiim-ultra-product-page.md, wiim-amp-ultra-product-page.md, wiim-amp-ultra-user-manual.pdf, asr-wiim-amp-ultra-review.md, asr-wiim-ultra-review.md, v-wiim-faq-apple-music.md]
+sources: [denon-avr-x3900h-owners-manual-na.pdf, marantz-cinema-50-series-2-info-sheet-na.pdf, marantz-cinema-70s-series-2-info-sheet-na.pdf, marantz-cinema-70s-series-2-product-page.md, yamaha-rx-a4a-user-guide.pdf, yamaha-rx-a4a-specifications.md, yamaha-musiccast-faqs.md, yamaha-musiccast-supported-services.md, onkyo-tx-rz50-spec-sheet.pdf, onkyo-tx-rz50-product-page.md, onkyo-tx-rz50-firmware-update-2026-03.pdf, pac-press-2024-11-firmware-dirac-bass-control.md, anthem-mrx-540-740-1140-8k-spec-sheet.pdf, v-anthem-mrx-540-8k-product-page.md, nad-t-758-v3i-data-sheet.pdf, bluos-apple-music-support-2026-10-20.md, bluesound-node-product-page.md, arcam-ava15-product-page.md, arcam-radia-av-launch-news-2026-02-03.md, v-arcam-ava15-spec-sheet-v1.2.pdf, wiim-pro-product-page.md, wiim-pro-plus-product-page.md, wiim-ultra-product-page.md, wiim-amp-ultra-product-page.md, wiim-amp-ultra-user-manual.pdf, asr-wiim-amp-ultra-review.md, asr-wiim-ultra-review.md, v-wiim-faq-apple-music.md, r2-wiim-amp-pro-product-page.md, r2-wiim-sound-product-page.md, r2-wiim-sound-lite-product-page.md]
 ---
 
 # Streaming protocols (AirPlay 2, Google Cast, Connect, Roon Ready)
 
-**AirPlay is on every receiver candidate, but AirPlay 2 is missing from WiiM's Ultra and Amp Ultra, which leaves Apple Music on those devices to Bluetooth, Cast or a cable; Google Cast is not listed for Denon, Marantz or the Yamaha RX-A4A, and Roon Ready is documented only by Denon, Marantz, Arcam, Bluesound and WiiM.**
+**AirPlay is on every receiver candidate, but AirPlay 2 is missing from WiiM's Ultra, Amp Ultra, Amp Pro and WiiM Sound speakers, which leaves Apple Music on those devices to Bluetooth, Cast or a cable; Google Cast is not listed for Denon, Marantz or the Yamaha RX-A4A, and Roon Ready is documented only by Denon, Marantz, Arcam, Bluesound and WiiM.**
 
 Used by: [Streaming & multiroom](../criteria/streaming-and-multiroom.md) · [Connectivity](../criteria/connectivity.md).
 
@@ -61,7 +61,7 @@ No bench test in hand measures what AirPlay 2, Cast or Connect deliver on any re
 
 ## Limits
 
-- **No AirPlay 2 on WiiM Ultra or Amp Ultra.** WiiM's own pages and manual say so, and the manual's suggested alternatives do not name Apple Music. For the future stereo rooms in [my system](../start-here/my-system.md), an Amp Ultra means Apple Music by Bluetooth, by Cast, or by cable; the WiiM Pro, Pro Plus, Mini and the older Amp keep AirPlay 2. An ASR forum member's claim that the Ultra has AirPlay 2 is wrong. See [WiiM](../systems/wiim.md).
+- **No AirPlay 2 on WiiM Ultra, Amp Ultra, Amp Pro, Sound or Sound Lite.** WiiM's own pages and manual say so, except the WiiM Sound page, which simply omits it from its protocol list (Amp Pro, Sound and Sound Lite pages, 2026-11-09), and the manual's suggested alternatives do not name Apple Music. For the future stereo rooms in [my system](../start-here/my-system.md), an Amp Ultra means Apple Music by Bluetooth, by Cast, or by cable; the WiiM Pro, Pro Plus, Mini and the older Amp keep AirPlay 2. An ASR forum member's claim that the Ultra has AirPlay 2 is wrong. See [WiiM](../systems/wiim.md).
 - **AirPlay 2 quality is not documented by Apple.** WiiM's FAQ gives 44.1 kHz/16-bit for Apple Music over AirPlay ([open questions](../reference/open-questions.md)).
 - **No Cast on Denon, Marantz or the A4A.** A Cast-only app needs another path to those receivers.
 - **Denon cannot forward AirPlay or Roon Ready audio to Bluetooth headphones** (X3900H manual p.89).
@@ -84,6 +84,7 @@ Platform-level detail lives on [HEOS](../systems/heos.md), [MusicCast](../system
 - Arcam, AVA15 product page; Radia AV launch news, 2026-02-03; spec sheet v1.2 — `arcam-ava15-product-page.md`, `arcam-radia-av-launch-news-2026-02-03.md`, `v-arcam-ava15-spec-sheet-v1.2.pdf`
 - WiiM, Pro, Pro Plus, Ultra and Amp Ultra product pages, 2026-11-08; Amp Ultra manual v1.0.5 — `wiim-pro-product-page.md`, `wiim-pro-plus-product-page.md`, `wiim-ultra-product-page.md`, `wiim-amp-ultra-product-page.md`, `wiim-amp-ultra-user-manual.pdf`
 - WiiM Help Center, "Is Apple Music Supported?", modified 2025-09-11, captured 2026-11-08 — `v-wiim-faq-apple-music.md`
+- WiiM, Amp Pro, Sound and Sound Lite product pages, captured 2026-11-09 — `r2-wiim-amp-pro-product-page.md`, `r2-wiim-sound-product-page.md`, `r2-wiim-sound-lite-product-page.md`
 - Audio Science Review, WiiM Amp Ultra review, 2025-12-29; WiiM Ultra review — `asr-wiim-amp-ultra-review.md`, `asr-wiim-ultra-review.md`
 
 Full list: [bibliography](../reference/bibliography.md).

@@ -57,7 +57,7 @@ Spec sheets, manuals, product pages, warranties and press releases, plus the two
 - Premium Audio Company / Onkyo, *Onkyo AV Receivers (lineup)*, 2026-11 (best guess) — `onkyo-av-receivers-lineup.md` — [onkyo.com](https://onkyo.com/receivers/av-receivers)
 - Premium Audio Company / Onkyo, *Onkyo TX-RZ50 9.2-Channel THX Certified AV Receiver*, 2026-11 (best guess) — `onkyo-tx-rz50-product-page.md` — [onkyo.com](https://onkyo.com/receivers/tx-rz50)
 - Premium Audio Company / Onkyo, *TX-RZ50 product page, rendered (price and stock)*, 2026-11-08 — `v-onkyo-tx-rz50-product-page-rendered-2026-11-08.md` — [onkyo.com](https://onkyo.com/receivers/tx-rz50)
-- Onkyo, *TX-RZ50 Spec Sheet (EN)*, 2022 (best guess) — `onkyo-tx-rz50-spec-sheet.pdf` — [assets.onkyo-av.com](https://assets.onkyo-av.com/spec-sheets/TX-RZ50-SpecSheet-Eng.pdf)
+- Onkyo, *TX-RZ50 Spec Sheet (EN)*, 2020 — `onkyo-tx-rz50-spec-sheet.pdf` — [assets.onkyo-av.com](https://assets.onkyo-av.com/spec-sheets/TX-RZ50-SpecSheet-Eng.pdf)
 - Onkyo / PACTC, *TX-RZ50 Firmware Update Notes (3 Mar 2026)*, 2026-03-03 — `onkyo-tx-rz50-firmware-update-2026-03.pdf` — [assets.onkyo-av.com](https://assets.onkyo-av.com/product-firmware/Firmware_Update_Instructions_TX-RZ50_Mar-3-2026.pdf)
 - Premium Audio Company, *PAC Improves the Performance of AV and Hi-Fi Receivers with Firmware Upgrades*, 2024-11-05 — `pac-press-2024-11-firmware-dirac-bass-control.md` — [onkyo.com](https://onkyo.com/press/pac-improves-performance-of-av-and-hi-fi-receivers-with-firmware-upgrades-that-will-delight)
 - Premium Audio Company / Onkyo, *The Onkyo Horizon - First Look at CES 2026*, 2026-01-06 — `onkyo-press-ces-2026-horizon.md` — [onkyo.com](https://onkyo.com/press/the-onkyo-horizon-first-look-at-ces-2026-2) — concepts expected 2027
@@ -68,7 +68,7 @@ Spec sheets, manuals, product pages, warranties and press releases, plus the two
 
 - Yamaha Corporation of America, *AV Receivers - Yamaha USA (lineup)*, 2026-11 (best guess) — `yamaha-usa-av-receivers-lineup.md` — [usa.yamaha.com](https://usa.yamaha.com/products/audio_visual/av_receivers_amps/index.html)
 - Yamaha Corporation of America, *RX-A4A Specs (comparison table RX-A4A/A8A/A6A/A2A)*, 2021 (best guess) — `yamaha-rx-a4a-specifications.md` — [usa.yamaha.com](https://usa.yamaha.com/products/audio_visual/av_receivers_amps/rx-a4a/specs.html)
-- Yamaha Corporation, *RX-A4A User Guide (EN)*, 2021 (best guess) — `yamaha-rx-a4a-user-guide.pdf` — [usa.yamaha.com](https://usa.yamaha.com/files/download/other_assets/5/1335595/AV19-0070_RX-A4A_user_guide_En_UCRABGLFP_H0.pdf)
+- Yamaha Corporation, *RX-A4A User Guide (EN)*, 2025-02 (rev. H0) — `yamaha-rx-a4a-user-guide.pdf` — [usa.yamaha.com](https://usa.yamaha.com/files/download/other_assets/5/1335595/AV19-0070_RX-A4A_user_guide_En_UCRABGLFP_H0.pdf)
 - Yamaha Corporation of America, *RX500A 7.2-Channel 8K Home Theater AV Receiver*, 2026-06 (best guess) — `yamaha-rx500a-product-page.md` — [usa.yamaha.com](https://usa.yamaha.com/products/audio_visual/av_receivers_amps/rx500a/index.html)
 
 ### Sony

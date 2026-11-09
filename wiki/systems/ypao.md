@@ -17,7 +17,7 @@ Used by: [Room correction & bass management](../criteria/room-correction.md).
 
 ## What it does
 
-YPAO (Yamaha Parametric room Acoustic Optimizer) detects which speakers are connected, measures their distances to the listening position through the supplied microphone, and then sets levels and parametric EQ to suit the room (RX-A4A user guide p.17, 2021). Yamaha's documentation describes distance, level and parametric EQ; it makes no claim of time-domain or phase correction of the kind Dirac and Audyssey XT32 advertise.
+YPAO (Yamaha Parametric room Acoustic Optimizer) detects which speakers are connected, measures their distances to the listening position through the supplied microphone, and then sets levels and parametric EQ to suit the room (RX-A4A user guide p.17, rev. 02/2025). Yamaha's documentation describes distance, level and parametric EQ; it makes no claim of time-domain or phase correction of the kind Dirac and Audyssey XT32 advertise.
 
 Multi Measure takes up to 8 positions, with the first at the seat used most often; Yamaha estimates about 15 minutes for all eight (pp.98, 100). The manual shows three patterns: five seats, one seat plus four points around it, or two seats plus points in front and behind. An optional Angle/Height Measure uses the supplied pole and mic base for four further measurements and corrects speaker angle and presence-speaker height, mainly for Cinema DSP effects (pp.98–99, 105–106).
 
@@ -67,6 +67,6 @@ No independent measurement of YPAO on any receiver is in the evidence. Audioholi
 
 Full list: [bibliography](../reference/bibliography.md).
 
-- Yamaha, RX-A4A user guide (EN, AV19-0070), 2021 (best guess) — `yamaha-rx-a4a-user-guide.pdf`
+- Yamaha, RX-A4A user guide (EN, AV19-0070, rev. H0), published 02/2025 — `yamaha-rx-a4a-user-guide.pdf`
 - Yamaha USA, RX-A4A specifications (A4A/A8A/A6A/A2A table), captured 2026-11-08 — `yamaha-rx-a4a-specifications.md`
 - Audioholics, Yamaha RX-A6A bench test, 2021-12-22 — `audioholics-yamaha-rx-a6a-bench-test.md`
