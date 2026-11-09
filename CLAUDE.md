@@ -194,7 +194,7 @@ in the same commit as any page add or merge, then run `manifest_stats.py`.
 reader-facing list of what is genuinely unknown (e.g. whether a promised firmware feature will
 ship). Do not conflate them.
 
-Git is local only, no remote. `raw/` and `extracts/` are gitignored and never committed.
+Git remote: `github.com/druce/hometheater`, private (created 2026-11-09). `raw/` and `extracts/` are gitignored and never committed; check `git log --all --name-only` before making the repo public.
 
 The repo is an Obsidian vault: open `~/projects/hometheater`, set the attachment folder to
 `raw/assets/`, bind "Download attachments for current file" to a hotkey, use graph view to spot
