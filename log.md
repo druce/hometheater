@@ -315,3 +315,50 @@ about 5 dB, A/B by preset, Stereo rather than Direct/Pure Direct, WiiM Pro Fixed
 off. Status unverified until it is run in the room. Inbound from recommendation, buying-checklist
 and index. The index is now 1,947 words with the refreshed hooks and the new row, still under the
 2,000 ceiling and covered by the catalog exception. wiki_lint unchanged at 7 accepted findings.
+
+## [2026-11-09] ingest | round 2: multiroom options (receiver Zone 2, WiiM per room, Sonos)
+
+Owner asked whether the wiki covers feeding the future rooms (two stereo rooms, kitchen, bathroom)
+and raised using a 9-channel receiver to power two stereo zones. Survey before writing: the wiki
+covered app fragmentation and named the WiiM Amp Ultra for stereo rooms; nothing on receiver zones,
+wiring or Sonos.
+
+Sources: 47 new files (r2- prefix), captured by three agents: 7 Denon/HEOS, 22 WiiM/Google/Amazon,
+18 Sonos/Spotify/press; plus extracts from the X3900H manual, RZ50 spec sheet, RX-A4A guide and HEOS
+CLI spec already in raw/. support.denon.com was unreachable (Oracle error, 403, EU bot check), so no
+HEOS support article was captured. Agents checked every extract quotation against its raw file.
+
+Findings that decide the question:
+- X3900H has Zone 2 only, no Zone 3, so it cannot power two extra stereo rooms. Powered Zone 2
+  comes from the HEIGHT2 terminals under the default Amp Assign with a 5.1 main room; coax/optical
+  2ch PCM only (the WiiM qualifies); no stated room correction or sub in Zone 2. The RZ50 spec sheet
+  claims powered Zone 2 and Zone 3, but Zone 3 takes analog and network only.
+- The $329 WiiM Amp has AirPlay 2, Cast and RoomFit; the Amp Pro ($399), Ultra and Amp Ultra do not
+  have AirPlay 2. WiiM groups cap at 16 devices and 48 kHz/16-bit; Cast/Roon into a group play on
+  the lead only.
+- Sonos labels its Radio Paradise service "standard quality", below its CD-quality label; system
+  ceiling 48 kHz; Port $499 cannot wake or switch the X3900H.
+- No WiiM speaker and no current Denon Home speaker states a humidity or IP rating; only Sonos
+  portables do (Roam 2 and Play IP67, Move 2 IP56).
+
+Corrections, committed first ("fix: round 2 corrections"): Sonos RP quality on radio-paradise.md;
+WiiM Sound now $299 and the AirPlay-2-less WiiM list on wiim.md, streaming-protocols.md and the RP
+comparison; HEOS 32 per system / 16 per group plus the "64 zones" marketing conflict; Yamaha RX-A4A
+user guide date 02/2025 and Onkyo RZ50 spec sheet date 2020 in manifest.txt, ypao.md, bibliography.
+
+New pages (owner approved "research and write" for the comparison; systems/sonos.md added as the
+canonical home for Sonos facts so the comparison links rather than restates): comparisons/
+multiroom-options.md (verdict: WiiM Amp per stereo room plus WiiM speakers, $1,116; Zone 2 hybrid
+$787 if one room is cheap to wire; Sonos $1,996 to $2,495 and loses RP FLAC) and systems/sonos.md.
+
+Threading: recommendation and my-system now name the WiiM Amp ($329) per stereo room with the Amp
+Ultra as the alternative; streaming hub, wiim.md (six tier rows, multiroom limits), heos.md (input
+sharing, Denon Home ratings), X3900H and RZ50 zone notes, Amp Ultra page, RP comparison.
+
+Conflicts shown, not resolved: Sonos line-in product lists (three pages differ), Sonos Amp Wi-Fi
+bands, Port output caption, WiiM Amp SNR 98 vs 108 dB, Edition A10 MKII AirPlay 2 (two of three page
+statements list it, #45, and the recommendation's kitchen/bath speaker depends on it).
+Open questions #38–#46 added. Index hooks shortened to 38 words to stay under the ceiling.
+wiki_lint: 13 judgment findings. Accepted: index and bibliography catalog exceptions, five
+FM-PRODUCT `?`. New WORDS-HIGH soft-target findings on six pages (1,214–1,945, all under the 2,000
+ceiling) come from this round's additions and are accepted rather than cut. linkcheck clean.

@@ -42,6 +42,7 @@ Provisional: for a 5.1 room with one sub, the X3900H is the safest all-round Den
 | Digital audio inputs | 2 optical, 2 coaxial; maximum sample rate not stated | info sheet; manual |
 | HDMI | 6 in (all 8K); 3 out: TV 1 (eARC), TV 2, Zone 2 | manual p.11 |
 | Network | Ethernet; Wi-Fi 802.11a/b/g/n/ac; Bluetooth SBC | manual pp.331–332 |
+| Zone 2 | One extra zone, no Zone 3. Powered from the HEIGHT2 terminals under the default Amp Assign "7.1ch + ZONE2" with 5.1 in the main room; Zone 2 pre-out; HDMI Zone 2 out for inputs 1–4 only | manual pp.46, 158, 215, 228, 289 |
 | Idle draw | 60 W ECO on, 100 W ECO off | product page |
 
 Denon's spec table says "HDMI In/Out 6/2" while the comparison block on the same page says three outputs. The manual settles it: two main-zone outputs plus a separate Zone 2 output. The unstated coax and optical sample rate (open question #12) does not bind a 44.1 kHz Radio Paradise stream from a WiiM on coax. How to read the power figures is covered in [power ratings](../concepts/amplifier-power-ratings.md).
@@ -69,6 +70,8 @@ For one sub, the useful purchase is Room Correction plus Bass Control: $599 as a
 - **Radio Paradise FLAC:** not through HEOS. Internet radio plays WMA, MP3 and AAC only (manual pp.285, 303), and Radio Paradise is not a HEOS service. The plan of record is a WiiM Pro or Pro Plus into one of the two coax inputs; see [Radio Paradise](../systems/radio-paradise.md).
 - **Spotify:** Spotify Connect, free or Premium (manual p.118).
 - **Apple Music:** AirPlay 2 from an Apple device only; there is no native app.
+
+Zone 2 takes coax and optical as 2-channel PCM only, so the WiiM on coax can feed it, as can analog, USB, HEOS Music and the tuner (manual p.163). It has tone, level and a high-pass filter but no stated room correction or sub output, and keeps playing with the main zone off (pp.252, 270); [multiroom options](../comparisons/multiroom-options.md) weighs it against WiiM and Sonos.
 
 ## Measurements
 

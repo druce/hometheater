@@ -6,7 +6,7 @@ criteria: [3, 6, 7]
 status: contested
 confidence: medium
 last_verified: 2026-11-08
-sources: [wiim-mini-product-page.md, wiim-pro-product-page.md, wiim-pro-plus-product-page.md, wiim-ultra-product-page.md, wiim-amp-ultra-product-page.md, wiim-amp-ultra-user-manual.pdf, wiim-home-pc-app-help.md, wiim-roomfit-help.md, wiim-roomfit-settings-help.md, wiim-sound-product-page.md, asr-wiim-ultra-review.md, asr-wiim-amp-ultra-review.md, wiimforum-radio-paradise-lossless.md, v-wiim-faq-apple-music.md, v-wiim-faq-wiim-ultra-setup.md, r2-wiim-sound-product-page.md, r2-wiim-sound-lite-product-page.md, r2-wiim-amp-pro-product-page.md, r2-wiim-amp-product-page.md, r2-wiim-help-multiroom-limitations.md]
+sources: [wiim-mini-product-page.md, wiim-pro-product-page.md, wiim-pro-plus-product-page.md, wiim-ultra-product-page.md, wiim-amp-ultra-product-page.md, wiim-amp-ultra-user-manual.pdf, wiim-home-pc-app-help.md, wiim-roomfit-help.md, wiim-roomfit-settings-help.md, wiim-sound-product-page.md, asr-wiim-ultra-review.md, asr-wiim-amp-ultra-review.md, wiimforum-radio-paradise-lossless.md, v-wiim-faq-apple-music.md, v-wiim-faq-wiim-ultra-setup.md, r2-wiim-sound-product-page.md, r2-wiim-sound-lite-product-page.md, r2-wiim-amp-pro-product-page.md, r2-wiim-amp-product-page.md, r2-wiim-help-multiroom-limitations.md, r2-wiim-edition-a10-mkii-product-page.md, r2-wiim-edition-c10-mkii-product-page.md, r2-wiim-help-mrm-system.md, r2-wiim-help-multiroom-music.md, r2-wiim-help-google-cast-speaker-group.md, r2-wiim-help-pro-input-ports.md, r2-wiim-help-multiroom-audio-delay-sync.md]
 ---
 
 # WiiM (WiiM Home, RoomFit)
@@ -15,13 +15,15 @@ sources: [wiim-mini-product-page.md, wiim-pro-product-page.md, wiim-pro-plus-pro
 
 Used by: [Streaming & multiroom](../criteria/streaming-and-multiroom.md) · [Usability, app & firmware support](../criteria/usability-and-support.md) · [Value, reliability & resale](../criteria/value-and-reliability.md).
 
+Compared in: [multiroom options](../comparisons/multiroom-options.md).
+
 ## What it does
 
 WiiM Home is one app (phone, plus Windows and macOS) driving a range of streamers and streaming amplifiers. For this system it has two jobs: an external streamer on a receiver digital input, carrying the [Radio Paradise](radio-paradise.md) FLAC most receivers cannot play, and the platform for the future stereo rooms ([my system](../start-here/my-system.md)).
 
 Receivers carrying it: [WiiM Amp Ultra](../products/wiim-amp-ultra.md).
 
-**Streaming.** Protocol support differs by model (see the table, and [streaming protocols](streaming-protocols.md)); Spotify Connect, TIDAL Connect, Alexa Cast and DLNA are on all five. Apple Music is not integrated in WiiM Home, and over AirPlay or Bluetooth it arrives at 44.1 kHz/16-bit (WiiM FAQ, modified 2025-09-11). On the Ultra and Amp Ultra, which lack AirPlay 2, Apple Music therefore needs Bluetooth (SBC or AAC only), Google Cast from a supporting app, or a wired source.
+**Streaming.** Protocol support differs by model (see the table, and [streaming protocols](streaming-protocols.md)); Spotify Connect, TIDAL Connect and DLNA are on every model in it, and Alexa Cast on all but the two Edition speakers, whose pages do not list it. Apple Music is not integrated in WiiM Home, and over AirPlay or Bluetooth it arrives at 44.1 kHz/16-bit (WiiM FAQ, modified 2025-09-11). On the Ultra and Amp Ultra, which lack AirPlay 2, Apple Music therefore needs Bluetooth (SBC or AAC only), Google Cast from a supporting app, or a wired source.
 
 **Radio Paradise.** WiiM's PC-app help article (2026-09-24) lists Radio Paradise as an integrated service and states no codec. Lossless playback is owner-reported (open question #10) and the custom-URL route user-reported (#23); see [Measured and observed results](#measured-and-observed-results).
 
@@ -31,9 +33,15 @@ Receivers carrying it: [WiiM Amp Ultra](../products/wiim-amp-ultra.md).
 
 **Multiroom.** Network streams can join Alexa or Google Cast groups, but physical inputs (line, optical, HDMI ARC, Bluetooth) are shared only inside an all-WiiM group (Amp Ultra page), so a non-WiiM kitchen speaker can take Spotify from the group but not the TV.
 
+- A group holds up to 16 devices and plays at most 48 kHz/16-bit, which 16/44.1 Radio Paradise FLAC fits (MRM system and multiroom music help).
+- Google Cast, Roon and LMS into a WiiM group play on the lead only; house-wide Cast needs a Google Home group, network audio only (multiroom limitations; Cast group help).
+- AirPlay into a group needs an AirPlay-capable lead: Mini, Pro, Pro Plus or Amp.
+- The Pro shares its line and optical inputs to every WiiM room; it has no coax input (Pro input-ports help).
+- Digital outputs (coax, optical) can add over 50 ms of latency, so the Pro feeding the receiver may lag other rooms; per-device sync settings correct it (audio-delay help).
+
 ## Versions and tiers
 
-RoomFit, the app and multiroom carry no licence fee on any model. Prices are wiimhome.com list, 2026-11-08.
+RoomFit, the app and multiroom carry no licence fee on any model. Prices are wiimhome.com list, 2026-11-08; the Amp, Amp Pro, Sound, Sound Lite and Edition rows 2026-11-09.
 
 | Model | Price | Digital out to a receiver | AirPlay 2 | Google Cast | Roon Ready | Sub out | Manufacturer line-out claim |
 |---|---|---|---|---|---|---|---|
@@ -42,6 +50,12 @@ RoomFit, the app and multiroom carry no licence fee on any model. Prices are wii
 | Pro Plus | $219 | Optical and coax to 24/192, plus RCA line out | Yes | Yes | Yes | No | 121 dB SNR, −113 dB THD+N (AKM AK4493SEQ) |
 | Ultra | $349 | Optical, coax and USB, plus line out (WiiM FAQ "How to set up your WiiM Ultra") | **No** | Yes | Yes | Yes | 121 dB SNR, −116 dB THD+N (ES9038Q2M) |
 | Amp Ultra | $549 | **None**: speaker, sub and USB out only (manual v1.0.5) | **No** | Yes | Yes | Yes | n/a (amplifier) |
+| Amp | $329 | None: speaker, sub and USB out | Yes | Yes | Yes | Yes, 30–250 Hz crossover | n/a (amplifier) |
+| Amp Pro | $399 | None: speaker, sub and USB out | **No** | Yes | Yes | Yes, 30–250 Hz crossover | n/a (amplifier) |
+| WiiM Sound | $299 | n/a (speaker) | **No** | Yes | Yes | ? (pairs with WiiM Sub Pro) | n/a (speaker) |
+| Sound Lite | $229 | n/a (speaker) | **No** | Yes | Yes | ? (pairs with WiiM Sub Pro) | n/a (speaker) |
+| Edition A10 MKII | $229 | n/a (speaker) | Yes (one spec cell omits it) | Yes | Not listed | ? | n/a (speaker) |
+| Edition C10 MKII | $399 | n/a (speaker) | Yes | Yes | Not listed | Yes | n/a (speaker) |
 
 WiiM's selection guide puts the Pro forward for use with an external DAC or receiver and the Pro Plus for buyers using its RCA line out (Pro Plus page). Over coax the two are equivalent, so the Pro Plus's extra $50 buys an analog stage this system would not use, plus the voice remote that costs extra on the Pro. Bit-perfect output needs Fixed Volume on and EQ off (Pro Plus FAQ; Amp Ultra manual p.18), so RoomFit stays off on a WiiM feeding a receiver. The Ultra's additions (HDMI ARC, phono, sub out, touchscreen) do nothing for a receiver feed.
 
@@ -94,4 +108,6 @@ Full list: [bibliography](../reference/bibliography.md).
 - WiiM, WiiM Amp Pro product page, captured 2026-11-09 — `r2-wiim-amp-pro-product-page.md`
 - WiiM, WiiM Amp product page, captured 2026-11-09 — `r2-wiim-amp-product-page.md`
 - WiiM Help Center, "Limitations and Considerations of WiiM Multi-room Music", modified 2025-05-19, captured 2026-11-09 — `r2-wiim-help-multiroom-limitations.md`
+- WiiM, Edition A10 MKII and Edition C10 MKII product pages, captured 2026-11-09 — `r2-wiim-edition-a10-mkii-product-page.md`, `r2-wiim-edition-c10-mkii-product-page.md`
+- WiiM Help Center, multiroom articles: MRM system (2026-05-15), multiroom music (2026-07-23), Google Cast speaker group (2026-05-06), Pro input ports (2026-06-04), multiroom audio delay (2025-06-12), captured 2026-11-09 — `r2-wiim-help-mrm-system.md`, `r2-wiim-help-multiroom-music.md`, `r2-wiim-help-google-cast-speaker-group.md`, `r2-wiim-help-pro-input-ports.md`, `r2-wiim-help-multiroom-audio-delay-sync.md`
 - Not captured (forum bot check; anecdote only): WiiM forum threads "WiiM ultra radio paradise" (2024–2025) and "Adding internet radio stations to Open Network Stream" (2023).

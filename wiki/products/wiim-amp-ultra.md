@@ -6,7 +6,7 @@ criteria: [3, 6, 7]
 status: settled
 confidence: medium
 last_verified: 2026-11-08
-sources: [wiim-amp-ultra-user-manual.pdf, wiim-amp-ultra-product-page.md, asr-wiim-amp-ultra-review.md, v-wiim-faq-apple-music.md, wiim-home-pc-app-help.md, wiimforum-radio-paradise-lossless.md, wiim-roomfit-help.md, wiim-roomfit-settings-help.md]
+sources: [wiim-amp-ultra-user-manual.pdf, wiim-amp-ultra-product-page.md, asr-wiim-amp-ultra-review.md, v-wiim-faq-apple-music.md, wiim-home-pc-app-help.md, wiimforum-radio-paradise-lossless.md, wiim-roomfit-help.md, wiim-roomfit-settings-help.md, r2-wiim-amp-product-page.md]
 brand: WiiM
 model: "Amp Ultra"
 model_year: ?
@@ -55,7 +55,7 @@ How the three sources reach it:
 - **Spotify:** Spotify Connect.
 - **Apple Music:** **no AirPlay 2** (manual p.9, which also lists no HomePod grouping and no Siri) and no native integration in WiiM Home (WiiM FAQ, 2025-09-11). The routes left are Bluetooth, which WiiM says delivers Apple Music at 44.1 kHz/16-bit; Google Cast, where the manual lists Apple Music among Cast-enabled apps (p.52); or a wired source on the optical or line input.
 
-TIDAL Connect, Qobuz Connect, Roon Ready and DLNA are also supported. In multiroom, network streams can join Alexa or Google Cast groups, while physical inputs are shared only within an all-WiiM group (product page). The WiiM Pro, Pro Plus, Mini and the older Amp keep AirPlay 2 (WiiM pages, 2026-11-08); protocol detail is on [streaming protocols](../systems/streaming-protocols.md).
+TIDAL Connect, Qobuz Connect, Roon Ready and DLNA are also supported. In multiroom, network streams can join Alexa or Google Cast groups, while physical inputs are shared only within an all-WiiM group (product page). The WiiM Pro, Pro Plus, Mini and the older Amp keep AirPlay 2 (WiiM pages, 2026-11-08); protocol detail is on [streaming protocols](../systems/streaming-protocols.md). The $329 WiiM Amp keeps AirPlay 2 at a lower rated power (60 W/ch into 8 Ω, no conditions stated), which is why [multiroom options](../comparisons/multiroom-options.md) prefers it for the stereo rooms.
 
 ## Measurements
 
@@ -82,3 +82,4 @@ Full list: [bibliography](../reference/bibliography.md).
 - WiiM Help Center, WiiM Home app for PC, modified 2026-09-24 — `wiim-home-pc-app-help.md`
 - WiiM forum, Radio Paradise lossless thread, 2025-10 — `wiimforum-radio-paradise-lossless.md`
 - WiiM Help Center, RoomFit and RoomFit settings, modified 2026-11-04 and 2026-10-23 — `wiim-roomfit-help.md`, `wiim-roomfit-settings-help.md`
+- WiiM, WiiM Amp product page, captured 2026-11-09 — `r2-wiim-amp-product-page.md`

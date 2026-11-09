@@ -58,6 +58,8 @@ Onkyo lists Chromecast built-in, AirPlay 2, DTS Play-Fi, Spotify, TIDAL, Deezer,
 - **Spotify:** built in; Spotify Lossless is listed under a July 2025 firmware heading annotated November 2025.
 - **Apple Music:** AirPlay 2 only.
 
+The spec sheet claims powered Zone 2 and Zone 3, but Zone 3 takes analog and network sources only, so a WiiM on coax cannot feed it, and which terminals Zone 3 uses is not stated without the manual; see [multiroom options](../comparisons/multiroom-options.md).
+
 ## Measurements
 
 ASR measured one member-bought unit (ASR, TX-RZ50 review, 2022-02-12):

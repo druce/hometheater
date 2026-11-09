@@ -6,7 +6,7 @@ criteria: [3]
 status: unverified
 confidence: medium
 last_verified: 2026-11-08
-sources: [denon-avr-x3900h-owners-manual-na.pdf, asr-denon-avr-x3900h-review.md, v-avnirvana-denon-x2900h-x3900h-launch.md, denon-avr-x2900h-product-page.md, denon-av-receivers-category-us.md, marantz-cinema-50-series-2-info-sheet-na.pdf, marantz-cinema-70s-series-2-info-sheet-na.pdf, v-marantz-cinema-70s-series-2-owners-manual-selected.md, v-marantz-cinema-50-series-2-owners-manual-selected.md, marantz-cinema-50-series-2-product-page.md, yamaha-musiccast-supported-services.md, yamaha-musiccast-faqs.md, yamaha-rx-a4a-user-guide.pdf, onkyo-tx-rz50-spec-sheet.pdf, v-onkyo-tx-rz50-product-page-rendered-2026-11-08.md, v-anthem-mrx-540-8k-product-page.md, anthem-mrx-540-740-1140-8k-spec-sheet.pdf, nad-t-758-v3i-data-sheet.pdf, bluos-supported-services.md, bluos-apple-music-support-2026-10-20.md, bluos-support-radio-paradise-articles.md, v-bluos-release-notes-4.16.22-excerpt.md, v-arcam-ava15-spec-sheet-v1.2.pdf, arcam-ava15-product-page.md, wiim-amp-ultra-user-manual.pdf, wiim-amp-ultra-product-page.md, v-wiim-faq-apple-music.md, wiim-home-pc-app-help.md, wiimforum-radio-paradise-lossless.md, radioparadise-ways-to-listen.md]
+sources: [denon-avr-x3900h-owners-manual-na.pdf, asr-denon-avr-x3900h-review.md, v-avnirvana-denon-x2900h-x3900h-launch.md, denon-avr-x2900h-product-page.md, denon-av-receivers-category-us.md, marantz-cinema-50-series-2-info-sheet-na.pdf, marantz-cinema-70s-series-2-info-sheet-na.pdf, v-marantz-cinema-70s-series-2-owners-manual-selected.md, v-marantz-cinema-50-series-2-owners-manual-selected.md, marantz-cinema-50-series-2-product-page.md, yamaha-musiccast-supported-services.md, yamaha-musiccast-faqs.md, yamaha-rx-a4a-user-guide.pdf, onkyo-tx-rz50-spec-sheet.pdf, v-onkyo-tx-rz50-product-page-rendered-2026-11-08.md, v-anthem-mrx-540-8k-product-page.md, anthem-mrx-540-740-1140-8k-spec-sheet.pdf, nad-t-758-v3i-data-sheet.pdf, bluos-supported-services.md, bluos-apple-music-support-2026-10-20.md, bluos-support-radio-paradise-articles.md, v-bluos-release-notes-4.16.22-excerpt.md, v-arcam-ava15-spec-sheet-v1.2.pdf, arcam-ava15-product-page.md, wiim-amp-ultra-user-manual.pdf, wiim-amp-ultra-product-page.md, v-wiim-faq-apple-music.md, wiim-home-pc-app-help.md, wiimforum-radio-paradise-lossless.md, radioparadise-ways-to-listen.md, r2-wiim-amp-product-page.md, r2-wiim-help-google-cast-speaker-group.md, r2-google-nest-speaker-groups-help.md]
 ---
 
 # Criterion 3: Streaming & multiroom
@@ -19,7 +19,7 @@ With a WiiM Pro or Pro Plus on a coax input carrying Radio Paradise FLAC ([my sy
 
 Spotify separates nobody, since every candidate with a documented protocol list carries Spotify Connect or a built-in Spotify client. Apple Music does not separate them either: none of the eleven receivers has a native Apple Music client, so Apple Music arrives by AirPlay from an iPhone or Mac on all of them, and the version is in doubt only where the maker leaves it unstated (Anthem, Arcam). WiiM's FAQ puts Apple Music over AirPlay at 44.1 kHz/16-bit, a vendor figure with no Apple source behind it (open question #24).
 
-Multiroom is the real separator, and it works against the receiver. The main-room WiiM already puts WiiM Home in the house, and the stereo-room candidate, the WiiM Amp Ultra, runs the same app. Any receiver platform (HEOS, MusicCast, BluOS, Radia) is then a second app unless the whole house is built on it. The bridges between platforms are thin: WiiM network streams can join Google Cast or Alexa groups, but physical inputs are shared only inside an all-WiiM group (Amp Ultra product page), and the Amp Ultra has no AirPlay 2, so an iPhone cannot group it with an AirPlay 2 receiver. Whether a receiver's own Cast implementation joins a Cast group with WiiM players is untested for every candidate.
+Multiroom is the real separator, and it works against the receiver. The main-room WiiM already puts WiiM Home in the house, and the stereo-room candidate, the WiiM Amp ($329), runs the same app. Any receiver platform (HEOS, MusicCast, BluOS, Radia) is then a second app unless the whole house is built on it. The bridges between platforms are thin: WiiM network streams can join Google Cast or Alexa groups, but physical inputs are shared only inside an all-WiiM group (WiiM Amp and Amp Ultra product pages). The Amp has AirPlay 2, so an iPhone can group it with an AirPlay 2 receiver; the Amp Ultra alternative cannot. Whether a receiver's own Cast implementation joins a Cast group with WiiM players is untested for every candidate. Zone 2, WiiM, [Sonos](../systems/sonos.md) and HEOS are costed room by room in [multiroom options](../comparisons/multiroom-options.md).
 
 ## What good looks like
 
@@ -35,6 +35,7 @@ Multiroom is the real separator, and it works against the receiver. The main-roo
 - [Yamaha MusicCast](../systems/musiccast.md)
 - [BluOS (Bluesound, NAD)](../systems/bluos.md)
 - [WiiM (WiiM Home, RoomFit)](../systems/wiim.md)
+- [Sonos](../systems/sonos.md)
 - [Streaming protocols (AirPlay 2, Google Cast, Connect, Roon Ready)](../systems/streaming-protocols.md)
 - [Radio Paradise](../systems/radio-paradise.md)
 - [Lossless streaming paths](../concepts/lossless-streaming-paths.md)
@@ -70,6 +71,7 @@ Ranked on the receiver's own platform, with Radio Paradise assumed to come from 
 ### Stereo rooms (not a 5.1 candidate)
 
 - [WiiM Amp Ultra](../products/wiim-amp-ultra.md): shares WiiM Home with the main-room WiiM and has Spotify Connect and an owner-reported lossless Radio Paradise service (#10), but **no AirPlay 2 and no native Apple Music**, so Apple Music reaches it only by Bluetooth (44.1/16 per WiiM), Google Cast from a supporting app, or cable. The WiiM Pro, Pro Plus, Mini and older Amp keep AirPlay 2 (WiiM pages, 2026-11-08).
+- WiiM Amp ($329, 2026-11-09; no product page, see [WiiM](../systems/wiim.md)): AirPlay 2, Google Cast, RoomFit, HDMI ARC and a sub output in the same app, rated 60 W/ch into 8 Ω with no stated conditions; [multiroom options](../comparisons/multiroom-options.md) prefers it to the Amp Ultra for these rooms.
 
 ## Open questions
 
@@ -81,4 +83,4 @@ From [open questions](../reference/open-questions.md):
 - **#13** What a Bluesound NODE sends out its coax for Radio Paradise, which decides whether a NODE can replace the WiiM.
 - **#9, #22, #16** Whether HEOS (via Roon, AirPlay or the CLI `play_stream` command) or Yamaha's airable directory can play RP FLAC natively; none is device-tested.
 - **#21, #28** The X3800H's protocol list, and whether the MRX 540 is now Roon Ready.
-- Not yet registered: whether any candidate's Google Cast joins a multiroom Cast group with WiiM players, which would let one app (Google Home) span the house.
+- Not yet registered: whether any candidate's Google Cast joins a multiroom Cast group with WiiM players, which would let one app (Google Home) span the house. WiiM documents its devices joining Google Home speaker groups for network audio only (WiiM help, modified 2026-05-06); Google's own help names only Google hardware as group members (captured 2026-11-09).

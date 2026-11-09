@@ -6,7 +6,7 @@ criteria: [1, 2, 3, 7]
 status: settled
 confidence: medium
 last_verified: 2026-11-09
-sources: [asr-denon-avr-x3900h-review.md, denon-avr-x3900h-owners-manual-na.pdf, dirac-live-upgrade-denon-avr-x3900h-pricing.md, wiim-pro-product-page.md, wiim-pro-plus-product-page.md, asr-onkyo-tx-rz50-review.md, v-denon-limited-warranty-new-2024dec12.pdf]
+sources: [asr-denon-avr-x3900h-review.md, denon-avr-x3900h-owners-manual-na.pdf, dirac-live-upgrade-denon-avr-x3900h-pricing.md, wiim-pro-product-page.md, wiim-pro-plus-product-page.md, asr-onkyo-tx-rz50-review.md, v-denon-limited-warranty-new-2024dec12.pdf, r2-wiim-amp-product-page.md, r2-wiim-edition-a10-mkii-product-page.md]
 ---
 
 # Recommendation
@@ -26,7 +26,7 @@ Spotify arrives by Spotify Connect on the receiver and Apple Music by AirPlay 2 
 
 The [Onkyo TX-RZ50](../products/onkyo-tx-rz50.md) is the conditional alternative at $1,868. It becomes the better buy if three things hold together: the chosen speakers are nominal 8 Ω without deep impedance dips, a backorder of months is acceptable, and a 2020 platform with a 2027 successor in view is acceptable for resale. ASR saw no limiting at 8 Ω, but no one has measured how close five channels at small-room levels come to the threshold (#14), and only an AC-cord pull clears it. The $749 saving is real; the risk is unpriced.
 
-The two future stereo rooms take a [WiiM Amp Ultra](../products/wiim-amp-ultra.md) each ($549), with the kitchen and bathroom speakers chosen later; the WiiM Pro in the main room joins the same app.
+The two future stereo rooms take a WiiM Amp each ($329, wiimhome.com, 2026-11-09), which keeps AirPlay 2, Google Cast, RoomFit, HDMI ARC and a sub output, and the kitchen and bathroom take a WiiM Edition A10 MKII each ($229), all in the same app as the main-room Pro ([multiroom options](../comparisons/multiroom-options.md)). The Amp's 60 W/ch into 8 Ω comes with no stated conditions, so the [Amp Ultra](../products/wiim-amp-ultra.md) ($549; 100 W/ch into 8 Ω, two channels driven, 0.08% THD; about 97 W measured by ASR) is the alternative where a conditioned rating matters, at the cost of AirPlay 2. No WiiM speaker states a humidity or IP rating, so a bathroom that needs one points to a [Sonos](../systems/sonos.md) Roam 2 (IP67) and a second app.
 
 ## What would change it
 
@@ -39,6 +39,7 @@ The two future stereo rooms take a [WiiM Amp Ultra](../products/wiim-amp-ultra.m
 ## Related
 
 - [Shortlist](shortlist.md)
+- [Multiroom options](../comparisons/multiroom-options.md)
 - [Buying checklist](buying-checklist.md)
 - [Setup and calibration](setup-and-calibration.md)
 - [My system: requirements](../start-here/my-system.md)

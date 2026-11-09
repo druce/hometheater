@@ -6,7 +6,7 @@ criteria: [1, 2, 3, 4, 7]
 status: unverified
 confidence: medium
 last_verified: 2026-11-08
-sources: [radioparadise-ways-to-listen.md, radioparadise-stream-links-url-table.md, bluos-support-radio-paradise-articles.md, bluos-apple-music-support-2026-10-20.md, denon-avr-x3900h-owners-manual-na.pdf]
+sources: [radioparadise-ways-to-listen.md, radioparadise-stream-links-url-table.md, bluos-support-radio-paradise-articles.md, bluos-apple-music-support-2026-10-20.md, denon-avr-x3900h-owners-manual-na.pdf, r2-wiim-amp-product-page.md]
 ---
 
 # My system: requirements
@@ -24,7 +24,7 @@ sources: [radioparadise-ways-to-listen.md, radioparadise-stream-links-url-table.
 | Priorities | Room correction; music and streaming | Criteria 1, 2 and 3 carry the most weight. |
 | Music sources | Radio Paradise lossless FLAC; Spotify; Apple Music | Spotify Connect and AirPlay 2 are table stakes. Radio Paradise FLAC may come from an external streamer (owner decision, 2026-11-08). |
 | Multiroom, now | One room only | Not a factor today. |
-| Multiroom, future | Two more rooms with stereo speakers, plus one wireless speaker each in the kitchen and bathroom | A WiiM Amp Ultra is the candidate for the stereo rooms. One app across the main-room streamer, the stereo rooms and the wireless speakers counts in the streaming criterion. |
+| Multiroom, future | Two more rooms with stereo speakers, plus one wireless speaker each in the kitchen and bathroom | A WiiM Amp ($329, AirPlay 2) is the candidate for the stereo rooms, with the Amp Ultra as the alternative ([multiroom options](../comparisons/multiroom-options.md)). One app across the main-room streamer, the stereo rooms and the wireless speakers counts in the streaming criterion. |
 
 ## Radio Paradise FLAC: where it plays
 
@@ -42,5 +42,5 @@ Since an external streamer is acceptable, the plan of record is: any receiver pl
 - Speaker models, sensitivity and impedance (front L/R, center, surrounds).
 - Exact room dimensions, and where the listening position and sub can go.
 - Display and sources (TV model, eARC, consoles), plus any vinyl.
-- Whether the future stereo rooms use passive speakers on a WiiM Amp Ultra (assumed) or something else.
+- Whether the future stereo rooms use passive speakers on a WiiM Amp (assumed; Amp Ultra as the alternative) or something else.
 - Tolerance for paid room-correction upgrades (for example a Dirac license) and for calibration effort.
