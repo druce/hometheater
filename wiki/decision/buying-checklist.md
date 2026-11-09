@@ -6,7 +6,7 @@ criteria: [6, 7]
 status: settled
 confidence: medium
 last_verified: 2026-11-09
-sources: [denon-avr-x3900h-owners-manual-na.pdf, v-denon-limited-warranty-new-2024dec12.pdf, dirac-live-upgrade-denon-avr-x3900h-pricing.md, wiim-pro-plus-product-page.md, wiim-amp-ultra-user-manual.pdf]
+sources: [denon-avr-x3900h-owners-manual-na.pdf, denon-avr-x3900h-info-sheet.pdf, v-denon-limited-warranty-new-2024dec12.pdf, dirac-live-upgrade-denon-avr-x3900h-pricing.md, wiim-pro-plus-product-page.md, wiim-amp-ultra-user-manual.pdf]
 ---
 
 # Buying checklist
@@ -39,6 +39,8 @@ The full order and settings are on [setup and calibration](setup-and-calibration
 - [ ] Fallback test: cast from the Radio Paradise app set to FLAC to the WiiM Pro over Google Cast.
 - [ ] Optional test #22: send the `/flac` URL to the receiver with the HEOS CLI `play_stream` command.
 - [ ] Spotify Connect and AirPlay 2 (Apple Music) to the receiver, once each.
+- [ ] Keep Network Control at Always On (the default) so apps and automations can wake the receiver; it costs more standby power, under 2 W per Denon (manual p.241; info sheet).
+- [ ] If HDMI Control is turned on, set Power Off Control to Video, so turning off the TV does not stop coax music (manual p.192). Background: [control and automation](../comparisons/control-and-automation.md).
 - [ ] Log every result in `log.md` and update the system and product pages it touches.
 
 ## Related
@@ -46,4 +48,5 @@ The full order and settings are on [setup and calibration](setup-and-calibration
 - [Recommendation](recommendation.md)
 - [Setup and calibration](setup-and-calibration.md)
 - [Dirac Live (Room Correction, Bass Control, ART)](../systems/dirac-live.md)
+- [Control and automation](../comparisons/control-and-automation.md)
 - [Open questions](../reference/open-questions.md)

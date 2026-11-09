@@ -6,7 +6,7 @@ criteria: [6]
 status: unverified
 confidence: low
 last_verified: 2026-11-08
-sources: [r3-onkyo-tx-rz30-owners-manual-selected.md, r3-dirac-store-onkyo-tx-rz30.md, r3-onkyo-tx-rz30-product-page-rendered-2026-11-09.md, denon-avr-x3900h-owners-manual-na.pdf, asr-denon-avr-x3900h-review.md, asr-denon-avr-x3800h-review.md, audyssey-multeq-x-microsoft-store-listing.md, v-apple-appstore-audyssey-multeq-editor.md, dirac-live-for-denon-compatible-devices.md, dirac-live-for-marantz-compatible-devices.md, v-dirac-brand-and-device-pages-2026-11-08.md, v-arcam-ava15-ava25-owners-manual-v1.5.pdf, arcam-radia-av-launch-news-2026-02-03.md, onkyo-tx-rz50-firmware-update-2026-03.pdf, asr-onkyo-tx-rz50-review.md, harman-marantz-cinema-series-2-press-release.md, yamaha-rx-a4a-user-guide.pdf, anthem-arc-genesis.md, v-anthem-mrx-avm-operating-manual.pdf, anthem-mrx-540-740-1140-8k-spec-sheet.pdf, asr-anthem-mrx1140-review.md, asr-nad-t758-v3-review.md, wiim-amp-ultra-user-manual.pdf, asr-wiim-amp-ultra-review.md, wiim-roomfit-help.md, v-denon-limited-warranty-new-2024dec12.pdf, v-marantz-limited-warranty-us.md, v-onkyo-us-warranty.md]
+sources: [r3-onkyo-tx-rz30-owners-manual-selected.md, r3-dirac-store-onkyo-tx-rz30.md, r3-onkyo-tx-rz30-product-page-rendered-2026-11-09.md, denon-avr-x3900h-owners-manual-na.pdf, asr-denon-avr-x3900h-review.md, asr-denon-avr-x3800h-review.md, audyssey-multeq-x-microsoft-store-listing.md, v-apple-appstore-audyssey-multeq-editor.md, dirac-live-for-denon-compatible-devices.md, dirac-live-for-marantz-compatible-devices.md, v-dirac-brand-and-device-pages-2026-11-08.md, v-arcam-ava15-ava25-owners-manual-v1.5.pdf, arcam-radia-av-launch-news-2026-02-03.md, onkyo-tx-rz50-firmware-update-2026-03.pdf, asr-onkyo-tx-rz50-review.md, harman-marantz-cinema-series-2-press-release.md, yamaha-rx-a4a-user-guide.pdf, anthem-arc-genesis.md, v-anthem-mrx-avm-operating-manual.pdf, anthem-mrx-540-740-1140-8k-spec-sheet.pdf, asr-anthem-mrx1140-review.md, asr-nad-t758-v3-review.md, wiim-amp-ultra-user-manual.pdf, asr-wiim-amp-ultra-review.md, wiim-roomfit-help.md, v-denon-limited-warranty-new-2024dec12.pdf, v-marantz-limited-warranty-us.md, v-onkyo-us-warranty.md, r4-apple-appstore-denon-avr-remote.md, r4-apple-appstore-onkyo-controller.md, r4-onkyo-tx-rz50-owners-manual-selected.md]
 ---
 
 # Criterion 6: Usability, app & firmware support
@@ -24,6 +24,8 @@ Room correction ranks first in [my system](../start-here/my-system.md), and corr
 
 Firmware and support decide whether that setup keeps working over the receiver's life. The evidence is thin: Onkyo's TX-RZ50 is the only receiver with dated firmware notes in the sources, and the 2026 models have no track record yet. Warranty is 3 years on Denon AVR-X models and Onkyo RZ receivers, and 5 years on Marantz CINEMA models, each from an authorised dealer (Denon warranty, 2024-12-12; Marantz and Onkyo warranty pages, captured 2026-11-08); no term is in the evidence for Yamaha, Anthem, NAD, Arcam or WiiM.
 
+Day-to-day control is weak on both shortlisted brands. The official receiver apps rate 2.0 stars (Denon AVR Remote, 1,456 ratings) and 2.2 (Onkyo Controller, 627), and Onkyo Controller is also the RZ50's Dirac measurement front end (manual p.165; the RZ30 by inference), so its rating bears on calibration (App Store, 2026-11-09). No receiver app claims Shortcuts actions. Denon is modestly ahead on documented control, with a web control page, a Denon-hosted HEOS CLI, four Quick Selects and a Platinum Home Assistant HEOS integration; the routes are compared in [control and automation](../comparisons/control-and-automation.md).
+
 ## What good looks like
 
 | Level | Threshold for this room | Cheapest candidate that reaches it (2026-11-08) |
@@ -40,6 +42,7 @@ Firmware and support decide whether that setup keeps working over the receiver's
 - [WiiM (WiiM Home, RoomFit)](../systems/wiim.md)
 - [Audyssey MultEQ (XT, XT32, MultEQ-X)](../systems/audyssey-multeq.md)
 - [Dirac Live (Room Correction, Bass Control, ART)](../systems/dirac-live.md)
+- [Control and automation: apps, Siri, Shortcuts, Home Assistant](../comparisons/control-and-automation.md)
 
 ## How the candidates rank
 

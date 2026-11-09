@@ -6,7 +6,7 @@ criteria: [3, 6, 7]
 status: contested
 confidence: medium
 last_verified: 2026-11-08
-sources: [wiim-mini-product-page.md, wiim-pro-product-page.md, wiim-pro-plus-product-page.md, wiim-ultra-product-page.md, wiim-amp-ultra-product-page.md, wiim-amp-ultra-user-manual.pdf, wiim-home-pc-app-help.md, wiim-roomfit-help.md, wiim-roomfit-settings-help.md, wiim-sound-product-page.md, asr-wiim-ultra-review.md, asr-wiim-amp-ultra-review.md, wiimforum-radio-paradise-lossless.md, v-wiim-faq-apple-music.md, v-wiim-faq-wiim-ultra-setup.md, r2-wiim-sound-product-page.md, r2-wiim-sound-lite-product-page.md, r2-wiim-amp-pro-product-page.md, r2-wiim-amp-product-page.md, r2-wiim-help-multiroom-limitations.md, r2-wiim-edition-a10-mkii-product-page.md, r2-wiim-edition-c10-mkii-product-page.md, r2-wiim-help-mrm-system.md, r2-wiim-help-multiroom-music.md, r2-wiim-help-google-cast-speaker-group.md, r2-wiim-help-pro-input-ports.md, r2-wiim-help-multiroom-audio-delay-sync.md, r4-wiim-http-api-for-wiim-products.pdf, r4-wiim-help-pro-pro-plus-roadmap.md]
+sources: [wiim-mini-product-page.md, wiim-pro-product-page.md, wiim-pro-plus-product-page.md, wiim-ultra-product-page.md, wiim-amp-ultra-product-page.md, wiim-amp-ultra-user-manual.pdf, wiim-home-pc-app-help.md, wiim-roomfit-help.md, wiim-roomfit-settings-help.md, wiim-sound-product-page.md, asr-wiim-ultra-review.md, asr-wiim-amp-ultra-review.md, wiimforum-radio-paradise-lossless.md, v-wiim-faq-apple-music.md, v-wiim-faq-wiim-ultra-setup.md, r2-wiim-sound-product-page.md, r2-wiim-sound-lite-product-page.md, r2-wiim-amp-pro-product-page.md, r2-wiim-amp-product-page.md, r2-wiim-help-multiroom-limitations.md, r2-wiim-edition-a10-mkii-product-page.md, r2-wiim-edition-c10-mkii-product-page.md, r2-wiim-help-mrm-system.md, r2-wiim-help-multiroom-music.md, r2-wiim-help-google-cast-speaker-group.md, r2-wiim-help-pro-input-ports.md, r2-wiim-help-multiroom-audio-delay-sync.md, r4-wiim-http-api-for-wiim-products.pdf, r4-wiim-help-pro-pro-plus-roadmap.md, r4-wiim-help-apple-home-accessory.md, r4-home-assistant-wiim-integration.md]
 ---
 
 # WiiM (WiiM Home, RoomFit)
@@ -16,6 +16,8 @@ sources: [wiim-mini-product-page.md, wiim-pro-product-page.md, wiim-pro-plus-pro
 Used by: [Streaming & multiroom](../criteria/streaming-and-multiroom.md) · [Usability, app & firmware support](../criteria/usability-and-support.md) · [Value, reliability & resale](../criteria/value-and-reliability.md).
 
 Compared in: [multiroom options](../comparisons/multiroom-options.md).
+
+Control and automation: [comparison](../comparisons/control-and-automation.md). Siri and Apple Home reach the Mini, Pro, Pro Plus and Amp only as AirPlay 2 speakers; the HTTP API and Home Assistant's WiiM integration (Platinum, HA 2026.4) add stop, presets and input, and no Shortcuts actions are documented.
 
 ## What it does
 
@@ -88,28 +90,19 @@ WiiM versus a Bluesound NODE as the streamer: [Radio Paradise FLAC: native vs ex
 
 Full list: [bibliography](../reference/bibliography.md).
 
-- WiiM, WiiM Mini product page, 2026-11-08 — `wiim-mini-product-page.md`
-- WiiM, WiiM Pro product page, 2026-11-08 — `wiim-pro-product-page.md`
-- WiiM, WiiM Pro Plus product page and FAQ, 2026-11-08 — `wiim-pro-plus-product-page.md`
-- WiiM, WiiM Ultra product page, 2026-11-08 — `wiim-ultra-product-page.md`
-- WiiM, WiiM Amp Ultra product page, 2026-11-08 — `wiim-amp-ultra-product-page.md`
+- WiiM, Mini, Pro, Pro Plus (with FAQ), Ultra and Amp Ultra product pages, 2026-11-08 — `wiim-mini-product-page.md`, `wiim-pro-product-page.md`, `wiim-pro-plus-product-page.md`, `wiim-ultra-product-page.md`, `wiim-amp-ultra-product-page.md`
 - WiiM, WiiM Amp Ultra User Manual v1.0.5, 2026-04-13 — `wiim-amp-ultra-user-manual.pdf`
 - WiiM Help Center, Introducing the WiiM Home App for PC, 2026-09-24 — `wiim-home-pc-app-help.md`
-- WiiM Help Center, How to Perform RoomFit, 2026-11-04 — `wiim-roomfit-help.md`
-- WiiM Help Center, Introducing RoomFit Settings, 2026-10-23 — `wiim-roomfit-settings-help.md`
-- WiiM, WiiM Sound product page, 2026-11-08 — `wiim-sound-product-page.md`
-- Audio Science Review, WiiM Ultra Streamer Preamp Review, 2024-09-30 — `asr-wiim-ultra-review.md`
-- Audio Science Review, WiiM Amp Ultra Streaming Amplifier Review, 2025-12-29 — `asr-wiim-amp-ultra-review.md`
+- WiiM Help Center, How to Perform RoomFit (2026-11-04) and Introducing RoomFit Settings (2026-10-23) — `wiim-roomfit-help.md`, `wiim-roomfit-settings-help.md`
+- Audio Science Review, WiiM Ultra Streamer Preamp Review (2024-09-30) and WiiM Amp Ultra Streaming Amplifier Review (2025-12-29) — `asr-wiim-ultra-review.md`, `asr-wiim-amp-ultra-review.md`
 - WiiM forum, "radio paradise losless flac ?", 2025-10-26 to 2025-10-29 [anecdote] — `wiimforum-radio-paradise-lossless.md`
-- WiiM Help Center, "Is Apple Music Supported?", modified 2025-09-11, captured 2026-11-08 — `v-wiim-faq-apple-music.md`
-- WiiM Help Center, "How to Set Up Your WiiM Ultra", captured 2026-11-08 — `v-wiim-faq-wiim-ultra-setup.md`
-- WiiM, WiiM Sound product page, captured 2026-11-09 — `r2-wiim-sound-product-page.md`
+- WiiM Help Center, "Is Apple Music Supported?" (modified 2025-09-11) and "How to Set Up Your WiiM Ultra", captured 2026-11-08 — `v-wiim-faq-apple-music.md`, `v-wiim-faq-wiim-ultra-setup.md`
+- WiiM, WiiM Sound product page, captured 2026-11-08 and 2026-11-09 — `wiim-sound-product-page.md`, `r2-wiim-sound-product-page.md`
 - WiiM, WiiM Sound Lite product page and FAQ, captured 2026-11-09 — `r2-wiim-sound-lite-product-page.md`
-- WiiM, WiiM Amp Pro product page, captured 2026-11-09 — `r2-wiim-amp-pro-product-page.md`
-- WiiM, WiiM Amp product page, captured 2026-11-09 — `r2-wiim-amp-product-page.md`
+- WiiM, Amp Pro, Amp, Edition A10 MKII and Edition C10 MKII product pages, captured 2026-11-09 — `r2-wiim-amp-pro-product-page.md`, `r2-wiim-amp-product-page.md`, `r2-wiim-edition-a10-mkii-product-page.md`, `r2-wiim-edition-c10-mkii-product-page.md`
 - WiiM Help Center, "Limitations and Considerations of WiiM Multi-room Music", modified 2025-05-19, captured 2026-11-09 — `r2-wiim-help-multiroom-limitations.md`
-- WiiM, Edition A10 MKII and Edition C10 MKII product pages, captured 2026-11-09 — `r2-wiim-edition-a10-mkii-product-page.md`, `r2-wiim-edition-c10-mkii-product-page.md`
 - WiiM Help Center, multiroom articles: MRM system (2026-05-15), multiroom music (2026-07-23), Google Cast speaker group (2026-05-06), Pro input ports (2026-06-04), multiroom audio delay (2025-06-12), captured 2026-11-09 — `r2-wiim-help-mrm-system.md`, `r2-wiim-help-multiroom-music.md`, `r2-wiim-help-google-cast-speaker-group.md`, `r2-wiim-help-pro-input-ports.md`, `r2-wiim-help-multiroom-audio-delay-sync.md`
 - WiiM, HTTP API v1.2, 2024-07-10 — `r4-wiim-http-api-for-wiim-products.pdf`
+- WiiM Help Center, Apple Home, and Home Assistant, WiiM integration, captured 2026-11-09 — `r4-wiim-help-apple-home-accessory.md`, `r4-home-assistant-wiim-integration.md`
 - WiiM Help Center, Pro and Pro Plus Roadmap, 2024-10-17 — `r4-wiim-help-pro-pro-plus-roadmap.md`
 - Not captured (forum bot check; anecdote only): WiiM forum threads "WiiM ultra radio paradise" (2024–2025) and "Adding internet radio stations to Open Network Stream" (2023).

@@ -6,7 +6,7 @@ criteria: [1, 2, 3, 4, 5, 6, 7]
 status: contested
 confidence: medium
 last_verified: 2026-11-08
-sources: [onkyo-tx-rz50-spec-sheet.pdf, v-onkyo-tx-rz50-product-page-rendered-2026-11-08.md, onkyo-tx-rz50-product-page.md, onkyo-tx-rz50-firmware-update-2026-03.pdf, pac-press-2024-11-firmware-dirac-bass-control.md, dirac-store-onkyo-tx-rz50.md, asr-onkyo-tx-rz50-review.md, asr-onkyo-tx-rz30-review.md, asr-pioneer-vsx-lx505-review.md, asr-pioneer-vsx-lx505-power-remeasurement.md, v-asr-onkyo-tx-nr7100-review-post1.md, v-asr-limp-mode-for-beginners.md, asr-avr-sinad-database.md, onkyo-av-receivers-lineup.md, onkyo-press-ces-2026-horizon.md, v-onkyo-us-warranty.md, r4-onkyo-tx-rz50-owners-manual-selected.md]
+sources: [onkyo-tx-rz50-spec-sheet.pdf, v-onkyo-tx-rz50-product-page-rendered-2026-11-08.md, onkyo-tx-rz50-product-page.md, onkyo-tx-rz50-firmware-update-2026-03.pdf, pac-press-2024-11-firmware-dirac-bass-control.md, dirac-store-onkyo-tx-rz50.md, asr-onkyo-tx-rz50-review.md, asr-onkyo-tx-rz30-review.md, asr-pioneer-vsx-lx505-review.md, asr-pioneer-vsx-lx505-power-remeasurement.md, v-asr-onkyo-tx-nr7100-review-post1.md, v-asr-limp-mode-for-beginners.md, asr-avr-sinad-database.md, onkyo-av-receivers-lineup.md, onkyo-press-ces-2026-horizon.md, v-onkyo-us-warranty.md, r4-onkyo-tx-rz50-owners-manual-selected.md, r4-apple-appstore-onkyo-controller.md, r4-onkyo-iscp-spec-receivers-v1.15-2009-third-party-mirror.pdf, r4-home-assistant-onkyo-integration.md, r4-homebridge-onkyo-plugins-npm.md]
 brand: Onkyo
 model: "TX-RZ50"
 model_year: 2020
@@ -60,6 +60,8 @@ Onkyo lists Chromecast built-in, AirPlay 2, DTS Play-Fi, Spotify, TIDAL, Deezer,
 
 The spec sheet claims powered Zone 2 and Zone 3, but Zone 3 takes analog and network sources only, so a WiiM on coax cannot feed it, and which terminals Zone 3 uses is not stated without the manual; see [multiroom options](../comparisons/multiroom-options.md).
 
+**Control.** Onkyo Controller (2.2 stars on 627 ratings, updated 2026-08-31) is the iOS remote and also the Dirac measurement front end (manual pp.164–165), so its quality bears on calibration too. Neither its App Store listing nor the manual claims Siri, Shortcuts or Home control beyond AirPlay 2 playback. eISCP (port 60128) is documented only in a 2009 spec on a third-party mirror; Home Assistant's Onkyo integration is Bronze, its lowest tier, and homebridge-onkyo was unpublished on 2026-11-08. HDMI CEC is on by default, on HDMI OUT MAIN only (p.143). Network Standby, which app power-on needs, may disable itself after a network loss, after which only the remote or front panel wakes the unit (p.150). Web Setup's default login is admin/admin (p.157), worth changing on a shared network. In Works with Sonos mode, Sonos app playback wakes the receiver and switches its input (pp.103–104). See [control and automation](../comparisons/control-and-automation.md).
+
 ## Measurements
 
 ASR measured one member-bought unit (ASR, TX-RZ50 review, 2022-02-12):
@@ -101,3 +103,5 @@ Full list: [bibliography](../reference/bibliography.md).
 - Audio Science Review, AVR SINAD data table, captured 2026-11-08 — `asr-avr-sinad-database.md`
 - Onkyo, TX-RZ50 Instruction Manual (SN29404020B), selected pages, captured 2026-11-09 — `r4-onkyo-tx-rz50-owners-manual-selected.md`
 - Onkyo, AV receivers lineup, 2026-11-08, and CES 2026 press release — `onkyo-av-receivers-lineup.md`, `onkyo-press-ces-2026-horizon.md`
+- Onkyo, ISCP Spec v1.15, 2009, third-party mirror — `r4-onkyo-iscp-spec-receivers-v1.15-2009-third-party-mirror.pdf`
+- App Store Onkyo Controller listing, Home Assistant Onkyo integration, npm homebridge-onkyo records, captured 2026-11-09 — `r4-apple-appstore-onkyo-controller.md`, `r4-home-assistant-onkyo-integration.md`, `r4-homebridge-onkyo-plugins-npm.md`

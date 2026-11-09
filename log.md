@@ -385,3 +385,38 @@ says the RZ30 is the better of the two Onkyos for a 5.1 room under the same thre
 Not carried to the RZ50 without its own manual: the 96 kHz input limit, Spotify Connect, and
 independent sub outputs (#27). wiki_lint: 15 judgment findings, all accepted catalog exceptions,
 FM-PRODUCT `?` values, or soft WORDS-HIGH under the 2,000 ceiling (dirac-live.md now 1,526).
+
+## [2026-11-09] ingest | round 4: app control and home automation
+
+Owner asked how the shortlisted receivers and the multiroom platforms work with iPhone/iPad apps,
+Siri and Shortcuts, e.g. "stop Radio Paradise and let me watch TV". The wiki covered none of it.
+Four agents captured 55 sources (r4- prefix): Apple support and developer docs, Shortcuts guide,
+Matter 1.4.2, Home Assistant and Homebridge docs; Denon apps, HEOS CLI v1.17, HA denonavr/HEOS;
+Onkyo Controller, RZ50 manual pages, ISCP spec (2009 third-party mirror), HA onkyo, Homebridge
+npm records; WiiM HTTP and UPnP APIs, help-center articles, HA WiiM/LinkPlay; Sonos Siri, presets,
+Control API, App Store listing and release notes. Owner approved the plan at the checkpoint.
+
+Not cited, by owner decision: Denon's CY2022 AVR control protocol (forum-hosted, every page marked
+"DENON confidential", X3900H not listed). Denon IP control is cited from Home Assistant's public
+denonavr page and the manual's web-control pages instead (#54).
+
+Corrections, committed first: RZ50 coax/optical PCM to 96 kHz (manual p.209). The wiki's "ASR fed
+S/PDIF at 192 kHz" turned out to be unsupported (ASR's 192 kHz sweep ran over HDMI; its S/PDIF test
+states no rate); the correcting agent caught this against my own brief. RZ50 AirPlay 2 settled
+(p.96); Works with Sonos via Connect or Port; WiiM HTTP API v1.2 documents URL playback with an RP
+flacm preset example (lossless still untested); HEOS CLI citation v1.10 → v1.17.
+
+New page: comparisons/control-and-automation.md. Verdict: Siri/Home control music (AirPlay) but
+cannot power or switch either receiver; no receiver maker ships Shortcuts actions; Sonos alone has
+native Shortcuts actions (since 2026-06-09), none for stop, input, preset or power, so the
+multiroom verdict stands; the full "watch TV" sequence is documented only via Home Assistant plus
+its HomeKit Bridge (an always-on host); a lighter partial route uses Siri to pause the WiiM and CEC
+for the TV, untested. Denon is modestly ahead of Onkyo on documented control; rankings unchanged.
+
+Threading: X3900H and RZ50 Control paragraphs (Quick Select, Power Off Control → Video, Network
+Control; Onkyo Controller, eISCP, Bronze HA, Homebridge plugin removed, admin/admin default), RZ30
+inference sentence, HEOS, WiiM (pointer, wiim.md held under 2,000 by merging Source bullets),
+Sonos, usability hub paragraph, multiroom comparison, buying checklist (two settings),
+recommendation Related. Open questions #47–#54. Index hooks shortened to 34 words.
+wiki_lint 21 judgment findings: catalog exceptions, five FM-PRODUCT `?`, and WORDS-HIGH soft
+targets (heos 1,606, sonos 1,558 and others) accepted; none over the 2,000 ceiling. linkcheck clean.

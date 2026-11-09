@@ -40,6 +40,7 @@ The two future stereo rooms take a WiiM Amp each ($329, wiimhome.com, 2026-11-09
 
 - [Shortlist](shortlist.md)
 - [Multiroom options](../comparisons/multiroom-options.md)
+- [Control and automation](../comparisons/control-and-automation.md)
 - [Buying checklist](buying-checklist.md)
 - [Setup and calibration](setup-and-calibration.md)
 - [My system: requirements](../start-here/my-system.md)

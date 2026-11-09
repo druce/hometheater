@@ -6,7 +6,7 @@ criteria: [3, 6]
 status: contested
 confidence: medium
 last_verified: 2026-11-09
-sources: [r2-sonos-port-product-page.md, r2-sonos-port-product-guide.md, r2-sonos-port-setup-support.md, r2-sonos-amp-product-page.md, r2-sonos-amp-product-guide.md, r2-sonos-wireless-speakers-product-pages.md, r2-sonos-speaker-location-humidity-support.md, r2-sonos-supported-audio-formats.md, r2-sonos-music-service-pages.md, r2-sonos-airplay-support.md, r2-sonos-line-in-support-articles.md, r2-sonos-trueplay-support-articles.md, r2-sonos-app-release-notes.md, r2-sonos-ceo-letter-app-update-2024-07-25.md, r2-sonos-press-release-quality-commitments-2024-10-01.md, r2-spotify-spotify-on-sonos.md, r2-techradar-sonos-app-improved-navigation-2026-06.md, r2-verge-sonos-new-app-missing-features-2024-05-08.md, denon-avr-x3900h-owners-manual-na.pdf, radioparadise-faqs-and-info.md]
+sources: [r2-sonos-port-product-page.md, r2-sonos-port-product-guide.md, r2-sonos-port-setup-support.md, r2-sonos-amp-product-page.md, r2-sonos-amp-product-guide.md, r2-sonos-wireless-speakers-product-pages.md, r2-sonos-speaker-location-humidity-support.md, r2-sonos-supported-audio-formats.md, r2-sonos-music-service-pages.md, r2-sonos-airplay-support.md, r2-sonos-line-in-support-articles.md, r2-sonos-trueplay-support-articles.md, r2-sonos-app-release-notes.md, r2-sonos-ceo-letter-app-update-2024-07-25.md, r2-sonos-press-release-quality-commitments-2024-10-01.md, r2-spotify-spotify-on-sonos.md, r2-techradar-sonos-app-improved-navigation-2026-06.md, r2-verge-sonos-new-app-missing-features-2024-05-08.md, denon-avr-x3900h-owners-manual-na.pdf, radioparadise-faqs-and-info.md, r4-sonos-siri-apple-home-support.md, r4-sonos-presets-support.md, r4-sonos-developer-control-api.md, r4-home-assistant-sonos-integration.md]
 ---
 
 # Sonos
@@ -28,6 +28,8 @@ Sonos is a closed multiroom platform: the Sonos app (iOS, Android) controls Sono
 **Line-in sharing.** Any room or group can play another product's line-in, digitised at 16-bit/44.1 kHz (Sonos, "Use Line-In on Sonos"). The current app offers Automatic, the default, which sends WAV and falls back to SBC when the network needs it, or Compressed, SBC throughout; forced uncompressed is S1-only ("Adjust Line-in Audio Compression"). Autoplay, off by default, starts a Sonos room when the line-in senses signal.
 
 **Trueplay.** Trueplay tunes a speaker from room measurements and works on every Sonos product except Port, Connect and Roam SL (Trueplay-compatible devices article). Advanced tuning needs a supported iPhone or iPad, and many recent iPads are excluded; Android gets quick tuning from the speaker's own microphones on Arc Ultra, Beam Ultra, Era 100, Era 100 Pro and Era 300 only. Portables with microphones tune automatically. Amp supports Trueplay only with Sonos In-Wall or In-Ceiling Architectural speakers by Sonance, or Sonos rear channels, so not with the owner's passive speakers. Context: [room modes and correction limits](../concepts/room-modes-and-correction-limits.md).
+
+**Control and automation.** Sonos is the only platform in this wiki with documented native Shortcuts actions: app 86.00.41 (2026-06-09) added Play Content, Create Group, Ungroup, Play/Pause, Set Mute and Set Volume, and Night Sound and Speech Enhancement followed on 2026-09-08 (release notes). None stops playback, switches input, recalls a preset or powers anything; presets arrived on 2026-11-03, and Sonos says voice commands cannot start them. Siri reaches Sonos through AirPlay 2 in Apple Home, and Sonos says the Home app cannot control its speakers directly. The Control API runs through cloud OAuth or a LAN WebSocket on port 1443 with an API key, where Sonos says authentication is still to come. Home Assistant's Sonos integration is Bronze and needs the UPnP toggle switched on in the Sonos app. The routes are compared in [control and automation](../comparisons/control-and-automation.md).
 
 ## Versions and tiers
 
@@ -83,3 +85,5 @@ Full list: [bibliography](../reference/bibliography.md). Sonos and Spotify pages
 - TechRadar, June 2026, and The Verge, 2024-05-08 [secondary] — `r2-techradar-sonos-app-improved-navigation-2026-06.md`, `r2-verge-sonos-new-app-missing-features-2024-05-08.md`
 - Denon, AVR-X3900H owner's manual, p.75 — `denon-avr-x3900h-owners-manual-na.pdf`
 - Radio Paradise, FAQs — `radioparadise-faqs-and-info.md`
+- Sonos Support, Siri and Apple Home, and Presets (`r4-sonos-siri-apple-home-support.md`, `r4-sonos-presets-support.md`); Sonos developer docs, Control API, updated 2026-04-16 to 2026-09-18 (`r4-sonos-developer-control-api.md`)
+- Home Assistant, Sonos integration — `r4-home-assistant-sonos-integration.md`

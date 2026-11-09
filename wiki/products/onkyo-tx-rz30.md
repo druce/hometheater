@@ -58,6 +58,8 @@ Onkyo lists Chromecast built-in, AirPlay 2, Spotify, TIDAL, Deezer, Amazon Music
 
 For the future stereo rooms, the manual documents Zone 2 and Zone 3 as line outputs or, with a 5.1 main system, as powered zones. Zone 2 takes coax or optical sources as PCM; Zone 3 takes analog and network sources only, so the WiiM on coax cannot feed it. Network inputs must play the same source in the main room and a zone. See [multiroom options](../comparisons/multiroom-options.md).
 
+Beyond its own manual's Onkyo Controller and Network Standby notes, the control sources name the RZ50 and not the RZ30; since both run the same app on the same platform, the [RZ50's control notes](onkyo-tx-rz50.md#streaming) likely apply here too (inference), and the routes are compared in [control and automation](../comparisons/control-and-automation.md).
+
 ## Measurements
 
 ASR measured one member-supplied unit on the then-latest firmware (ASR, TX-RZ30 review, 2026-05-30):

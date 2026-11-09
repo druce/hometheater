@@ -6,7 +6,7 @@ criteria: [3, 6]
 status: contested
 confidence: medium
 last_verified: 2026-11-08
-sources: [denon-heos-us.md, denon-avr-x3900h-owners-manual-na.pdf, denon-av-receivers-category-us.md, v-marantz-cinema-70s-series-2-owners-manual-selected.md, v-marantz-cinema-50-series-2-owners-manual-selected.md, marantz-cinema-50-series-2-info-sheet-na.pdf, marantz-cinema-70s-series-2-info-sheet-na.pdf, harman-marantz-cinema-series-2-press-release.md, asr-denon-avr-x3900h-review.md, v-heos-cli-protocol-specification-v1.10.pdf, r4-denon-heos-cli-protocol-specification-v1.17.pdf, v-apple-appstore-hark-stream-heos.md, r2-denon-heos-buying-guide.md, r2-denon-home-150-product-page-us.md, r2-denon-home-150-nv-product-page-us.md, r2-denon-home-200-product-page-us.md, r2-denon-wireless-speakers-category-us.md]
+sources: [denon-heos-us.md, denon-avr-x3900h-owners-manual-na.pdf, denon-av-receivers-category-us.md, v-marantz-cinema-70s-series-2-owners-manual-selected.md, v-marantz-cinema-50-series-2-owners-manual-selected.md, marantz-cinema-50-series-2-info-sheet-na.pdf, marantz-cinema-70s-series-2-info-sheet-na.pdf, harman-marantz-cinema-series-2-press-release.md, asr-denon-avr-x3900h-review.md, v-heos-cli-protocol-specification-v1.10.pdf, r4-denon-heos-cli-protocol-specification-v1.17.pdf, v-apple-appstore-hark-stream-heos.md, r2-denon-heos-buying-guide.md, r2-denon-home-150-product-page-us.md, r2-denon-home-150-nv-product-page-us.md, r2-denon-home-200-product-page-us.md, r2-denon-wireless-speakers-category-us.md, r4-apple-appstore-heos.md, r4-home-assistant-heos-integration.md, r4-denon-inside-denon-airplay-alexa-google.md]
 ---
 
 # HEOS (Denon, Marantz)
@@ -36,6 +36,8 @@ Local playback covers DLNA servers and USB storage. The X3900H manual lists FLAC
 Multiroom limits, per the X3900H manual: up to 32 HEOS products in one system, and up to 16 in a group playing the same track in sync (p.111). Denon's undated HEOS buying guide instead claims up to 64 zones, without defining a zone (captured 2026-11-09); that is marketing copy against the dated manual, so the manual's figures stand. For the future plan of two stereo rooms plus a kitchen and a bathroom speaker, that is not a constraint.
 
 Sharing a physical input is the tighter limit. The HEOS CLI spec (v1.17, Denon-hosted, 2021-10-11, keeping the v1.10 rule) lets one player's external input, coax included, play on another HEOS player, but only to one player or one group, and not while the source device is playing that input itself; whether current firmware and the HEOS app keep that rule, or expose the X3900H's coax this way, is not stated. By the spec, the WiiM on the receiver's coax cannot play in the main room and on a Denon Home speaker at once. No current Denon Home speaker states a humidity or IP rating, including the compact Home 150 ($249), Home 150 NV ($219) and Home 200 ($399) (denon.com, 2026-11-09). HEOS is costed against WiiM and Sonos in [multiroom options](../comparisons/multiroom-options.md).
+
+**Control beyond the app.** The HEOS app rates 4.39 on 27,267 App Store ratings and claims no Siri or Shortcuts support (2026-11-09); Siri reaches a HEOS receiver only as an AirPlay 2 speaker added to Apple Home, for playback (Denon AirPlay page, undated). The CLI v1.17 documents `play_input` for physical inputs and `play_quickselect` for receiver Quick Selects, both already in v1.10, but no power, sound-mode or zone command. Home Assistant's HEOS integration (Platinum, local push) covers playback, inputs, Quick Selects, URLs and grouping, and states that receiver power and zones are out of its reach (HA docs, 2026-11-09). The routes are compared in [control and automation](../comparisons/control-and-automation.md).
 
 ## Versions and tiers
 
@@ -78,3 +80,6 @@ Full list: [bibliography](../reference/bibliography.md).
 - Apple App Store, Hark Stream listing, captured 2026-11-08 — `v-apple-appstore-hark-stream-heos.md`
 - Denon, HEOS Buying Guide (Inside Denon), undated, captured 2026-11-09 — `r2-denon-heos-buying-guide.md`
 - Denon US, Denon Home 150, Home 150 NV and Home 200 product pages and wireless speakers category page, captured 2026-11-09 — `r2-denon-home-150-product-page-us.md`, `r2-denon-home-150-nv-product-page-us.md`, `r2-denon-home-200-product-page-us.md`, `r2-denon-wireless-speakers-category-us.md`
+- Apple App Store, HEOS listing, captured 2026-11-09 — `r4-apple-appstore-heos.md`
+- Home Assistant, Denon HEOS integration, captured 2026-11-09 — `r4-home-assistant-heos-integration.md`
+- Denon US, "Inside Denon" AirPlay 2, Alexa and Google Assistant pages, undated, captured 2026-11-09 — `r4-denon-inside-denon-airplay-alexa-google.md`
