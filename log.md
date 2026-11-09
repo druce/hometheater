@@ -266,3 +266,41 @@ threading it to product pages is a follow-up. New open questions #33–#37.
 MANIFEST: 37 drafted. wiki_lint 10 judgment findings, all expected: index catalog exception;
 five FM-PRODUCT `?`; three WORDS-LOW on the undrafted decision pages; none on drafted pages.
 Next: decision checkpoint (shortlist and recommendation are the owner's call).
+
+## [2026-11-09] decision | shortlist X3900H and RZ50; recommendation X3900H + Dirac RC+BC + WiiM Pro
+
+Owner approved the shortlist of the Denon AVR-X3900H and Onkyo TX-RZ50. Decision pages written
+from the drafted hubs and comparisons, no new sources:
+- shortlist: the two models side by side; eight eliminations with the deciding fact each; the
+  X3800H named as the fallback if the X3900H's price rises by more than $450.
+- recommendation: X3900H $1,849 + Dirac RC (Full) + Bass Control bundle $599 + WiiM Pro $169 on
+  coax = $2,617 (2026-11-08). The RZ50 ($1,868) is conditional on 8 Ω speakers, acceptance of a
+  months-long backorder and of a 2020 platform; what would change the choice is listed.
+- buying-checklist: price, dealer and return-window checks before paying; firmware, sub placement,
+  XT32 baseline then Dirac preset, Stereo not Pure Direct, WiiM Fixed Volume/EQ off, and device
+  tests #10, #23, #22 plus the Google Cast fallback after unboxing.
+
+## [2026-11-09] write | reference pages: glossary, bibliography, open questions
+
+Two agents, wiki pages and raw/manifest.txt only. Glossary: 62 terms, each linked to its page;
+eARC is defined in the agent's words with no new fact; target curve links to dirac-live.md because
+no target-curves concept page exists. Bibliography: 119 of the registered sources, the ones wiki
+pages cite, with "Read these first" (7). Four registered sources are cited by no page:
+onkyo-pioneer-home-usa-warranty.md, onkyo-press-2024-rebirth-ownership.md,
+v-asr-limp-mode-debunked.md, v-wiim-faq-supported-services.md. Open questions: reader-facing,
+grouped as could change the recommendation (5), settled by a device test (5), would not change the
+choice (19).
+Matrix skeleton line removed. Index hooks refreshed from the new claims.
+
+## [2026-11-09] lint | round 1 closed
+
+All 45 MANIFEST rows set to audited. wiki_lint: 7 judgment findings, all accepted:
+- index.md WORDS-HIGH (1,796): catalog exception, logged 2026-11-08.
+- bibliography.md WORDS-CEIL (2,558): accepted as a catalog exception on the same reasoning. The
+  length is 119 entries with URLs; splitting a bibliography costs more navigation than it saves.
+- Five FM-PRODUCT `?` values (Anthem and WiiM Amp Ultra model_year; X3800H, CINEMA 50 and NAD
+  pre-outs). These are unresolved in the sources and stay `?` (#21, #34).
+linkcheck: 0 broken, 0 orphans.
+Follow-ups not done: thread HARMAN/Gentex ownership onto product pages; capture the X3800H info
+sheet, CINEMA 50 S1 docs and RZ50 manual; decision/setup-and-calibration.md; owner device tests;
+the four uncited sources.
