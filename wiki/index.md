@@ -11,7 +11,7 @@ sources: []
 
 # The map
 
-**Concepts and systems are drafted from verified evidence; criteria, products, comparisons and decision pages are still skeletons with draft claims, so their lines are not findings yet.**
+**Concepts, systems and products are drafted from verified evidence; criteria, comparisons and decision pages are still skeletons with draft claims, so their lines are not findings yet.**
 
 Read this page first on every query. Each line is a page and its draft claim.
 
@@ -57,18 +57,18 @@ Read this page first on every query. Each line is a page and its draft claim.
 
 ## Products
 
-- [Denon AVR-X3900H](products/denon-avr-x3900h.md): The current measurement leader among the candidates (ASR SINAD 102, recommended), with XT32 included and the full Dirac suite available as a paid add-on.
-- [Denon AVR-X3800H](products/denon-avr-x3800h.md): The discounted previous generation, with the same Dirac eligibility as the X3900H but a measurably weaker DAC (ASR SINAD 87).
-- [Denon AVR-X2900H](products/denon-avr-x2900h.md): The cheapest new Denon worth considering, held back by MultEQ XT (not XT32) and Dirac Room Correction only, with no Bass Control.
-- [Marantz CINEMA 70s Series 2](products/marantz-cinema-70s-series-2.md): A slim music-oriented 7.2 receiver whose 50 W amps and MultEQ XT limit it, and whose Series 1 predecessor showed a distortion fault at 4 ohms.
-- [Marantz CINEMA 50 Series 2](products/marantz-cinema-50-series-2.md): XT32 and the full Dirac suite at $3,000 buy channels and finish that a 5.1 room does not use, so it has to win on sound or styling to beat the X3900H.
-- [Marantz CINEMA 50](products/marantz-cinema-50.md): The Series 1 CINEMA 50, discounted, keeps full Dirac eligibility but is measured only by a member review.
-- [Yamaha RX-A4A](products/yamaha-rx-a4a.md): Still current and capable on power, but YPAO with no Dirac path and no native lossless Radio Paradise put it behind on both priority criteria.
-- [Onkyo TX-RZ50](products/onkyo-tx-rz50.md): The only candidate with full-bandwidth Dirac included, undercut by ASR-measured power limiting on this platform that persists on its Pioneer sibling's February 2026 firmware.
-- [Anthem MRX 540 8K](products/anthem-mrx-540-8k.md): An exact fit for 5.1 with two sub outputs and ARC Genesis, but unmeasured itself, with the larger MRX models as the only proxies.
-- [NAD T 758 V3i](products/nad-t-758-v3i.md): The only receiver with BluOS built in, which no longer matters much now that an external streamer is acceptable; its V3 predecessor measured worst of all candidates.
-- [Arcam AVA15](products/arcam-ava15.md): Full Dirac included with Bass Control and ART available, at $4,499.95 and with no measurements yet, so it has to justify a premium of more than double the X3900H.
-- [WiiM Amp Ultra](products/wiim-amp-ultra.md): A well-measured stereo streaming amp (ASR recommended) for the future stereo rooms, whose lack of AirPlay 2 and native Apple Music conflicts with an owner requirement.
+- [Denon AVR-X3900H](products/denon-avr-x3900h.md): The best-measured Denon candidate (ASR SINAD 102, recommended) at $1,849, with XT32 included and the full Dirac stack for sale, though one-sub Dirac adds $599 and HEOS cannot play Radio Paradise FLAC.
+- [Denon AVR-X3800H](products/denon-avr-x3800h.md): The 2022 X3800H is $450 cheaper than the X3900H at $1,399 and takes the same Dirac licences, but ASR measured its DAC at SINAD 87 and did not recommend it, and its full spec sheet is uncaptured.
+- [Denon AVR-X2900H](products/denon-avr-x2900h.md): At $1,349 the X2900H is the cheapest new Denon candidate and runs 5.1 with amps to spare, but it ships the lower MultEQ XT, cannot take Dirac Bass Control, and has never been independently measured.
+- [Marantz CINEMA 70s Series 2](products/marantz-cinema-70s-series-2.md): At $1,500 the CINEMA 70s Series 2 is the cheapest Marantz here, but MultEQ XT, no Dirac Bass Control and an unmeasured amplifier whose predecessor faulted at 4 ohms make it a weak fit.
+- [Marantz CINEMA 50 Series 2](products/marantz-cinema-50-series-2.md): The CINEMA 50 Series 2 offers the same XT32 and full Dirac options as the $1,849 Denon AVR-X3900H for $3,000, and no measurement yet shows what the extra $1,151 buys a 5.1 room.
+- [Marantz CINEMA 50](products/marantz-cinema-50.md): The Series 1 CINEMA 50, at $2,499 on sale, keeps the full Dirac stack and MultEQ-X support, but no full independent measurement or captured manual backs it.
+- [Yamaha RX-A4A](products/yamaha-rx-a4a.md): The RX-A4A covers 5.1 with two amp channels to spare, but its included YPAO leaves bass correction to hand-set EQ, it has no Dirac path, and nobody has measured it.
+- [Onkyo TX-RZ50](products/onkyo-tx-rz50.md): The TX-RZ50 ships with full-bandwidth Dirac Live included and adds Bass Control for $299, but ASR measured a 4-ohm power limiter that latches until the AC cord is pulled, and no firmware through March 2026 addresses it.
+- [Anthem MRX 540 8K](products/anthem-mrx-540-8k.md): The MRX 540 8K amplifies exactly the five channels this room uses and includes ARC Genesis at no charge, but the 540 itself has never been measured and ARC has no independent test.
+- [NAD T 758 V3i](products/nad-t-758-v3i.md): The only candidate with Radio Paradise built in, the $2,299 T 758 V3i likely ships Limited-bandwidth Dirac with no Bass Control, and its only bench data is the V3 predecessor's poor 2019 DAC result.
+- [Arcam AVA15](products/arcam-ava15.md): Dirac Room Correction is included and Bass Control costs $299, matching the cheapest Dirac route to Bass Control here, but the $4,499.95 AVA15 has no independent measurements and unconfirmed US stock.
+- [WiiM Amp Ultra](products/wiim-amp-ultra.md): The $549 Amp Ultra is a well-measured, ASR-recommended streaming amp for the future stereo rooms, but its lack of AirPlay 2 and native Apple Music conflicts with the owner's Apple Music requirement.
 
 ## Comparisons
 

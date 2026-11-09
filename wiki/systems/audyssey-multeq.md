@@ -34,7 +34,7 @@ The built-in tier is fixed by the receiver. Denon sells XT32 as "Platinum" and X
 | Denon AVR-X2900H | MultEQ XT | Denon info sheet and product page | Listed | Not listed |
 | Marantz CINEMA 70s Series 2 | MultEQ XT | Marantz info sheet p.2 | Listed | Not listed |
 | Marantz CINEMA 50 Series 2 | MultEQ XT32 | Marantz info sheet | Listed | Not listed |
-| Marantz CINEMA 50 | Not confirmed in the sources read | — | Listed | Listed |
+| Marantz CINEMA 50 | MultEQ XT32 (compare tile only) | Marantz CINEMA 50 S2 product page, compare tile, 2026-11-08 | Listed | Listed |
 
 App lists from the App Store and Microsoft Store, both captured 2026-11-08. XT32's marketed advantages over XT are higher filter resolution (Denon claims more than 10,000 control points) and the XT32-only LFC and SubEQ HT functions (X3900H info sheet; AV Nirvana launch article, 2026-05-14); Denon describes XT as low-frequency-focused and aimed at mid-size rooms. No source measures the audible difference between the two tiers.
 

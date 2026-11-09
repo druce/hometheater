@@ -55,7 +55,7 @@ No manufacturer statement on the limiter was found; ASR's reviewer infers it exi
 
 How often it triggers in use is unknown ([open questions](../reference/open-questions.md)). Owner reports in ASR's "Limp mode" thread (2026) run both ways and are anecdote: an LX505 owner with 3-ohm-minimum speakers in a 25 m² room never met it, one RZ30 owner reports a protection event, and an LX305 owner's 5.1 ran clean for years until heights were added. That the RZ70 does not limit is secondhand and unverified.
 
-Limiting is neither universal nor confined to Onkyo. ASR's Marantz Cinema 70s (Series 1, 2023-12-11) showed a distortion jump after about 2 minutes at 10 W with ECO off that lasted until a power cycle, and higher-level sweeps tripped protection that also needed one. The NAD T 758 V3 held 50 W into 4 ohms with no pull-back (ASR, 2019-09-07), the Anthem MRX 1140 never shut down (ASR, 2025-11-04), and the WiiM Amp Ultra clipped without shutting down (ASR, 2025-12-29).
+Limiting is neither universal nor confined to Onkyo. ASR's Marantz Cinema 70s (Series 1, 2023-12-11) showed a distortion jump after about 2 minutes at 5 W/ch into 4 Ω (ECO off) that lasted until a power cycle; higher-level sweeps tripped protection. The NAD T 758 V3 held 50 W into 4 ohms with no pull-back (ASR, 2019-09-07), the Anthem MRX 1140 never shut down (ASR, 2025-11-04), and the WiiM Amp Ultra clipped without shutting down (ASR, 2025-12-29).
 
 ### ECO and low-impedance modes cut power
 

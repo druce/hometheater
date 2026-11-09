@@ -208,3 +208,32 @@ Accepted exception: WORDS-HIGH on wiki/index.md (1,604 words). The index is the 
 on every query; its length tracks page count × hook length, and full-claim hooks carry the "but"
 clause that a shorter hook drops (tested: a split at ", but" removed the conclusion of
 room-modes). Revisit if it passes the 2,000 ceiling, by shortening hooks rather than splitting.
+
+## [2026-11-08] write | batch 2 drafted: 12 product pages
+
+Four parallel drafting agents wrote the product pages to an addendum (claim ≤ ~35 words, ~700-word
+aim, link systems/concepts instead of restating them, product front matter in fixed formats from
+the verification tables, `contested` only for real source conflicts). Results: 896–1,197 words;
+statuses 2 settled, 1 contested (RZ50: list price and limiter frequency), 9 unverified. gen_matrix.py
+now fills reference/matrix.md for 12 products with five honest `?` holes: model_year on MRX 540
+and Amp Ultra; preouts on X3800H, CINEMA 50 (Series 1) and T 758 V3i.
+
+Cross-checks between batches, resolved against raw/:
+- The Denon agent said the "70% Guarantee" belongs only to the X2900H and that the
+  amplifier-power-ratings page was wrong to give it to the X3900H. Wrong: the X3900H info sheet and
+  product page both carry it. The concept page stands; the X3900H product page gained the row it had
+  omitted, and the X2900H row now cites its own info sheet as well as AV Nirvana.
+- Marantz agent correct twice: the CINEMA 70s (Series 1) fault condition was 5 W per channel into
+  4 Ω (10 W total), now stated per channel on the power page; and the Series 1 CINEMA 50 Audyssey
+  tier is XT32 per the compare tile on Marantz's 50 S2 page (line 1777), so audyssey-multeq.md no
+  longer says "not confirmed".
+- dirac-live.md: $558 (Limited RC + BC) holds only on the X3900H, where Dirac lists Limited and Full
+  separately; the claim now gives $599 bundle for the X3800H and Marantz models.
+- NAD V3i streaming front matter trimmed to [BluOS, AirPlay 2]; Spotify/TIDAL/Qobuz Connect are
+  BluOS platform features no source ties to the V3i (body already said so).
+- Onkyo USA warranty captured (raw/v-onkyo-us-warranty.md; RZ Series 3 years parts and labor) and
+  cited in place of "fetched, not saved". NAD stock facts read in verification are labelled as not
+  captured; Arcam's street price is labelled as search snippets.
+Pages pushed over 1,500 words by these corrections were trimmed in the corrected sentences.
+MANIFEST: 28 drafted. wiki_lint: 18 judgment findings, all accepted or expected (index catalog
+exception; five FM-PRODUCT `?`; 12 WORDS-LOW on undrafted hubs, comparisons, decision, reference).

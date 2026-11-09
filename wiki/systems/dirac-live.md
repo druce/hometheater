@@ -11,7 +11,7 @@ sources: [dirac-live-for-denon-compatible-devices.md, dirac-live-for-marantz-com
 
 # Dirac Live (Room Correction, Bass Control, ART)
 
-**For a one-sub 5.1 room the useful Dirac purchase is Room Correction plus Bass Control, which costs $299 on the Arcam AVA15 and Onkyo TX-RZ50 (Room Correction included) and $558 to $599 on the Denon X3800H/X3900H and Marantz CINEMA 50 models (dirac.com, 2026-11-08), while the Denon X2900H and Marantz CINEMA 70s Series 2 cannot take Bass Control at all.**
+**For a one-sub 5.1 room the useful Dirac purchase is Room Correction plus Bass Control, which costs $299 on the Arcam AVA15 and Onkyo TX-RZ50 (Room Correction included) and $599 as a bundle on the Denon X3800H/X3900H and Marantz CINEMA 50 models (dirac.com, 2026-11-08), while the Denon X2900H and Marantz CINEMA 70s Series 2 cannot take Bass Control at all.**
 
 Used by: [Room correction & bass management](../criteria/room-correction.md) · [Value, reliability & resale](../criteria/value-and-reliability.md).
 
@@ -49,7 +49,7 @@ Room Correction comes in two bandwidths: Limited corrects 20–500 Hz and Full c
 
 All prices USD from dirac.com, 2026-11-08. The NAD V3i has no Dirac page (404); its 2020 data sheet promises an upgrade to a full-featured version, matching the Limited-included pattern Dirac shows for the two previous T 758 generations. Dirac labels NAD's included tier Limited and leaves Arcam's unlabelled, so Full is likely for the AVA15 but unstated. Whether the Marantz CINEMA 70s S2 and 50 S2 sell a $259 Limited tier is not shown on their pages.
 
-By arithmetic on those prices, RC plus BC is $299 on the AVA15 and RZ50, and $599 (Full, bundle) or $558 (Limited) on the Denon X3800H/X3900H and Marantz 50 models. All three licences cost $549 on the AVA15 and $799 on the Denon and Marantz full-stack models. The [which-licence comparison](../comparisons/which-dirac-license-to-buy.md) works through the choice.
+RC plus BC is $299 on the AVA15 and RZ50, and $599 (Full, bundle) on the Denon X3800H/X3900H and Marantz 50 models; $558 with Limited RC on the X3900H only. All three cost $549 on the AVA15 and $799 on the Denon and Marantz full-stack models. The [which-licence comparison](../comparisons/which-dirac-license-to-buy.md) works through the choice.
 
 The manufacturers' own Dirac pages are stale: Denon's US page omits the X3900H and X2900H, and Marantz's US page omits every Series 2 model (both captured 2026-11-08). Dirac is the licensor and its grid announces both additions, so this page follows Dirac.
 
