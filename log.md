@@ -237,3 +237,32 @@ Cross-checks between batches, resolved against raw/:
 Pages pushed over 1,500 words by these corrections were trimmed in the corrected sentences.
 MANIFEST: 28 drafted. wiki_lint: 18 judgment findings, all accepted or expected (index catalog
 exception; five FM-PRODUCT `?`; 12 WORDS-LOW on undrafted hubs, comparisons, decision, reference).
+
+## [2026-11-08] write | batch 3 drafted: 7 criteria hubs and 2 comparisons
+
+Three agents wrote the hubs and comparisons from the drafted pages only (no web), to an addendum:
+claim ≤ ~35 words, minimum/good/best table, tiered ranking in product-link order, unmeasured
+models never above measured ones on measurement criteria, WiiM Amp Ultra ranked only in a
+stereo-rooms sub-list on hubs 3, 6 and 7. gen_matrix.py regenerated reference/matrix.md with all
+seven rankings. Status: hubs unverified (confidence low to medium); Dirac comparison contested
+(single-sub Bass Control gain unquantified); RP comparison unverified.
+
+Headline rankings (first place): room correction X3900H (RZ50 second, the cheapest at $1,698.99
+with RC included and Bass Control $299); music X3900H (only three candidates measured themselves);
+streaming X3900H; amplification X3900H (RZ50 near the bottom for its latched limiter);
+connectivity Arcam AVA15 (it and the RX-A4A state input rates); usability CINEMA 50 Series 2 (5-yr
+warranty); value X3900H at $2,617 all-in with Dirac RC+BC bundle and a $169 WiiM Pro, with the
+backordered RZ50 at $1,868 the only cheaper route to the same target.
+Comparisons: RP FLAC → WiiM Pro ($169) on coax; NODE rejected ($680 more, digital out for RP
+undocumented). Dirac → buy RC + Bass Control wherever Bass Control is sold.
+
+Fixes found by agents and applied: RZ50 all-in sum $1,698.98 → $1,698.99 and a typo; a stray
+Sources bullet my batch 2 insertion placed inside the RZ50 front matter (my script's rfind fell
+through to the top of the file) — moved to Sources, and wiki_lint.py gained an FM-STRAY check
+(front-matter lines before the first key), SCHEMA regenerated. Agents ran gen_matrix.py out of
+turn twice (one reverted with git checkout); the matrix is regenerated here from final hubs.
+Not on any drafted page: HARMAN/Gentex ownership (on the value hub only, cited to primaries);
+threading it to product pages is a follow-up. New open questions #33–#37.
+MANIFEST: 37 drafted. wiki_lint 10 judgment findings, all expected: index catalog exception;
+five FM-PRODUCT `?`; three WORDS-LOW on the undrafted decision pages; none on drafted pages.
+Next: decision checkpoint (shortlist and recommendation are the owner's call).

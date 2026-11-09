@@ -153,6 +153,10 @@ def check_pages(f):
             f.append(Finding("FM-MISSING", rel, "no front matter block"))
             continue
         fm = parse_fm(fm_text)
+        first_key = next((i for i, l in enumerate(fm_text.split("\n"))
+                          if re.match(r"^[a-z_]+:", l)), None)
+        if first_key is None or first_key > 0:
+            f.append(Finding("FM-STRAY", rel, "front matter has lines before its first key"))
         missing = [k for k in FM_KEYS if k not in fm]
         if missing:
             f.append(Finding("FM-KEY", rel, f"front matter missing: {', '.join(missing)}",

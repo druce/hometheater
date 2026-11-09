@@ -11,7 +11,7 @@ sources: []
 
 # The map
 
-**Concepts, systems and products are drafted from verified evidence; criteria, comparisons and decision pages are still skeletons with draft claims, so their lines are not findings yet.**
+**Everything except the decision and reference pages is drafted from verified evidence; the shortlist and recommendation wait on the owner's decision.**
 
 Read this page first on every query. Each line is a page and its draft claim.
 
@@ -26,13 +26,13 @@ Read this page first on every query. Each line is a page and its draft claim.
 
 ## Criteria (the spine)
 
-- [Criterion 1: Room correction & bass management](criteria/room-correction.md): Room correction is the priority that most separates the candidates, and for one sub in a small room the included-vs-paid tier matters as much as the brand.
-- [Criterion 2: Music & two-channel performance](criteria/music-performance.md): Measured two-channel performance separates careless designs from good ones, but above a threshold the room and the correction matter more than the next few dB of SINAD.
-- [Criterion 3: Streaming & multiroom](criteria/streaming-and-multiroom.md): With an external streamer allowed, a receiver's own platform matters mainly for app quality and multiroom fit, and the Radio Paradise requirement moves to the streamer.
-- [Criterion 4: Amplification & pre-outs](criteria/amplification-and-preouts.md): For 5.1 in a small room nearly every candidate has enough clean power, so protection behaviour and pre-outs for a later external amp are what differentiate.
-- [Criterion 5: Connectivity](criteria/connectivity.md): Connectivity is close to a tie among current candidates, with the exceptions being 4K-only HDMI on the NAD and the digital input needed for an external streamer.
-- [Criterion 6: Usability, app & firmware support](criteria/usability-and-support.md): Setup friction, app quality and the manufacturer's firmware record decide whether the room correction actually gets run and stays working.
-- [Criterion 7: Value, reliability & resale](criteria/value-and-reliability.md): Value turns on what each step up buys for this room: the X3900H plus a Dirac license sets the reference price, against which both cheaper and premium options have to argue.
+- [Criterion 1: Room correction & bass management](criteria/room-correction.md): Dirac Room Correction plus Bass Control is the best one-sub setup on offer, and the Denon AVR-X3900H (XT32 included, $599 to add both) and Onkyo TX-RZ50 (Room Correction included, $299 to add Bass Control) reach it best.
+- [Criterion 2: Music & two-channel performance](criteria/music-performance.md): On measured two-channel results the Denon AVR-X3900H leads (ASR SINAD 102, recommended); only two other candidates have been measured at all, and in this room room correction, not a few dB of SINAD, dominates what the bass sounds like.
+- [Criterion 3: Streaming & multiroom](criteria/streaming-and-multiroom.md): The Denon AVR-X3900H and the Marantz CINEMA Series 2 models document the fullest streaming set for this room; only the NAD plays Radio Paradise natively, and no receiver shares an app with WiiM rooms.
+- [Criterion 4: Amplification & pre-outs](criteria/amplification-and-preouts.md): For 5.1 in a small room the rated watts barely separate the candidates; the Denon AVR-X3900H wins on a measured amplifier, full 11.4 pre-outs and four independent sub outputs, and the Onkyo TX-RZ50's latched 4-ohm limiter puts it near the bottom.
+- [Criterion 5: Connectivity](criteria/connectivity.md): Connectivity here reduces to a digital input for the WiiM and HDMI with eARC: the Arcam AVA15 and Yamaha RX-A4A document both best, and the NAD's 4K-only, ARC-only HDMI is the one real deficit.
+- [Criterion 6: Usability, app & firmware support](criteria/usability-and-support.md): The Marantz CINEMA 50 Series 2 and Denon AVR-X3900H ask the least calibration work, with on-receiver Audyssey plus a Bass Control path; Marantz adds a 5-year warranty, and only Onkyo has a documented firmware record.
+- [Criterion 7: Value, reliability & resale](criteria/value-and-reliability.md): The Denon AVR-X3900H at $2,617 with Dirac Room Correction, Bass Control and a WiiM Pro is the reference; only the backordered Onkyo TX-RZ50 reaches the same target for less, at $1,868.
 
 ## Concepts
 
@@ -72,8 +72,8 @@ Read this page first on every query. Each line is a page and its draft claim.
 
 ## Comparisons
 
-- [Radio Paradise FLAC: native receiver vs external streamer](comparisons/radio-paradise-flac-native-vs-external-streamer.md): Draft: an external WiiM or BluOS streamer meets the Radio Paradise requirement for any receiver at a lower cost than choosing the receiver for it.
-- [Which Dirac license to buy](comparisons/which-dirac-license-to-buy.md): Draft: for one sub in a small room, Full-bandwidth Room Correction is the default purchase and Bass Control has to justify its $299 with a single sub.
+- [Radio Paradise FLAC: native receiver vs external streamer](comparisons/radio-paradise-flac-native-vs-external-streamer.md): A $169 WiiM Pro on the receiver's coax input is the best route to Radio Paradise FLAC for this system: it costs least, leaves the receiver to be chosen for room correction, and shares an app with the future stereo rooms, though its lossless playback…
+- [Which Dirac license to buy](comparisons/which-dirac-license-to-buy.md): For one sub in a small room, buy Room Correction plus Bass Control wherever Bass Control is sold: $299 on the Onkyo TX-RZ50 and Arcam AVA15, and the $599 Full-bandwidth bundle on the Denon X3800H/X3900H and Marantz CINEMA 50 models.
 
 ## Decision
 

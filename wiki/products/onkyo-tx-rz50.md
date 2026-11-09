@@ -1,5 +1,4 @@
 ---
-- Onkyo, USA Limited Warranty, captured 2026-11-08 — `v-onkyo-us-warranty.md`
 title: "Onkyo TX-RZ50"
 slug: onkyo-tx-rz50
 kind: product
@@ -28,7 +27,7 @@ Ranked in: [Room correction & bass management](../criteria/room-correction.md) �
 
 ## Verdict
 
-Provisional. For [this room](../start-here/my-system.md) the RZ50 is one of two candidates, with the Arcam AVA15, where Dirac Room Correction is included and Bass Control costs $299, so the full one-sub Dirac setup is $1,698.98 all in at Onkyo's direct price. Its main problem is the amplifier, which ASR found limits power into 4 ohms until the mains cord is pulled, with no indicator and no fix. Whether five channels at small-room levels ever reach it depends on speakers not yet chosen.
+Provisional. For [this room](../start-here/my-system.md) the RZ50 is one of two candidates, with the Arcam AVA15, where Dirac Room Correction is included and Bass Control costs $299, so the full one-sub Dirac setup is $1,698.99 all in at Onkyo's direct price. Its main problem is the amplifier, which ASR found limits power into 4 ohms until the mains cord is pulled, with no indicator and no fix. Whether five channels at small-room levels ever reach it depends on speakers not yet chosen.
 
 ## Specs that matter
 
@@ -47,7 +46,7 @@ The spec sheet (Dec 2020) labels its power row "All channels" but states two cha
 
 ## Room correction
 
-Full-bandwidth [Dirac Live](../systems/dirac-live.md) Room Correction is included with a measurement microphone (onkyo.com, 2026-11-08). Bass Control is $299 on Dirac's store for this model and needs the 28 Oct 2024 firmware or later; ART is not offered (Dirac store, 2026-11-08). For one sub, Room Correction plus Bass Control is the combination the Dirac Live page argues for,; see the [licence comparison](../comparisons/which-dirac-license-to-buy.md).
+Full-bandwidth [Dirac Live](../systems/dirac-live.md) Room Correction is included with a measurement microphone (onkyo.com, 2026-11-08). Bass Control is $299 on Dirac's store for this model and needs the 28 Oct 2024 firmware or later; ART is not offered (Dirac store, 2026-11-08). For one sub, Room Correction plus Bass Control is the combination the Dirac Live page argues for; see the [licence comparison](../comparisons/which-dirac-license-to-buy.md).
 
 Pure Audio mode bypasses bass management and with it Dirac, while bass management forces internal resampling that a forum member argues is inaudible; see [bass management and crossovers](../concepts/bass-management-and-crossovers.md). Firmware fixed a Bass Control crossover error on 1 Jul 2025 and improved speaker S/N under Bass Control on 3 Mar 2026 (Onkyo firmware notes).
 
@@ -82,13 +81,14 @@ Firmware has since fixed silent Bluetooth from iPhones, wrong Dirac filters on s
 
 $1,399.99 on onkyo.com, temporarily out of stock and orderable on backorder (rendered 2026-11-08); a buyer review dated 2026-10-15 describes months of waiting. ASR paid $1,399 in February 2022. Unopened retailer snippets imply a $1,699.99 reference price, so the list price is unresolved (open question #29, [open questions](../reference/open-questions.md)).
 
-The platform dates from December 2020. Onkyo still lists the RZ50 below the RZ70 flagship ($2,299.99, Bass Control preinstalled). No successor is named; the CES 2026 release teased next-generation concepts for 2027 with no models or prices. Warranty is 3 years parts and labour for RZ Series receivers sold after 2018-10-01 (Onkyo USA warranty, captured 2026-11-08).
+The platform dates from December 2020. Onkyo still lists the RZ50 below the RZ70 flagship ($2,299.99, Bass Control preinstalled). No successor is named; CES 2026 teased next-generation concepts for 2027, without models or prices. Warranty is 3 years parts and labour for RZ Series receivers sold after 2018-10-01 (Onkyo USA warranty, captured 2026-11-08).
 
 ## Sources
 
 Full list: [bibliography](../reference/bibliography.md).
 
 - Onkyo, TX-RZ50 spec sheet, Dec 2020 — `onkyo-tx-rz50-spec-sheet.pdf`
+- Onkyo, USA Limited Warranty, captured 2026-11-08 — `v-onkyo-us-warranty.md`
 - Onkyo, TX-RZ50 product page, static capture and browser-rendered capture, 2026-11-08 — `onkyo-tx-rz50-product-page.md`, `v-onkyo-tx-rz50-product-page-rendered-2026-11-08.md`
 - Onkyo, TX-RZ50 firmware update notes, 2026-03-03 — `onkyo-tx-rz50-firmware-update-2026-03.pdf`
 - Premium Audio Company, Dirac Bass Control firmware release, 2024-11 — `pac-press-2024-11-firmware-dirac-bass-control.md`

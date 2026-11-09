@@ -39,3 +39,8 @@ with the source; they are not deleted. Status as of the round 1 verification (20
 | 30 | Arcam AVA15 US availability, and Sub 2/3 independence | Open | products/arcam-ava15 | Dealer call; Arcam support | 2026-11-08 |
 | 31 | Does Toole (Sound Reproduction) support the seat-to-seat EQ finding? Does ASR publish SINAD band cut-offs? | Open: cite Welti & Devantier 2006 meanwhile; ASR explainer gives no thresholds | concepts/room-modes, concepts/measurements | Read Toole ch. on LF/EQ; ASR methodology page | 2026-11-08 |
 | 32 | Denon/Marantz spare-parts policy for HDMI boards after warranty | Open: AVS anecdotes only | criteria/value-and-reliability | Denon service policy or authorised service centre | 2026-11-08 |
+| 33 | Can a receiver's Google Cast join a Cast group with WiiM players (one-app multiroom)? | Open | criteria/streaming-and-multiroom | Google Home group test | 2026-11-08 |
+| 34 | NAD T 758 V3i digital audio input count and max rates | Open | criteria/connectivity, products/nad-t-758-v3i | V3i owner's manual | 2026-11-08 |
+| 35 | Does the mandatory HEOS account apply to every HEOS receiver; warranty terms for Yamaha, Anthem, NAD, Arcam, WiiM | Open | criteria/usability-and-support | Manuals; manufacturer warranty pages | 2026-11-08 |
+| 36 | Dirac licence transfer on resale; Arcam's HARMAN ownership from a primary source | Open | criteria/value-and-reliability | Dirac licence terms; HARMAN/Arcam press page | 2026-11-08 |
+| 37 | Source conflicts: Anthem MRX 540 HDMI outputs (2022 sheet "3 with eARC" vs 2 on 540 page); Arcam AVA15 HDMI inputs (7 vs default assignment implying 6) | Open | products/anthem-mrx-540-8k, products/arcam-ava15 | Current manuals' rear-panel pages | 2026-11-08 |
