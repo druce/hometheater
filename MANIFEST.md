@@ -30,7 +30,7 @@ Criteria: 1 Room correction, 2 Music, 3 Streaming, 4 Amplification, 5 Connectivi
 | `wiki/products/marantz-cinema-50-series-2.md` | Marantz CINEMA 50 Series 2 | product | 1,2,3,4,5,6,7 | drafted | 1033 | 16 | 19 |
 | `wiki/products/marantz-cinema-50.md` | Marantz CINEMA 50 | product | 1,2,3,4,5,6,7 | drafted | 1031 | 15 | 18 |
 | `wiki/products/yamaha-rx-a4a.md` | Yamaha RX-A4A | product | 1,2,3,4,5,6,7 | drafted | 1162 | 13 | 18 |
-| `wiki/products/onkyo-tx-rz50.md` | Onkyo TX-RZ50 | product | 1,2,3,4,5,6,7 | drafted | 1204 | 15 | 18 |
+| `wiki/products/onkyo-tx-rz50.md` | Onkyo TX-RZ50 | product | 1,2,3,4,5,6,7 | drafted | 1199 | 15 | 18 |
 | `wiki/products/anthem-mrx-540-8k.md` | Anthem MRX 540 8K | product | 1,2,3,4,5,6,7 | drafted | 1131 | 12 | 17 |
 | `wiki/products/nad-t-758-v3i.md` | NAD T 758 V3i | product | 1,2,3,4,5,6,7 | drafted | 1182 | 15 | 16 |
 | `wiki/products/arcam-ava15.md` | Arcam AVA15 | product | 1,2,3,4,5,6,7 | drafted | 1087 | 13 | 14 |

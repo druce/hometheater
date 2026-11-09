@@ -81,7 +81,7 @@ Firmware has since fixed silent Bluetooth from iPhones, wrong Dirac filters on s
 
 $1,399.99 on onkyo.com, temporarily out of stock and orderable on backorder (rendered 2026-11-08); a buyer review dated 2026-10-15 describes months of waiting. ASR paid $1,399 in February 2022. Unopened retailer snippets imply a $1,699.99 reference price, so the list price is unresolved (open question #29, [open questions](../reference/open-questions.md)).
 
-The platform dates from December 2020. Onkyo still lists the RZ50 below the RZ70 flagship ($2,299.99, Bass Control preinstalled). No successor is named; CES 2026 teased next-generation concepts for 2027, without models or prices. Warranty is 3 years parts and labour for RZ Series receivers sold after 2018-10-01 (Onkyo USA warranty, captured 2026-11-08).
+The platform dates from December 2020. Onkyo still lists the RZ50 below the RZ70 flagship ($2,299.99, Bass Control preinstalled). No successor is named; CES 2026 teased next-generation concepts for 2027, models unnamed. Warranty is 3 years parts and labour for RZ Series receivers sold after 2018-10-01 (Onkyo USA warranty, captured 2026-11-08).
 
 ## Sources
 
