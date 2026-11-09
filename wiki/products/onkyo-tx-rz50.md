@@ -27,7 +27,7 @@ Ranked in: [Room correction & bass management](../criteria/room-correction.md) Â
 
 ## Verdict
 
-Provisional. For [this room](../start-here/my-system.md) the RZ50 is one of two candidates, with the Arcam AVA15, where Dirac Room Correction is included and Bass Control costs $299, so the full one-sub Dirac setup is $1,698.99 all in at Onkyo's direct price. Its main problem is the amplifier, which ASR found limits power into 4 ohms until the mains cord is pulled, with no indicator and no fix. Whether five channels at small-room levels ever reach it depends on speakers not yet chosen.
+Provisional. For [this room](../start-here/my-system.md) the RZ50 is one of three candidates, with the Arcam AVA15 and its cheaper sibling the [TX-RZ30](onkyo-tx-rz30.md), where Dirac Room Correction is included and Bass Control costs $299, so the full one-sub Dirac setup is $1,698.99 all in at Onkyo's direct price. Its main problem is the amplifier, which ASR found limits power into 4 ohms until the mains cord is pulled, with no indicator and no fix. Whether five channels at small-room levels ever reach it depends on speakers not yet chosen.
 
 ## Specs that matter
 

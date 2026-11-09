@@ -6,7 +6,7 @@ criteria: [3]
 status: unverified
 confidence: medium
 last_verified: 2026-11-08
-sources: [denon-avr-x3900h-owners-manual-na.pdf, asr-denon-avr-x3900h-review.md, v-avnirvana-denon-x2900h-x3900h-launch.md, denon-avr-x2900h-product-page.md, denon-av-receivers-category-us.md, marantz-cinema-50-series-2-info-sheet-na.pdf, marantz-cinema-70s-series-2-info-sheet-na.pdf, v-marantz-cinema-70s-series-2-owners-manual-selected.md, v-marantz-cinema-50-series-2-owners-manual-selected.md, marantz-cinema-50-series-2-product-page.md, yamaha-musiccast-supported-services.md, yamaha-musiccast-faqs.md, yamaha-rx-a4a-user-guide.pdf, onkyo-tx-rz50-spec-sheet.pdf, v-onkyo-tx-rz50-product-page-rendered-2026-11-08.md, v-anthem-mrx-540-8k-product-page.md, anthem-mrx-540-740-1140-8k-spec-sheet.pdf, nad-t-758-v3i-data-sheet.pdf, bluos-supported-services.md, bluos-apple-music-support-2026-10-20.md, bluos-support-radio-paradise-articles.md, v-bluos-release-notes-4.16.22-excerpt.md, v-arcam-ava15-spec-sheet-v1.2.pdf, arcam-ava15-product-page.md, wiim-amp-ultra-user-manual.pdf, wiim-amp-ultra-product-page.md, v-wiim-faq-apple-music.md, wiim-home-pc-app-help.md, wiimforum-radio-paradise-lossless.md, radioparadise-ways-to-listen.md, r2-wiim-amp-product-page.md, r2-wiim-help-google-cast-speaker-group.md, r2-google-nest-speaker-groups-help.md]
+sources: [r3-onkyo-tx-rz30-owners-manual-selected.md, r3-dirac-store-onkyo-tx-rz30.md, r3-onkyo-tx-rz30-product-page-rendered-2026-11-09.md, denon-avr-x3900h-owners-manual-na.pdf, asr-denon-avr-x3900h-review.md, v-avnirvana-denon-x2900h-x3900h-launch.md, denon-avr-x2900h-product-page.md, denon-av-receivers-category-us.md, marantz-cinema-50-series-2-info-sheet-na.pdf, marantz-cinema-70s-series-2-info-sheet-na.pdf, v-marantz-cinema-70s-series-2-owners-manual-selected.md, v-marantz-cinema-50-series-2-owners-manual-selected.md, marantz-cinema-50-series-2-product-page.md, yamaha-musiccast-supported-services.md, yamaha-musiccast-faqs.md, yamaha-rx-a4a-user-guide.pdf, onkyo-tx-rz50-spec-sheet.pdf, v-onkyo-tx-rz50-product-page-rendered-2026-11-08.md, v-anthem-mrx-540-8k-product-page.md, anthem-mrx-540-740-1140-8k-spec-sheet.pdf, nad-t-758-v3i-data-sheet.pdf, bluos-supported-services.md, bluos-apple-music-support-2026-10-20.md, bluos-support-radio-paradise-articles.md, v-bluos-release-notes-4.16.22-excerpt.md, v-arcam-ava15-spec-sheet-v1.2.pdf, arcam-ava15-product-page.md, wiim-amp-ultra-user-manual.pdf, wiim-amp-ultra-product-page.md, v-wiim-faq-apple-music.md, wiim-home-pc-app-help.md, wiimforum-radio-paradise-lossless.md, radioparadise-ways-to-listen.md, r2-wiim-amp-product-page.md, r2-wiim-help-google-cast-speaker-group.md, r2-google-nest-speaker-groups-help.md]
 ---
 
 # Criterion 3: Streaming & multiroom
@@ -58,10 +58,11 @@ Ranked on the receiver's own platform, with Radio Paradise assumed to come from 
 6. [Denon AVR-X2900H](../products/denon-avr-x2900h.md): HEOS and AirPlay 2 confirmed; Denon confirms none of the TIDAL Connect, Qobuz Connect or Roon Ready toggles that the X3900H manual shows.
 7. [Yamaha RX-A4A](../products/yamaha-rx-a4a.md): AirPlay 2 and Spotify Connect, with TIDAL and Qobuz in the app rather than as Connect; linked MusicCast rooms are resampled to 48 kHz, and AirPlay volume is capped at −20 dB by default.
 8. [Onkyo TX-RZ50](../products/onkyo-tx-rz50.md): Google Cast, AirPlay 2, DTS Play-Fi and Works with Sonos, but Onkyo does not say whether Spotify and TIDAL are the Connect protocols, and "Roon Tested" is not Roon Ready.
+9. [Onkyo TX-RZ30](../products/onkyo-tx-rz30.md): the RZ50's Google Cast, AirPlay 2 and Works with Sonos, with Spotify Connect confirmed in its manual (p.76), but no DTS Play-Fi or Pandora listed and no Roon Ready.
 
 ### Weaker
 
-9. [Anthem MRX 540 8K](../products/anthem-mrx-540-8k.md): Spotify Connect and Cast, while the 2022 sheet says AirPlay 2 and the current page says AirPlay; there is no TIDAL or Qobuz Connect, no internet radio and no multiroom platform, and the promised Roon support no longer appears.
+10. [Anthem MRX 540 8K](../products/anthem-mrx-540-8k.md): Spotify Connect and Cast, while the 2022 sheet says AirPlay 2 and the current page says AirPlay; there is no TIDAL or Qobuz Connect, no internet radio and no multiroom platform, and the promised Roon support no longer appears.
 
 ### Not enough evidence to rank
 

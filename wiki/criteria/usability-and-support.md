@@ -6,7 +6,7 @@ criteria: [6]
 status: unverified
 confidence: low
 last_verified: 2026-11-08
-sources: [denon-avr-x3900h-owners-manual-na.pdf, asr-denon-avr-x3900h-review.md, asr-denon-avr-x3800h-review.md, audyssey-multeq-x-microsoft-store-listing.md, v-apple-appstore-audyssey-multeq-editor.md, dirac-live-for-denon-compatible-devices.md, dirac-live-for-marantz-compatible-devices.md, v-dirac-brand-and-device-pages-2026-11-08.md, v-arcam-ava15-ava25-owners-manual-v1.5.pdf, arcam-radia-av-launch-news-2026-02-03.md, onkyo-tx-rz50-firmware-update-2026-03.pdf, asr-onkyo-tx-rz50-review.md, harman-marantz-cinema-series-2-press-release.md, yamaha-rx-a4a-user-guide.pdf, anthem-arc-genesis.md, v-anthem-mrx-avm-operating-manual.pdf, anthem-mrx-540-740-1140-8k-spec-sheet.pdf, asr-anthem-mrx1140-review.md, asr-nad-t758-v3-review.md, wiim-amp-ultra-user-manual.pdf, asr-wiim-amp-ultra-review.md, wiim-roomfit-help.md, v-denon-limited-warranty-new-2024dec12.pdf, v-marantz-limited-warranty-us.md, v-onkyo-us-warranty.md]
+sources: [r3-onkyo-tx-rz30-owners-manual-selected.md, r3-dirac-store-onkyo-tx-rz30.md, r3-onkyo-tx-rz30-product-page-rendered-2026-11-09.md, denon-avr-x3900h-owners-manual-na.pdf, asr-denon-avr-x3900h-review.md, asr-denon-avr-x3800h-review.md, audyssey-multeq-x-microsoft-store-listing.md, v-apple-appstore-audyssey-multeq-editor.md, dirac-live-for-denon-compatible-devices.md, dirac-live-for-marantz-compatible-devices.md, v-dirac-brand-and-device-pages-2026-11-08.md, v-arcam-ava15-ava25-owners-manual-v1.5.pdf, arcam-radia-av-launch-news-2026-02-03.md, onkyo-tx-rz50-firmware-update-2026-03.pdf, asr-onkyo-tx-rz50-review.md, harman-marantz-cinema-series-2-press-release.md, yamaha-rx-a4a-user-guide.pdf, anthem-arc-genesis.md, v-anthem-mrx-avm-operating-manual.pdf, anthem-mrx-540-740-1140-8k-spec-sheet.pdf, asr-anthem-mrx1140-review.md, asr-nad-t758-v3-review.md, wiim-amp-ultra-user-manual.pdf, asr-wiim-amp-ultra-review.md, wiim-roomfit-help.md, v-denon-limited-warranty-new-2024dec12.pdf, v-marantz-limited-warranty-us.md, v-onkyo-us-warranty.md]
 ---
 
 # Criterion 6: Usability, app & firmware support
@@ -52,15 +52,16 @@ Firmware and support decide whether that setup keeps working over the receiver's
 
 3. [Marantz CINEMA 50](../products/marantz-cinema-50.md): XT32 per Marantz's tile, the full Dirac stack, Windows MultEQ-X support and a 5-year warranty; no manual is captured and firmware state is unknown.
 4. [Onkyo TX-RZ50](../products/onkyo-tx-rz50.md): Dirac and a mic included, and dated firmware releases through 3 Mar 2026 fixed a Bass Control crossover error (1 Jul 2025), wrong Dirac filters on some layouts and silent iPhone Bluetooth (both 12 Mar 2025); no release addresses the 4-ohm limiter, which clears only with an AC-cord pull and shows no indicator.
-5. [Denon AVR-X3800H](../products/denon-avr-x3800h.md): the one Denon with Windows MultEQ-X confirmed and a Bass Control path, under a 3-year warranty; one reviewer saw the Setup menu lock until a power cycle and noted heat with the fan idle (ASR, 2022-10-27).
-6. [Marantz CINEMA 70s Series 2](../products/marantz-cinema-70s-series-2.md): automatic Audyssey XT and a 5-year warranty, but Dirac cannot add Bass Control, so the sub is set by hand after any Dirac run.
-7. [Denon AVR-X2900H](../products/denon-avr-x2900h.md): automatic Audyssey XT and a 3-year warranty; as with the 70s Series 2, Dirac leaves the sub to manual setup.
+5. [Onkyo TX-RZ30](../products/onkyo-tx-rz30.md): the RZ50's Dirac-with-mic setup and the same firmware release dates through 3 Mar 2026; ASR found its default two-channel mode adds processing and the web interface covers setup only.
+6. [Denon AVR-X3800H](../products/denon-avr-x3800h.md): the one Denon with Windows MultEQ-X confirmed and a Bass Control path, under a 3-year warranty; one reviewer saw the Setup menu lock until a power cycle and noted heat with the fan idle (ASR, 2022-10-27).
+7. [Marantz CINEMA 70s Series 2](../products/marantz-cinema-70s-series-2.md): automatic Audyssey XT and a 5-year warranty, but Dirac cannot add Bass Control, so the sub is set by hand after any Dirac run.
+8. [Denon AVR-X2900H](../products/denon-avr-x2900h.md): automatic Audyssey XT and a 3-year warranty; as with the 70s Series 2, Dirac leaves the sub to manual setup.
 
 ### Weaker
 
-8. [Yamaha RX-A4A](../products/yamaha-rx-a4a.md): YPAO runs on the receiver but leaves bass Q and gain to the user, and defaults need undoing (YPAO Volume re-enables after every run, Compressed Music Enhancer is on for network inputs); Memory Guard and USB backup help, while firmware history and warranty are not in the evidence.
-9. [Anthem MRX 540 8K](../products/anthem-mrx-540-8k.md): ARC Genesis needs a computer and hand-entered distances, Anthem's app was in public beta on the 2022 sheet, and on the (proxy: MRX 1140) the front panel missed a firmware update that the web interface found (ASR, 2025-11-04); warranty not captured.
-10. [NAD T 758 V3i](../products/nad-t-758-v3i.md): Dirac without Bass Control (inferred) leaves sub distance, level and crossover to the user, and the (proxy: T 758 V3) menus were text-only with a four-way control (ASR, 2019-09-07); warranty not in the evidence.
+9. [Yamaha RX-A4A](../products/yamaha-rx-a4a.md): YPAO runs on the receiver but leaves bass Q and gain to the user, and defaults need undoing (YPAO Volume re-enables after every run, Compressed Music Enhancer is on for network inputs); Memory Guard and USB backup help, while firmware history and warranty are not in the evidence.
+10. [Anthem MRX 540 8K](../products/anthem-mrx-540-8k.md): ARC Genesis needs a computer and hand-entered distances, Anthem's app was in public beta on the 2022 sheet, and on the (proxy: MRX 1140) the front panel missed a firmware update that the web interface found (ASR, 2025-11-04); warranty not captured.
+11. [NAD T 758 V3i](../products/nad-t-758-v3i.md): Dirac without Bass Control (inferred) leaves sub distance, level and crossover to the user, and the (proxy: T 758 V3) menus were text-only with a four-way control (ASR, 2019-09-07); warranty not in the evidence.
 
 ### Not enough evidence to rank
 

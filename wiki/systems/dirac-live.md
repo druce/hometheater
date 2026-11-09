@@ -6,12 +6,12 @@ criteria: [1, 7]
 status: contested
 confidence: medium
 last_verified: 2026-11-08
-sources: [dirac-live-for-denon-compatible-devices.md, dirac-live-for-marantz-compatible-devices.md, dirac-live-upgrade-denon-avr-x3900h-pricing.md, dirac-live-room-correction-license-tiers.md, dirac-live-room-correction.md, dirac-live-bass-control.md, dirac-live-art.md, dirac-pricing-and-device-pages.md, dirac-store-onkyo-tx-rz50.md, v-dirac-brand-and-device-pages-2026-11-08.md, v-dirac-live-bass-control-expanded.md, v-arcam-ava15-ava25-owners-manual-v1.5.pdf, denon-avr-x3900h-owners-manual-na.pdf, denon-avr-x3900h-info-sheet.pdf, denon-avr-x2900h-info-sheet.pdf, denon-avr-x2900h-product-page.md, denon-dirac-live-us.md, marantz-dirac-live-us.md, harman-marantz-cinema-series-2-press-release.md, onkyo-tx-rz50-product-page.md, onkyo-tx-rz50-firmware-update-2026-03.pdf, pac-press-2024-11-firmware-dirac-bass-control.md, nad-t-758-v3i-data-sheet.pdf, asr-onkyo-tx-rz50-review.md, ethanwiner-assessing-room-eq-dirac.md]
+sources: [r3-dirac-store-onkyo-tx-rz30.md, dirac-live-for-denon-compatible-devices.md, dirac-live-for-marantz-compatible-devices.md, dirac-live-upgrade-denon-avr-x3900h-pricing.md, dirac-live-room-correction-license-tiers.md, dirac-live-room-correction.md, dirac-live-bass-control.md, dirac-live-art.md, dirac-pricing-and-device-pages.md, dirac-store-onkyo-tx-rz50.md, v-dirac-brand-and-device-pages-2026-11-08.md, v-dirac-live-bass-control-expanded.md, v-arcam-ava15-ava25-owners-manual-v1.5.pdf, denon-avr-x3900h-owners-manual-na.pdf, denon-avr-x3900h-info-sheet.pdf, denon-avr-x2900h-info-sheet.pdf, denon-avr-x2900h-product-page.md, denon-dirac-live-us.md, marantz-dirac-live-us.md, harman-marantz-cinema-series-2-press-release.md, onkyo-tx-rz50-product-page.md, onkyo-tx-rz50-firmware-update-2026-03.pdf, pac-press-2024-11-firmware-dirac-bass-control.md, nad-t-758-v3i-data-sheet.pdf, asr-onkyo-tx-rz50-review.md, ethanwiner-assessing-room-eq-dirac.md]
 ---
 
 # Dirac Live (Room Correction, Bass Control, ART)
 
-**For a one-sub 5.1 room the useful Dirac purchase is Room Correction plus Bass Control, which costs $299 on the Arcam AVA15 and Onkyo TX-RZ50 (Room Correction included) and $599 as a bundle on the Denon X3800H/X3900H and Marantz CINEMA 50 models (dirac.com, 2026-11-08), while the Denon X2900H and Marantz CINEMA 70s Series 2 cannot take Bass Control at all.**
+**For a one-sub 5.1 room the useful Dirac purchase is Room Correction plus Bass Control, which costs $299 on the Arcam AVA15 and Onkyo TX-RZ50 and TX-RZ30 (Room Correction included) and $599 as a bundle on the Denon X3800H/X3900H and Marantz CINEMA 50 models (dirac.com, 2026-11-08), while the Denon X2900H and Marantz CINEMA 70s Series 2 cannot take Bass Control at all.**
 
 Used by: [Room correction & bass management](../criteria/room-correction.md) · [Value, reliability & resale](../criteria/value-and-reliability.md).
 
@@ -19,7 +19,7 @@ Used by: [Room correction & bass management](../criteria/room-correction.md) · 
 
 Dirac Live is sold as three licences that stack: Room Correction, Bass Control, and Active Room Treatment (ART). Both add-ons require Room Correction, and ART also requires Bass Control whenever one or more subwoofers are connected (Dirac device pages, 2026-11-08). Room Correction measures each speaker from several positions and builds filters that adjust both frequency response and timing, against built-in or hand-drawn target curves; the claimed benefits (larger sweet spot, better imaging) are manufacturer claims (Dirac Room Correction page, 2026-11-08). Calibration runs from Dirac's Windows/Mac software or a phone app, and the filters then run on the receiver. What any correction can and cannot do against small-room modes is covered in [room modes and correction limits](../concepts/room-modes-and-correction-limits.md).
 
-Receivers carrying it: [Denon AVR-X3900H](../products/denon-avr-x3900h.md), [Denon AVR-X3800H](../products/denon-avr-x3800h.md), [Denon AVR-X2900H](../products/denon-avr-x2900h.md), [Marantz CINEMA 70s Series 2](../products/marantz-cinema-70s-series-2.md), [Marantz CINEMA 50 Series 2](../products/marantz-cinema-50-series-2.md), [Marantz CINEMA 50](../products/marantz-cinema-50.md), [Onkyo TX-RZ50](../products/onkyo-tx-rz50.md), [NAD T 758 V3i](../products/nad-t-758-v3i.md), [Arcam AVA15](../products/arcam-ava15.md).
+Receivers carrying it: [Denon AVR-X3900H](../products/denon-avr-x3900h.md), [Denon AVR-X3800H](../products/denon-avr-x3800h.md), [Denon AVR-X2900H](../products/denon-avr-x2900h.md), [Marantz CINEMA 70s Series 2](../products/marantz-cinema-70s-series-2.md), [Marantz CINEMA 50 Series 2](../products/marantz-cinema-50-series-2.md), [Marantz CINEMA 50](../products/marantz-cinema-50.md), [Onkyo TX-RZ50](../products/onkyo-tx-rz50.md), [Onkyo TX-RZ30](../products/onkyo-tx-rz30.md), [NAD T 758 V3i](../products/nad-t-758-v3i.md), [Arcam AVA15](../products/arcam-ava15.md).
 
 ### Bass Control
 
@@ -44,12 +44,13 @@ Room Correction comes in two bandwidths: Limited corrects 20–500 Hz and Full c
 | Marantz CINEMA 50 Series 2 | Paid: $259–$349 | $299 | $299 | Same three | Dirac grid; HARMAN release |
 | Marantz CINEMA 50 | Paid: $259–$349 | $299 | $299 | Same three | Dirac grid |
 | Onkyo TX-RZ50 | Included, Full bandwidth | $299 (needs firmware of 28 Oct 2024 or later) | Not supported | None | Dirac grid; Onkyo page, firmware notes |
+| Onkyo TX-RZ30 | Included, Full bandwidth | $299 | Not supported | None | Dirac grid; Dirac store page, 2026-11-09 |
 | NAD T 758 V3i | Limited included, Full upgrade $99 (inferred) | Not supported (inferred) | Not supported (inferred) | None | No V3i listing; Dirac's T 758 V3 values |
 | Arcam AVA15 | Included (bandwidth unstated, Full inferred) | $299 | $299 | BC + ART $549 | Arcam manual p.38; Dirac grid |
 
 All prices USD from dirac.com, 2026-11-08. The NAD V3i has no Dirac page (404); its 2020 data sheet promises an upgrade to a full-featured version, matching the Limited-included pattern Dirac shows for the two previous T 758 generations. Dirac labels NAD's included tier Limited and leaves Arcam's unlabelled, so Full is likely for the AVA15 but unstated. Whether the Marantz CINEMA 70s S2 and 50 S2 sell a $259 Limited tier is not shown on their pages.
 
-RC plus BC is $299 on the AVA15 and RZ50, and $599 (Full, bundle) on the Denon X3800H/X3900H and Marantz 50 models; $558 with Limited RC on the X3900H only. All three cost $549 on the AVA15 and $799 on the Denon and Marantz full-stack models. The [which-licence comparison](../comparisons/which-dirac-license-to-buy.md) works through the choice.
+RC plus BC is $299 on the AVA15, RZ50 and RZ30, and $599 (Full, bundle) on the Denon X3800H/X3900H and Marantz 50 models; $558 with Limited RC on the X3900H only. All three cost $549 on the AVA15 and $799 on the Denon and Marantz full-stack models. The [which-licence comparison](../comparisons/which-dirac-license-to-buy.md) works through the choice.
 
 The manufacturers' own Dirac pages are stale: Denon's US page omits the X3900H and X2900H, and Marantz's US page omits every Series 2 model (both captured 2026-11-08). Dirac is the licensor and its grid announces both additions, so this page follows Dirac.
 

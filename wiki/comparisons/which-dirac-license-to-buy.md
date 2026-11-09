@@ -6,12 +6,12 @@ criteria: [1, 7]
 status: contested
 confidence: medium
 last_verified: 2026-11-08
-sources: [dirac-live-for-denon-compatible-devices.md, dirac-live-for-marantz-compatible-devices.md, dirac-live-upgrade-denon-avr-x3900h-pricing.md, dirac-live-room-correction-license-tiers.md, dirac-live-bass-control.md, v-dirac-live-bass-control-expanded.md, dirac-pricing-and-device-pages.md, dirac-store-onkyo-tx-rz50.md, v-dirac-brand-and-device-pages-2026-11-08.md, v-arcam-ava15-ava25-owners-manual-v1.5.pdf, onkyo-tx-rz50-firmware-update-2026-03.pdf, nad-t-758-v3i-data-sheet.pdf, ethanwiner-assessing-room-eq-dirac.md]
+sources: [r3-dirac-store-onkyo-tx-rz30.md, r3-onkyo-tx-rz30-product-page-rendered-2026-11-09.md, dirac-live-for-denon-compatible-devices.md, dirac-live-for-marantz-compatible-devices.md, dirac-live-upgrade-denon-avr-x3900h-pricing.md, dirac-live-room-correction-license-tiers.md, dirac-live-bass-control.md, v-dirac-live-bass-control-expanded.md, dirac-pricing-and-device-pages.md, dirac-store-onkyo-tx-rz50.md, v-dirac-brand-and-device-pages-2026-11-08.md, v-arcam-ava15-ava25-owners-manual-v1.5.pdf, onkyo-tx-rz50-firmware-update-2026-03.pdf, nad-t-758-v3i-data-sheet.pdf, ethanwiner-assessing-room-eq-dirac.md]
 ---
 
 # Which Dirac license to buy
 
-**For one sub in a small room, buy Room Correction plus Bass Control wherever Bass Control is sold: $299 on the Onkyo TX-RZ50 and Arcam AVA15, and the $599 Full-bandwidth bundle on the Denon X3800H/X3900H and Marantz CINEMA 50 models.**
+**For one sub in a small room, buy Room Correction plus Bass Control wherever Bass Control is sold: $299 on the Onkyo TX-RZ50, TX-RZ30 and Arcam AVA15, and the $599 Full-bandwidth bundle on the Denon X3800H/X3900H and Marantz CINEMA 50 models.**
 
 ## Question
 
@@ -34,6 +34,7 @@ Receiver prices are maker list or direct price, 2026-11-08, from each product pa
 | Receiver | Price | Room Correction | Bass Control | One-sub Dirac cost | Total | Buy |
 |---|---|---|---|---|---|---|
 | [Onkyo TX-RZ50](../products/onkyo-tx-rz50.md) | $1,399.99 (backorder) | Included, Full | $299; needs firmware of 2024-10-28 or later | $299 | $1,698.99 | Bass Control |
+| [Onkyo TX-RZ30](../products/onkyo-tx-rz30.md) | $1,099.99 (backorder, 2026-11-09) | Included, Full | $299 | $299 | $1,398.99 | Bass Control |
 | [Arcam AVA15](../products/arcam-ava15.md) | $4,499.95 (launch) | Included; bandwidth unstated, Full inferred | $299 | $299 | $4,798.95 | Bass Control |
 | [Denon AVR-X3800H](../products/denon-avr-x3800h.md) | $1,399 | $259–$349, split not itemised | $299 | $599 bundle | $1,998 | RC + BC bundle |
 | [Denon AVR-X3900H](../products/denon-avr-x3900h.md) | $1,849 | Limited $259, Full $349, upgrade $99 | $299 | $599 bundle (Limited + BC $558) | $2,448 | RC + BC bundle |

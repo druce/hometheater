@@ -6,7 +6,7 @@ criteria: [5]
 status: unverified
 confidence: medium
 last_verified: 2026-11-08
-sources: [denon-avr-x3900h-owners-manual-na.pdf, denon-avr-x3900h-info-sheet.pdf, denon-avr-x3900h-product-page.md, denon-avr-x2900h-info-sheet.pdf, denon-avr-x2900h-product-page.md, marantz-cinema-50-series-2-info-sheet-na.pdf, marantz-cinema-70s-series-2-info-sheet-na.pdf, marantz-cinema-50-series-2-product-page.md, yamaha-rx-a4a-user-guide.pdf, yamaha-rx-a4a-specifications.md, onkyo-tx-rz50-spec-sheet.pdf, onkyo-tx-rz50-product-page.md, onkyo-tx-rz50-firmware-update-2026-03.pdf, asr-onkyo-tx-rz50-review.md, v-anthem-mrx-540-8k-product-page.md, anthem-mrx-540-740-1140-8k-spec-sheet.pdf, nad-t-758-v3i-data-sheet.pdf, v-arcam-ava15-spec-sheet-v1.2.pdf, arcam-ava15-product-page.md, wiim-pro-product-page.md, wiim-pro-plus-product-page.md]
+sources: [r3-onkyo-tx-rz30-owners-manual-selected.md, r3-dirac-store-onkyo-tx-rz30.md, r3-onkyo-tx-rz30-product-page-rendered-2026-11-09.md, denon-avr-x3900h-owners-manual-na.pdf, denon-avr-x3900h-info-sheet.pdf, denon-avr-x3900h-product-page.md, denon-avr-x2900h-info-sheet.pdf, denon-avr-x2900h-product-page.md, marantz-cinema-50-series-2-info-sheet-na.pdf, marantz-cinema-70s-series-2-info-sheet-na.pdf, marantz-cinema-50-series-2-product-page.md, yamaha-rx-a4a-user-guide.pdf, yamaha-rx-a4a-specifications.md, onkyo-tx-rz50-spec-sheet.pdf, onkyo-tx-rz50-product-page.md, onkyo-tx-rz50-firmware-update-2026-03.pdf, asr-onkyo-tx-rz50-review.md, v-anthem-mrx-540-8k-product-page.md, anthem-mrx-540-740-1140-8k-spec-sheet.pdf, nad-t-758-v3i-data-sheet.pdf, v-arcam-ava15-spec-sheet-v1.2.pdf, arcam-ava15-product-page.md, wiim-pro-product-page.md, wiim-pro-plus-product-page.md]
 ---
 
 # Criterion 5: Connectivity
@@ -46,12 +46,13 @@ The second is HDMI. The TV, consoles and other sources are still unknown, so HDM
 4. [Marantz CINEMA 50 Series 2](../products/marantz-cinema-50-series-2.md): the same two coax and two optical, rate unstated; 6 inputs all 8K/60 and 4K/120, two main outputs with eARC plus a Zone 2 HDMI output.
 5. [Anthem MRX 540 8K](../products/anthem-mrx-540-8k.md): the most digital inputs here, two coax and three optical, rate unstated; 7 in / 2 out HDMI 2.1 with eARC and no Zone 2.
 6. [Onkyo TX-RZ50](../products/onkyo-tx-rz50.md): one coax and one optical, rate unstated; 7 HDMI inputs, but the front one is 4K/60 only, and 2 outputs; a 14 Oct 2021 firmware fixed eARC with Sony TVs.
+7. [Onkyo TX-RZ30](../products/onkyo-tx-rz30.md): one coax and one optical, both stated to 96 kHz/24-bit PCM (manual p.182), enough for Radio Paradise at 44.1 kHz; 6 HDMI inputs, 3 at full rate, one fewer than the RZ50.
 
 ### Weaker
 
-7. [Denon AVR-X2900H](../products/denon-avr-x2900h.md): one coax, two optical; only 3 of its 6 HDMI inputs pass 8K, with 2 outputs.
-8. [Marantz CINEMA 70s Series 2](../products/marantz-cinema-70s-series-2.md): one coax, one optical; 3 of 6 inputs pass 8K/60 or 4K/120, and there is a single HDMI output and no Zone 2 HDMI.
-9. [NAD T 758 V3i](../products/nad-t-758-v3i.md): HDMI is 3 in / 1 out at 4K/60 with HDCP 2.2 and ARC, with no HDMI 2.1 and no eARC listed; its digital input count is unstated, and BluOS makes a streamer input less necessary here.
+8. [Denon AVR-X2900H](../products/denon-avr-x2900h.md): one coax, two optical; only 3 of its 6 HDMI inputs pass 8K, with 2 outputs.
+9. [Marantz CINEMA 70s Series 2](../products/marantz-cinema-70s-series-2.md): one coax, one optical; 3 of 6 inputs pass 8K/60 or 4K/120, and there is a single HDMI output and no Zone 2 HDMI.
+10. [NAD T 758 V3i](../products/nad-t-758-v3i.md): HDMI is 3 in / 1 out at 4K/60 with HDCP 2.2 and ARC, with no HDMI 2.1 and no eARC listed; its digital input count is unstated, and BluOS makes a streamer input less necessary here.
 
 ### Not enough evidence to rank
 

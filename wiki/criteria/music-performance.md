@@ -6,7 +6,7 @@ criteria: [2]
 status: unverified
 confidence: low
 last_verified: 2026-11-08
-sources: [asr-denon-avr-x3900h-review.md, asr-denon-avr-x3800h-review.md, asr-denon-avr-x4800h-review.md, asr-onkyo-tx-rz50-review.md, asr-marantz-cinema-40-review.md, asr-marantz-cinema-50-review.md, asr-marantz-cinema-70s-review.md, asr-anthem-mrx1140-review.md, asr-nad-t758-v3-review.md, asr-yamaha-rx-a8a-review.md, asr-avr-sinad-database.md, v-asr-what-matters-about-sinad.md, audioholics-anthem-mrx-740-1140-bench-test.md, audioholics-yamaha-rx-a6a-bench-test.md, v-arcam-ava15-spec-sheet-v1.2.pdf, harman-marantz-cinema-series-2-press-release.md, denon-avr-x3900h-owners-manual-na.pdf, v-welti-devantier-multisub-aes2006.pdf]
+sources: [r3-onkyo-tx-rz30-owners-manual-selected.md, r3-dirac-store-onkyo-tx-rz30.md, r3-onkyo-tx-rz30-product-page-rendered-2026-11-09.md, asr-denon-avr-x3900h-review.md, asr-denon-avr-x3800h-review.md, asr-denon-avr-x4800h-review.md, asr-onkyo-tx-rz50-review.md, asr-marantz-cinema-40-review.md, asr-marantz-cinema-50-review.md, asr-marantz-cinema-70s-review.md, asr-anthem-mrx1140-review.md, asr-nad-t758-v3-review.md, asr-yamaha-rx-a8a-review.md, asr-avr-sinad-database.md, v-asr-what-matters-about-sinad.md, audioholics-anthem-mrx-740-1140-bench-test.md, audioholics-yamaha-rx-a6a-bench-test.md, v-arcam-ava15-spec-sheet-v1.2.pdf, harman-marantz-cinema-series-2-press-release.md, denon-avr-x3900h-owners-manual-na.pdf, v-welti-devantier-multisub-aes2006.pdf]
 ---
 
 # Criterion 2: Music & two-channel performance
@@ -52,6 +52,7 @@ Only models measured themselves are ranked; proxies place the rest under "Not en
 ### Weaker
 
 - [Onkyo TX-RZ50](../products/onkyo-tx-rz50.md): 77 in ASR's table with conditions unstated, amplifier SINAD well below competing AVRs, and a 192 kHz input cut sharply in bandwidth outside Pure Audio, the only mode that skips Dirac (ASR, 2022-02-12).
+- [Onkyo TX-RZ30](../products/onkyo-tx-rz30.md): 75 in ASR's table, conditions unstated, below the RZ50's 77; ASR could not recommend it (2026-05-30), and full-power playback meets the same latched limiter.
 
 ### Not enough evidence to rank
 

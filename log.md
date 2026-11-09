@@ -362,3 +362,26 @@ Open questions #38–#46 added. Index hooks shortened to 38 words to stay under 
 wiki_lint: 13 judgment findings. Accepted: index and bibliography catalog exceptions, five
 FM-PRODUCT `?`. New WORDS-HIGH soft-target findings on six pages (1,214–1,945, all under the 2,000
 ceiling) come from this round's additions and are accepted rather than cut. linkcheck clean.
+
+## [2026-11-09] ingest | round 3: Onkyo TX-RZ30 added as a candidate
+
+Owner asked why the RZ30 was not considered. Round 1 had folded it into the RZ50 page as a platform
+sibling, used only as a proxy for the power limiter; it was never ranked. One agent captured five
+sources (EMEA spec sheet, since the US path returned 403; selected manual pages; rendered onkyo.com
+page; firmware notes 2026-03-03; Dirac store page) and drafted products/onkyo-tx-rz30.md.
+
+Findings: $1,099.99 on onkyo.com, backorder (2026-11-09); full-bandwidth Dirac Room Correction
+included, Bass Control $299, ART not supported; 100 W FTC (8 Ω, 0.08%, 2 ch) against the RZ50's
+120 W; 9.2 processing and pre-outs; two independent sub outputs (manual pp.111–112); coax and optical
+to 96 kHz/24-bit (manual p.182); ASR SINAD 75, the same latched limiter, "can't recommend"
+(2026-05-30). All-in to target $1,567.99, $300 below the RZ50 and $1,049 below the X3900H.
+
+Ranked in all seven hubs directly after the RZ50. Superlatives it invalidated were corrected in the
+same edit: the RZ50 as the cheapest route to the room-correction target (room-correction hub), the
+Yamaha as the lowest total (value hub), the RZ50 as one of two included-Dirac candidates (RZ50 page),
+and the Dirac system page, licence comparison, shortlist and recommendation now list the RZ30. The
+shortlist names the X3900H with the RZ30 and RZ50 as conditional alternatives; the recommendation
+says the RZ30 is the better of the two Onkyos for a 5.1 room under the same three conditions.
+Not carried to the RZ50 without its own manual: the 96 kHz input limit, Spotify Connect, and
+independent sub outputs (#27). wiki_lint: 15 judgment findings, all accepted catalog exceptions,
+FM-PRODUCT `?` values, or soft WORDS-HIGH under the 2,000 ceiling (dirac-live.md now 1,526).

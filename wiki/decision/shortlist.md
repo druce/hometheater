@@ -6,12 +6,12 @@ criteria: [1, 2, 3, 7]
 status: settled
 confidence: medium
 last_verified: 2026-11-09
-sources: [asr-denon-avr-x3900h-review.md, asr-onkyo-tx-rz50-review.md, asr-avr-sinad-database.md, dirac-live-upgrade-denon-avr-x3900h-pricing.md, dirac-store-onkyo-tx-rz50.md, v-onkyo-tx-rz50-product-page-rendered-2026-11-08.md, denon-avr-x3900h-product-page.md]
+sources: [r3-onkyo-tx-rz30-product-page-rendered-2026-11-09.md, r3-dirac-store-onkyo-tx-rz30.md, r3-onkyo-tx-rz30-owners-manual-selected.md, asr-onkyo-tx-rz30-review.md, asr-denon-avr-x3900h-review.md, asr-onkyo-tx-rz50-review.md, asr-avr-sinad-database.md, dirac-live-upgrade-denon-avr-x3900h-pricing.md, dirac-store-onkyo-tx-rz50.md, v-onkyo-tx-rz50-product-page-rendered-2026-11-08.md, denon-avr-x3900h-product-page.md]
 ---
 
 # Shortlist
 
-**Two receivers survive the seven criteria: the Denon AVR-X3900H, first on five of them, and the Onkyo TX-RZ50, the only way to the same Dirac target for $749 less.**
+**The Denon AVR-X3900H survives the seven criteria, first on five of them; the Onkyo TX-RZ30 and TX-RZ50 reach the same Dirac target for $1,049 and $749 less, on one platform with a measured power limiter.**
 
 The shortlist follows the hub rankings in the [decision matrix](../reference/matrix.md) and the owner's priorities on [my system](../start-here/my-system.md): room correction and music first, one sub, a small closed room, Radio Paradise FLAC through a WiiM Pro on coax. "To target" means receiver plus Dirac Room Correction and Bass Control plus a $169 WiiM Pro, at 2026-11-08 prices.
 
@@ -29,6 +29,8 @@ The shortlist follows the hub rankings in the [decision matrix](../reference/mat
 **The X3900H** is the choice that holds whatever speakers are bought. It ranks first on [room correction](../criteria/room-correction.md), [music](../criteria/music-performance.md), [streaming](../criteria/streaming-and-multiroom.md), [amplification](../criteria/amplification-and-preouts.md) and [value](../criteria/value-and-reliability.md), and second on usability behind the CINEMA 50 Series 2. Its cost is the $599 Dirac bundle that Onkyo largely includes.
 
 **The RZ50** is on the list for price alone. Its limiter was measured at 4 Ω and not seen at 8 Ω, so whether it matters turns on speaker impedance, which is still open (#4), and on how often limiting triggers at small-room levels, which nobody has measured (#14).
+
+**The [RZ30](../products/onkyo-tx-rz30.md)** is the same bet $300 cheaper: $1,567.99 to target ($1,099.99 on onkyo.com plus $299 Bass Control and the WiiM Pro, 2026-11-09). It gives up 20 W of rated power (100 W against 120 W, 8 Ω, 2 ch) and two processing channels a 5.1 room does not use, and ASR measured the limiter on it directly and could not recommend it (2026-05-30). Its manual documents two independent sub outputs and a 96 kHz limit on the coax and optical inputs, which a 44.1 kHz Radio Paradise stream does not reach.
 
 ## Eliminated and why
 

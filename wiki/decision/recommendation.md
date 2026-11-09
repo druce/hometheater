@@ -6,7 +6,7 @@ criteria: [1, 2, 3, 7]
 status: settled
 confidence: medium
 last_verified: 2026-11-09
-sources: [asr-denon-avr-x3900h-review.md, denon-avr-x3900h-owners-manual-na.pdf, dirac-live-upgrade-denon-avr-x3900h-pricing.md, wiim-pro-product-page.md, wiim-pro-plus-product-page.md, asr-onkyo-tx-rz50-review.md, v-denon-limited-warranty-new-2024dec12.pdf, r2-wiim-amp-product-page.md, r2-wiim-edition-a10-mkii-product-page.md]
+sources: [r3-onkyo-tx-rz30-product-page-rendered-2026-11-09.md, asr-onkyo-tx-rz30-review.md, asr-denon-avr-x3900h-review.md, denon-avr-x3900h-owners-manual-na.pdf, dirac-live-upgrade-denon-avr-x3900h-pricing.md, wiim-pro-product-page.md, wiim-pro-plus-product-page.md, asr-onkyo-tx-rz50-review.md, v-denon-limited-warranty-new-2024dec12.pdf, r2-wiim-amp-product-page.md, r2-wiim-edition-a10-mkii-product-page.md]
 ---
 
 # Recommendation
@@ -24,7 +24,7 @@ sources: [asr-denon-avr-x3900h-review.md, denon-avr-x3900h-owners-manual-na.pdf,
 
 Spotify arrives by Spotify Connect on the receiver and Apple Music by AirPlay 2 from an Apple device, both documented in the Denon manual. The Dirac bundle can wait: XT32 runs from day one, and buying the bundle later costs nothing extra while Dirac's struck-through list prices stay where they are. A Dirac microphone may not be supplied with a Denon upgrade (open question #19), so a calibrated USB microphone may be an extra cost not counted above.
 
-The [Onkyo TX-RZ50](../products/onkyo-tx-rz50.md) is the conditional alternative at $1,868. It becomes the better buy if three things hold together: the chosen speakers are nominal 8 Ω without deep impedance dips, a backorder of months is acceptable, and a 2020 platform with a 2027 successor in view is acceptable for resale. ASR saw no limiting at 8 Ω, but no one has measured how close five channels at small-room levels come to the threshold (#14), and only an AC-cord pull clears it. The $749 saving is real; the risk is unpriced.
+The [Onkyo TX-RZ50](../products/onkyo-tx-rz50.md) is the conditional alternative at $1,868. It becomes the better buy if three things hold together: the chosen speakers are nominal 8 Ω without deep impedance dips, a backorder of months is acceptable, and a 2020 platform with a 2027 successor in view is acceptable for resale. ASR saw no limiting at 8 Ω, but no one has measured how close five channels at small-room levels come to the threshold (#14), and only an AC-cord pull clears it. The $749 saving is real; the risk is unpriced. The [TX-RZ30](../products/onkyo-tx-rz30.md) is the same platform $300 cheaper at $1,568, with 100 W rated against 120 W and two fewer processing channels; under the same three conditions it is the better of the two Onkyos for a 5.1 room.
 
 The two future stereo rooms take a WiiM Amp each ($329, wiimhome.com, 2026-11-09), which keeps AirPlay 2, Google Cast, RoomFit, HDMI ARC and a sub output, and the kitchen and bathroom take a WiiM Edition A10 MKII each ($229), all in the same app as the main-room Pro ([multiroom options](../comparisons/multiroom-options.md)). The Amp's 60 W/ch into 8 Ω comes with no stated conditions, so the [Amp Ultra](../products/wiim-amp-ultra.md) ($549; 100 W/ch into 8 Ω, two channels driven, 0.08% THD; about 97 W measured by ASR) is the alternative where a conditioned rating matters, at the cost of AirPlay 2. No WiiM speaker states a humidity or IP rating, so a bathroom that needs one points to a [Sonos](../systems/sonos.md) Roam 2 (IP67) and a second app.
 

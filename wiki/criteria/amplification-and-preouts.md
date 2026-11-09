@@ -53,6 +53,7 @@ This criterion mixes specs and measurements. A measured defect on the model itse
 - [Denon AVR-X2900H](../products/denon-avr-x2900h.md): 95 W (0.08%) and no known fault, but "Pre-out 2.2" most plausibly means fronts plus two subs, which would rule out an external amplifier for the center and surrounds (inference).
 - [Marantz CINEMA 70s Series 2](../products/marantz-cinema-70s-series-2.md): the lowest rating here at 50 W, two same-signal sub outputs, pre-outs stated only on the info sheet, and a Series 1 that latched distortion and protection at 4 ohms (ASR, 2023-12-11).
 - [Onkyo TX-RZ50](../products/onkyo-tx-rz50.md): 120 W FTC rating, but a measured 4-ohm limiter that latches until the AC cord is pulled, repeated across the platform to 2026 and unaddressed by firmware through 2026-03-03; its 11.2 variable pre-outs (sub 1 V rms) make it usable as a processor with an external amplifier, as ASR recommends for the platform.
+- [Onkyo TX-RZ30](../products/onkyo-tx-rz30.md): 100 W FTC rating (8 Ω, 0.08%, 2 ch), 20 W below the RZ50, and ASR measured the same latched limiter on this model (2026-05-30); 9.2 pre-outs reaching nearly 4 V.
 
 ### Not enough evidence to rank
 
