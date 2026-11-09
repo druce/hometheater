@@ -304,3 +304,14 @@ linkcheck: 0 broken, 0 orphans.
 Follow-ups not done: thread HARMAN/Gentex ownership onto product pages; capture the X3800H info
 sheet, CINEMA 50 S1 docs and RZ50 manual; decision/setup-and-calibration.md; owner device tests;
 the four uncited sources.
+
+## [2026-11-09] write | decision/setup-and-calibration.md
+
+New decision page, written from the drafted concept and system pages with no new sources: sub
+placement first (wall midpoint per Welti and Devantier), 5.1 layout and 80 Hz starting crossover,
+Audyssey XT32 into Preset 1 as a free baseline, Dirac RC + Bass Control into Preset 2 with a tight
+position cluster (Winer: the improvement fades within about 2 ft), peaks cut and boosts held to
+about 5 dB, A/B by preset, Stereo rather than Direct/Pure Direct, WiiM Pro Fixed Volume on and EQ
+off. Status unverified until it is run in the room. Inbound from recommendation, buying-checklist
+and index. The index is now 1,947 words with the refreshed hooks and the new row, still under the
+2,000 ceiling and covered by the catalog exception. wiki_lint unchanged at 7 accepted findings.

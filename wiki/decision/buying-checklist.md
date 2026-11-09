@@ -27,6 +27,8 @@ Written for the [recommendation](recommendation.md): AVR-X3900H, Dirac Room Corr
 
 ## After unboxing
 
+The full order and settings are on [setup and calibration](setup-and-calibration.md).
+
 - [ ] Update firmware through the HEOS app before calibrating. Expect a mandatory HEOS account at first-run setup and a slow restart after the update (ASR reviewer observations).
 - [ ] Place the sub before any calibration. Placement sets the starting point that correction works from ([room modes](../concepts/room-modes-and-correction-limits.md)).
 - [ ] Run Audyssey XT32 and save it as a baseline. Then buy and run Dirac Room Correction plus Bass Control into a separate preset, so the two can be compared in the same room.
@@ -42,5 +44,6 @@ Written for the [recommendation](recommendation.md): AVR-X3900H, Dirac Room Corr
 ## Related
 
 - [Recommendation](recommendation.md)
+- [Setup and calibration](setup-and-calibration.md)
 - [Dirac Live (Room Correction, Bass Control, ART)](../systems/dirac-live.md)
 - [Open questions](../reference/open-questions.md)

@@ -80,6 +80,7 @@ Read this page first on every query. Each line is a page and its draft claim.
 - [Shortlist](decision/shortlist.md): Two receivers survive the seven criteria: the Denon AVR-X3900H, first on five of them, and the Onkyo TX-RZ50, the only way to the same Dirac target for $749 less.
 - [Recommendation](decision/recommendation.md): Buy the Denon AVR-X3900H, the Dirac Room Correction plus Bass Control bundle, and a WiiM Pro on its coax input: $2,617 at 2026-11-08 prices, with no outcome that depends on speakers not yet chosen.
 - [Buying checklist](decision/buying-checklist.md): The checks that make the purchase match what this wiki assumed: prices and dealer status before paying, then firmware, calibration order and three device tests inside the return window.
+- [Setup and calibration](decision/setup-and-calibration.md): On the AVR-X3900H with one sub, setup runs in a fixed order: place the sub, set the speakers and the 80 Hz starting crossover, calibrate Audyssey XT32 into Preset 1, then Dirac into Preset 2, and play music in Stereo rather than Pure Direct.
 
 ## Reference
 

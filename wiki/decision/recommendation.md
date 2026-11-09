@@ -40,5 +40,6 @@ The two future stereo rooms take a [WiiM Amp Ultra](../products/wiim-amp-ultra.m
 
 - [Shortlist](shortlist.md)
 - [Buying checklist](buying-checklist.md)
+- [Setup and calibration](setup-and-calibration.md)
 - [My system: requirements](../start-here/my-system.md)
 - [Open questions](../reference/open-questions.md)
